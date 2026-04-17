@@ -160,16 +160,15 @@
   <div id="header-row1">
     <div style="flex-shrink:0;">
       <h1>🇹🇼 Kenny's Taiwan Trip Map</h1>
-      <div class="subtitle">Apr 17 – May 4, 2026 &nbsp;·&nbsp; Pin color = activity type &nbsp;·&nbsp; Click pins & routes for details</div>
+      <div class="subtitle">Apr 17 – May 4, 2026 &nbsp;·&nbsp; Pin color = city &nbsp;·&nbsp; Pin emoji = activity type &nbsp;·&nbsp; Click pins &amp; routes for details</div>
     </div>
 
-    <!-- Type legend -->
+    <!-- Type legend (emoji key only — color now encodes city) -->
     <div class="legend-section">
-      <span class="legend-label">Type</span>
-      <div class="type-badge" style="border-color:#3b82f6;color:#93c5fd;"><div class="type-dot" style="background:#3b82f6;"></div>👁️ See</div>
-      <div class="type-badge" style="border-color:#f59e0b;color:#fcd34d;"><div class="type-dot" style="background:#f59e0b;"></div>🍜 Eat</div>
-      <div class="type-badge" style="border-color:#22c55e;color:#86efac;"><div class="type-dot" style="background:#22c55e;"></div>🎯 Do</div>
-      <div class="type-badge" style="border-color:#a855f7;color:#d8b4fe;"><div class="type-dot" style="background:#a855f7;"></div>Mixed</div>
+      <span class="legend-label">Activity</span>
+      <div class="type-badge" style="border-color:#445;color:#ccc;">👁️ See</div>
+      <div class="type-badge" style="border-color:#445;color:#ccc;">🍜 Eat</div>
+      <div class="type-badge" style="border-color:#445;color:#ccc;">🎯 Do</div>
     </div>
 
     <div class="legend-divider"></div>
@@ -606,10 +605,11 @@ const routes = [
 ];
 
 // ────────────────────────────────────────────────────────────────────────────
-// MARKER ICON
+// MARKER ICON  (color = city, emoji = activity type)
 // ────────────────────────────────────────────────────────────────────────────
-function makeIcon(typeStr, pri) {
-  const { color, emoji } = getPinStyle(typeStr);
+function makeIcon(typeStr, pri, cityKey) {
+  const { emoji } = getPinStyle(typeStr);
+  const color    = CITIES[cityKey] ? CITIES[cityKey].color : '#94a3b8';
   const size     = pri === '🔥' ? 36 : pri === '✨' ? 28 : 22;
   const fontSize = pri === '🔥' ? 16 : pri === '✨' ? 13 : 10;
   const border   = pri === '🔥' ? '2.5px solid rgba(255,255,255,0.95)' : '2px solid rgba(255,255,255,0.75)';
@@ -630,7 +630,7 @@ function makeIcon(typeStr, pri) {
 // ────────────────────────────────────────────────────────────────────────────
 function makePopup(p) {
   const city  = CITIES[p.city];
-  const { color } = getPinStyle(p.type);
+  const color = city ? city.color : '#94a3b8';
   const isScheduled = !!p.itin;
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name + ' ' + p.addr)}`;
   return `
@@ -669,7 +669,7 @@ const datesWithRoutes = new Set(routes.map(r => r.date));
 // BUILD MARKERS
 // ────────────────────────────────────────────────────────────────────────────
 const markerObjects = places.map((p, i) => {
-  const m = L.marker([p.lat, p.lng], { icon: makeIcon(p.type, p.pri) })
+  const m = L.marker([p.lat, p.lng], { icon: makeIcon(p.type, p.pri, p.city) })
     .bindPopup(makePopup(p), { maxWidth: 310 });
   m.addTo(map);
   return { marker: m, city: p.city, dates: placeDates[i] };
