@@ -3,211 +3,244 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🇹🇼 Kenny's Taiwan Bucket List Map</title>
+  <title>🇹🇼 Kenny's Taiwan Trip Map</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; overflow: hidden; }
 
     #header {
-      padding: 10px 18px;
+      padding: 8px 16px 6px;
       background: #16213e;
-      border-bottom: 1px solid #0f3460;
+      border-bottom: 2px solid #0f3460;
+    }
+
+    /* Row 1: title + legend + toggles */
+    #header-row1 {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 14px;
       flex-wrap: wrap;
     }
-    #header h1 { font-size: 17px; font-weight: 700; color: #fff; white-space: nowrap; }
-    #header .subtitle { font-size: 11px; color: #aaa; margin-top: 1px; }
 
-    .legend-section {
+    /* Row 2: date filter */
+    #header-row2 {
       display: flex;
       align-items: center;
       gap: 6px;
-      flex-wrap: wrap;
+      margin-top: 7px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+      scrollbar-width: thin;
+      scrollbar-color: #334 transparent;
     }
+    #header-row2::-webkit-scrollbar { height: 4px; }
+    #header-row2::-webkit-scrollbar-track { background: transparent; }
+    #header-row2::-webkit-scrollbar-thumb { background: #334; border-radius: 2px; }
+
+    #header h1 { font-size: 16px; font-weight: 700; color: #fff; white-space: nowrap; }
+    #header .subtitle { font-size: 10px; color: #aaa; margin-top: 1px; }
+
+    .legend-section { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
     .legend-label {
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #888;
-      margin-right: 2px;
-      white-space: nowrap;
+      font-size: 9px; text-transform: uppercase; letter-spacing: 0.06em;
+      color: #778; margin-right: 1px; white-space: nowrap; flex-shrink: 0;
     }
-    .legend-divider {
-      width: 1px;
-      height: 28px;
-      background: #334;
-      margin: 0 6px;
-    }
+    .legend-divider { width: 1px; height: 24px; background: #334; margin: 0 3px; flex-shrink: 0; }
+
     .type-badge {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 12px;
-      color: #ddd;
-      padding: 3px 10px;
-      border-radius: 20px;
-      border: 1.5px solid;
-      white-space: nowrap;
+      display: flex; align-items: center; gap: 4px;
+      font-size: 11px; color: #ddd; padding: 2px 7px;
+      border-radius: 20px; border: 1.5px solid; white-space: nowrap;
     }
-    .type-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .type-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
+    /* Route toggle buttons */
+    .route-toggle {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 11px; color: #ccc; padding: 3px 10px;
+      border-radius: 20px; cursor: pointer; white-space: nowrap;
+      transition: all 0.2s; user-select: none;
+    }
+    .route-toggle.active { opacity: 1; }
+    .route-toggle.inactive { opacity: 0.35; }
+    .route-line { width: 22px; height: 4px; border-radius: 2px; flex-shrink: 0; }
+    .route-line.dashed {
+      background: repeating-linear-gradient(90deg, currentColor 0, currentColor 6px, transparent 6px, transparent 11px);
+    }
+    .route-line.dotted {
+      background: repeating-linear-gradient(90deg, currentColor 0, currentColor 3px, transparent 3px, transparent 8px);
+    }
+
+    /* City toggles */
     .city-toggle {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 11px;
-      color: #ccc;
-      background: rgba(255,255,255,0.07);
-      padding: 3px 9px;
-      border-radius: 20px;
-      cursor: pointer;
-      border: 1px solid transparent;
-      transition: all 0.2s;
-      user-select: none;
-      white-space: nowrap;
+      display: flex; align-items: center; gap: 4px;
+      font-size: 11px; color: #ccc;
+      background: rgba(255,255,255,0.07); padding: 2px 8px;
+      border-radius: 20px; cursor: pointer; white-space: nowrap;
+      border: 1px solid transparent; transition: all 0.2s; user-select: none;
     }
-    .city-toggle:hover { background: rgba(255,255,255,0.14); }
-    .city-toggle.active { border-color: rgba(255,255,255,0.25); }
-    .city-toggle.inactive { opacity: 0.38; }
-    .city-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .city-toggle:hover { background: rgba(255,255,255,0.13); }
+    .city-toggle.active { border-color: rgba(255,255,255,0.22); }
+    .city-toggle.inactive { opacity: 0.35; }
+    .city-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 
-    #map { height: calc(100vh - 72px); width: 100%; }
+    /* Date filter pills */
+    .date-pill-all {
+      padding: 4px 11px; border-radius: 8px; cursor: pointer;
+      border: 1.5px solid #445; background: transparent;
+      color: #aaa; font-size: 11px; font-weight: 700;
+      transition: all 0.15s; user-select: none; white-space: nowrap;
+      flex-shrink: 0; align-self: center;
+    }
+    .date-pill-all:hover { background: rgba(255,255,255,0.1); }
+    .date-pill-all.active { background: #3b82f6; border-color: #60a5fa; color: #fff; }
 
-    /* ── Popup ── */
+    .date-pill {
+      display: flex; flex-direction: column; align-items: center;
+      padding: 3px 7px; border-radius: 8px; cursor: pointer;
+      border: 1.5px solid #334; background: transparent;
+      color: #667; font-size: 9px; line-height: 1.3;
+      transition: all 0.15s; user-select: none; white-space: nowrap;
+      min-width: 38px; text-align: center; flex-shrink: 0;
+    }
+    .date-pill:hover { background: rgba(255,255,255,0.08); border-color: #556; color: #aaa; }
+    .date-pill.has-items { color: #ccc; border-color: #4a5568; }
+    .date-pill.has-route { border-color: #4a6741; }
+    .date-pill.has-items.has-route { border-color: #4a6741; }
+    .date-pill.active { background: #3b82f6; border-color: #60a5fa; color: #fff !important; }
+    .date-pill .dp-day { font-size: 14px; font-weight: 800; line-height: 1.1; }
+    .date-pill .dp-month { font-size: 8px; opacity: 0.8; text-transform: uppercase; }
+    .date-pill .dp-wd { font-size: 8px; opacity: 0.65; }
+    .date-pill .dp-dot {
+      width: 5px; height: 5px; border-radius: 50%;
+      background: #84cc16; margin-top: 2px; display: none;
+    }
+    .date-pill.has-route .dp-dot { display: block; }
+    .date-pill.active .dp-dot { background: #fff; }
+
+    #map { width: 100%; }
+
+    /* Popup styles */
     .leaflet-popup-content-wrapper {
-      border-radius: 10px !important;
-      padding: 0 !important;
-      overflow: hidden;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
-      min-width: 250px;
-      max-width: 310px;
+      border-radius: 10px !important; padding: 0 !important; overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.35) !important;
+      min-width: 240px; max-width: 310px;
     }
     .leaflet-popup-content { margin: 0 !important; width: auto !important; }
-    .leaflet-popup-tip-container { display: block; }
-
-    .popup-header {
-      padding: 10px 14px 8px;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.3;
-      color: #fff;
-    }
-    .popup-body {
-      padding: 0 14px 12px;
-      background: #fff;
-      font-size: 12px;
-    }
-    .popup-meta {
-      display: flex;
-      gap: 5px;
-      align-items: center;
-      margin-bottom: 7px;
-      flex-wrap: wrap;
-    }
-    .popup-badge {
-      background: #f0f0f0;
-      border-radius: 4px;
-      padding: 2px 6px;
-      font-size: 11px;
-      color: #444;
-      white-space: nowrap;
-    }
-    .popup-address {
-      color: #666;
-      margin-bottom: 5px;
-      line-height: 1.4;
-    }
-    .popup-itinerary {
-      font-size: 11px;
-      color: #999;
-      margin-bottom: 8px;
-    }
+    .popup-header { padding: 10px 14px 8px; font-weight: 700; font-size: 14px; line-height: 1.3; color: #fff; }
+    .popup-body { padding: 0 14px 12px; background: #fff; font-size: 12px; }
+    .popup-meta { display: flex; gap: 5px; align-items: center; margin-bottom: 7px; flex-wrap: wrap; }
+    .popup-badge { background: #f0f0f0; border-radius: 4px; padding: 2px 6px; font-size: 11px; color: #444; white-space: nowrap; }
+    .popup-address { color: #666; margin-bottom: 5px; line-height: 1.4; }
+    .popup-itinerary { font-size: 11px; color: #999; margin-bottom: 8px; }
     .popup-itinerary.scheduled { color: #2e7d32; font-weight: 600; }
     .popup-link {
-      display: inline-block;
-      background: #4285f4;
-      color: #fff !important;
-      text-decoration: none !important;
-      font-size: 11px;
-      padding: 4px 10px;
-      border-radius: 4px;
-      font-weight: 600;
+      display: inline-block; background: #4285f4; color: #fff !important;
+      text-decoration: none !important; font-size: 11px; padding: 4px 10px;
+      border-radius: 4px; font-weight: 600;
     }
     .popup-link:hover { background: #3367d6; }
+
+    /* Route popup */
+    .route-popup-wrap {
+      background: #1e293b; border-radius: 10px; overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      font-family: -apple-system, sans-serif;
+    }
+    .route-popup-head { padding: 8px 12px; font-size: 13px; font-weight: 700; color: #fff; }
+    .route-popup-body { padding: 6px 12px 10px; background: #fff; font-size: 12px; color: #333; line-height: 1.6; }
+    .route-popup-body strong { color: #111; }
   </style>
 </head>
 <body>
 
 <div id="header">
-  <div>
-    <h1>🇹🇼 Kenny's Taiwan Trip Map</h1>
-    <div class="subtitle">Apr 17 – May 4, 2026 · Pin color = activity type · Click for details</div>
+  <div id="header-row1">
+    <div style="flex-shrink:0;">
+      <h1>🇹🇼 Kenny's Taiwan Trip Map</h1>
+      <div class="subtitle">Apr 17 – May 4, 2026 &nbsp;·&nbsp; Pin color = activity type &nbsp;·&nbsp; Click pins & routes for details</div>
+    </div>
+
+    <!-- Type legend -->
+    <div class="legend-section">
+      <span class="legend-label">Type</span>
+      <div class="type-badge" style="border-color:#3b82f6;color:#93c5fd;"><div class="type-dot" style="background:#3b82f6;"></div>👁️ See</div>
+      <div class="type-badge" style="border-color:#f59e0b;color:#fcd34d;"><div class="type-dot" style="background:#f59e0b;"></div>🍜 Eat</div>
+      <div class="type-badge" style="border-color:#22c55e;color:#86efac;"><div class="type-dot" style="background:#22c55e;"></div>🎯 Do</div>
+      <div class="type-badge" style="border-color:#a855f7;color:#d8b4fe;"><div class="type-dot" style="background:#a855f7;"></div>Mixed</div>
+    </div>
+
+    <div class="legend-divider"></div>
+
+    <!-- Priority -->
+    <div class="legend-section">
+      <span class="legend-label">Priority</span>
+      <span style="font-size:11px;color:#ccc;">🔥 must &nbsp;·&nbsp; ✨ worth &nbsp;·&nbsp; 💭 if time</span>
+    </div>
+
+    <div class="legend-divider"></div>
+
+    <!-- Route toggles -->
+    <div class="legend-section">
+      <span class="legend-label">Routes</span>
+      <div id="route-toggles" style="display:flex;gap:5px;flex-wrap:wrap;"></div>
+    </div>
+
+    <div class="legend-divider"></div>
+
+    <!-- City toggles -->
+    <div class="legend-section">
+      <span class="legend-label">City</span>
+      <div id="city-toggles" style="display:flex;flex-wrap:wrap;gap:4px;"></div>
+    </div>
   </div>
 
-  <!-- Type legend (informational) -->
-  <div class="legend-section">
-    <span class="legend-label">Type</span>
-    <div class="type-badge" style="border-color:#3b82f6; color:#93c5fd;">
-      <div class="type-dot" style="background:#3b82f6;"></div>👁️ See
-    </div>
-    <div class="type-badge" style="border-color:#f59e0b; color:#fcd34d;">
-      <div class="type-dot" style="background:#f59e0b;"></div>🍜 Eat
-    </div>
-    <div class="type-badge" style="border-color:#22c55e; color:#86efac;">
-      <div class="type-dot" style="background:#22c55e;"></div>🎯 Do
-    </div>
-    <div class="type-badge" style="border-color:#a855f7; color:#d8b4fe;">
-      <div class="type-dot" style="background:#a855f7;"></div>Mixed
-    </div>
-  </div>
-
-  <div class="legend-divider"></div>
-
-  <!-- Priority legend (informational) -->
-  <div class="legend-section">
-    <span class="legend-label">Priority</span>
-    <span style="font-size:12px; color:#ccc;">🔥 large &nbsp;·&nbsp; ✨ medium &nbsp;·&nbsp; 💭 small</span>
-  </div>
-
-  <div class="legend-divider"></div>
-
-  <!-- City toggles (interactive) -->
-  <div class="legend-section">
-    <span class="legend-label">Filter city</span>
-    <div id="city-toggles" style="display:flex; flex-wrap:wrap; gap:5px;"></div>
+  <!-- Date filter row -->
+  <div id="header-row2">
+    <span class="legend-label">Date</span>
+    <div class="date-pill-all active" id="date-all-btn">All</div>
+    <div id="date-pills" style="display:flex;gap:4px;flex-shrink:0;"></div>
   </div>
 </div>
 
 <div id="map"></div>
 
 <script>
-// ── MAP INIT ────────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────────────────────────
+// MAP INIT
+// ────────────────────────────────────────────────────────────────────────────
 const map = L.map('map', { zoomControl: true }).setView([23.6, 120.9], 8);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '© OpenStreetMap contributors',
-  maxZoom: 18
+  attribution: '© OpenStreetMap contributors', maxZoom: 18
 }).addTo(map);
 
-// ── TYPE CONFIG ─────────────────────────────────────────────────────────────
-// Classify by which types are present; "mixed" = more than one type
-function getPinStyle(typeStr) {
-  const hasSee  = typeStr.includes('👁️');
-  const hasEat  = typeStr.includes('🍜');
-  const hasDo   = typeStr.includes('🎯');
-  const count   = [hasSee, hasEat, hasDo].filter(Boolean).length;
+function resizeMap() {
+  const h = document.getElementById('header').offsetHeight;
+  document.getElementById('map').style.height = (window.innerHeight - h) + 'px';
+}
+window.addEventListener('resize', resizeMap);
+// Called after DOM is ready at bottom of script
 
-  if (count > 1) return { color: '#a855f7', emoji: typeStr }; // mixed = purple, show all
+// ────────────────────────────────────────────────────────────────────────────
+// TYPE CONFIG
+// ────────────────────────────────────────────────────────────────────────────
+function getPinStyle(typeStr) {
+  const hasSee = typeStr.includes('👁️');
+  const hasEat = typeStr.includes('🍜');
+  const hasDo  = typeStr.includes('🎯');
+  const count  = [hasSee, hasEat, hasDo].filter(Boolean).length;
+  if (count > 1) return { color: '#a855f7', emoji: typeStr };
   if (hasSee)   return { color: '#3b82f6', emoji: '👁️' };
   if (hasEat)   return { color: '#f59e0b', emoji: '🍜' };
   if (hasDo)    return { color: '#22c55e', emoji: '🎯' };
   return { color: '#94a3b8', emoji: '📍' };
 }
 
-// ── CITY CONFIG ─────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────────────────────────
+// CITY CONFIG
+// ────────────────────────────────────────────────────────────────────────────
 const CITIES = {
   taipei:    { label: 'Taipei',           color: '#e74c3c', emoji: '🏙️' },
   kaohsiung: { label: 'Kaohsiung',        color: '#3498db', emoji: '🌆' },
@@ -221,10 +254,66 @@ const CITIES = {
   tainan:    { label: 'Tainan',           color: '#c0392b', emoji: '🏛️' },
   other:     { label: 'Other Cities',     color: '#7f8c8d', emoji: '🗺️' },
 };
-
 const PRI_LABEL = { '🔥': 'Must See', '✨': 'Worth It', '💭': 'If Time' };
 
-// ── ALL LOCATIONS ────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────────────────────────
+// ROUTE TYPE CONFIG
+// ────────────────────────────────────────────────────────────────────────────
+const ROUTE_TYPES = {
+  bike:  { label: '🚴 Bike',      color: '#84cc16', dashArray: null,   weight: 5, opacity: 0.9 },
+  train: { label: '🚆 Train/HSR', color: '#fb923c', dashArray: '10,6', weight: 3, opacity: 0.85 },
+  bus:   { label: '🚌 Bus',       color: '#38bdf8', dashArray: '4,8',  weight: 3, opacity: 0.85 },
+};
+
+// ────────────────────────────────────────────────────────────────────────────
+// TRIP DATES
+// ────────────────────────────────────────────────────────────────────────────
+const TRIP_DATES = [
+  { key: 'Apr 17', month: 'Apr', day: '17', wd: 'Fri' },
+  { key: 'Apr 18', month: 'Apr', day: '18', wd: 'Sat' },
+  { key: 'Apr 19', month: 'Apr', day: '19', wd: 'Sun' },
+  { key: 'Apr 20', month: 'Apr', day: '20', wd: 'Mon' },
+  { key: 'Apr 21', month: 'Apr', day: '21', wd: 'Tue' },
+  { key: 'Apr 22', month: 'Apr', day: '22', wd: 'Wed' },
+  { key: 'Apr 23', month: 'Apr', day: '23', wd: 'Thu' },
+  { key: 'Apr 24', month: 'Apr', day: '24', wd: 'Fri' },
+  { key: 'Apr 25', month: 'Apr', day: '25', wd: 'Sat' },
+  { key: 'Apr 26', month: 'Apr', day: '26', wd: 'Sun' },
+  { key: 'Apr 27', month: 'Apr', day: '27', wd: 'Mon' },
+  { key: 'Apr 28', month: 'Apr', day: '28', wd: 'Tue' },
+  { key: 'Apr 29', month: 'Apr', day: '29', wd: 'Wed' },
+  { key: 'Apr 30', month: 'Apr', day: '30', wd: 'Thu' },
+  { key: 'May 1',  month: 'May', day:  '1', wd: 'Fri' },
+  { key: 'May 2',  month: 'May', day:  '2', wd: 'Sat' },
+  { key: 'May 3',  month: 'May', day:  '3', wd: 'Sun' },
+  { key: 'May 4',  month: 'May', day:  '4', wd: 'Mon' },
+];
+
+// ────────────────────────────────────────────────────────────────────────────
+// PARSE ITIN → DATE ARRAY
+// ────────────────────────────────────────────────────────────────────────────
+function parseItinDates(itin) {
+  if (!itin) return [];
+  // Strip parenthetical notes like "(on-route)", "(brief stop)"
+  let s = itin.replace(/\([^)]*\)/g, '').trim();
+  // Strip "Trip N, " prefix
+  s = s.replace(/^Trip \d+,\s*/i, '').trim();
+  // Handle ranges: "May 1–2" or "May 1-2"
+  const rangeMatch = s.match(/^((?:Apr|May)\s+\d+)\s*[–\-]\s*(\d+)$/);
+  if (rangeMatch) {
+    const month = rangeMatch[1].split(' ')[0];
+    const start = parseInt(rangeMatch[1].split(' ')[1], 10);
+    const end   = parseInt(rangeMatch[2], 10);
+    const dates = [];
+    for (let d = start; d <= end; d++) dates.push(`${month} ${d}`);
+    return dates;
+  }
+  return [s];
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// ALL LOCATIONS
+// ────────────────────────────────────────────────────────────────────────────
 const places = [
   // TAIPEI
   { city:'taipei', pri:'🔥', type:'👁️🍜',    name:'Jiufen Old Street',           addr:'基山街, Ruifang District, New Taipei',              lat:25.1085, lng:121.8441, itin:'Trip 2, Apr 27' },
@@ -233,13 +322,13 @@ const places = [
   { city:'taipei', pri:'🔥', type:'👁️🍜🎯', name:'Ximending',                    addr:'Wuchang St, Wanhua District, Taipei',               lat:25.0425, lng:121.5077, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'🔥', type:'🍜👁️',    name:'Shilin Night Market',          addr:'No. 101, Jihe Rd, Shilin District, Taipei',         lat:25.0877, lng:121.5238, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'🔥', type:'🍜',       name:'Din Tai Fung (Original)',      addr:"No. 194, Sec 2, Xinyi Rd, Da'an, Taipei",           lat:25.0330, lng:121.5440, itin:null },
-  { city:'taipei', pri:'🔥', type:'🍜',       name:'Yongkang Beef Noodle',         addr:'Lane 31, Sec 2, Jinshan S. Rd, Da\'an, Taipei',     lat:25.0331, lng:121.5317, itin:null },
+  { city:'taipei', pri:'🔥', type:'🍜',       name:'Yongkang Beef Noodle',         addr:"Lane 31, Sec 2, Jinshan S. Rd, Da'an, Taipei",      lat:25.0331, lng:121.5317, itin:null },
   { city:'taipei', pri:'✨', type:'🍜👁️',    name:'Ningxia Night Market',         addr:'Ningxia Rd, Datong District, Taipei',               lat:25.0563, lng:121.5164, itin:'Trip 2, Apr 26' },
   { city:'taipei', pri:'✨', type:'🍜👁️',    name:'Raohe Night Market',           addr:'Raohe St, Songshan District, Taipei',               lat:25.0503, lng:121.5773, itin:'Trip 2, May 3' },
   { city:'taipei', pri:'✨', type:'👁️🎯',    name:'CKS Memorial Hall',            addr:'No. 21, Zhongshan S. Rd, Zhongzheng, Taipei',       lat:25.0361, lng:121.5218, itin:null },
   { city:'taipei', pri:'✨', type:'🎯👁️',    name:'Beitou Hot Springs',           addr:'No. 2, Lane 2, Zhongshan Rd, Beitou, Taipei',       lat:25.1366, lng:121.5044, itin:'Trip 2, Apr 26' },
   { city:'taipei', pri:'✨', type:'🎯👁️',    name:'Maokong Gondola',              addr:'Taipei Zoo Station, Wenshan District, Taipei',      lat:24.9994, lng:121.5686, itin:null },
-  { city:'taipei', pri:'✨', type:'🍜',       name:'Fu Hang Dou Jiang (阜杭豆漿)',  addr:'2F, No. 108, Sec 1, Zhongxiao E. Rd, Taipei',       lat:25.0448, lng:121.5178, itin:'Trip 2, Apr 27' },
+  { city:'taipei', pri:'✨', type:'🍜',       name:'Fu Hang Dou Jiang (阜杭豆漿)', addr:'2F, No. 108, Sec 1, Zhongxiao E. Rd, Taipei',       lat:25.0448, lng:121.5178, itin:'Trip 2, Apr 27' },
   { city:'taipei', pri:'✨', type:'🍜👁️',    name:'Yongkang Street Food Crawl',   addr:"Yongkang St, Da'an District, Taipei",               lat:25.0327, lng:121.5310, itin:null },
   { city:'taipei', pri:'✨', type:'🎯🍜',    name:'Guanghua Digital Plaza',        addr:'No. 8, Sec 3, Civic Blvd, Zhongzheng, Taipei',      lat:25.0441, lng:121.5315, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'💭', type:'👁️🎯',    name:'Taipei 101 Observation Deck',  addr:'No. 45, Shifu Rd, Xinyi District, Taipei',          lat:25.0338, lng:121.5645, itin:null },
@@ -247,125 +336,305 @@ const places = [
   { city:'taipei', pri:'💭', type:'👁️🍜',    name:'Tamsui Old Street',             addr:'Zhongzheng Rd, Tamsui District, New Taipei',        lat:25.1694, lng:121.4415, itin:null },
 
   // KAOHSIUNG
-  { city:'kaohsiung', pri:'🔥', type:'🍜👁️',    name:'Liouhe Night Market',      addr:'Liouhe 2nd Rd, Xinxing District, Kaohsiung',         lat:22.6348, lng:120.3020, itin:'Trip 1, Apr 19' },
-  { city:'kaohsiung', pri:'🔥', type:'👁️',       name:'Formosa Boulevard MRT',    addr:'No. 115, Zhongshan 1st Rd, Xinxing, Kaohsiung',       lat:22.6325, lng:120.3021, itin:'Trip 1, Apr 19' },
-  { city:'kaohsiung', pri:'🔥', type:'👁️🎯',    name:'Pier-2 Art Center',         addr:'No. 1, Dayong Rd, Yancheng, Kaohsiung',              lat:22.6259, lng:120.2895, itin:'Trip 1, Apr 19' },
-  { city:'kaohsiung', pri:'✨', type:'👁️🎯',    name:'Love River (愛河)',           addr:'Minzu 1st Rd, Gushan District, Kaohsiung',           lat:22.6360, lng:120.2961, itin:'Trip 1, Apr 19' },
-  { city:'kaohsiung', pri:'✨', type:'🎯👁️🍜', name:'Cijin Island',               addr:'Cijin District (ferry from Gushan Ferry Terminal)',    lat:22.6200, lng:120.2620, itin:null },
-  { city:'kaohsiung', pri:'✨', type:'👁️',       name:'Zuoying Lotus Pond',        addr:'Shengmin Rd, Zuoying District, Kaohsiung',            lat:22.7106, lng:120.2961, itin:null },
-  { city:'kaohsiung', pri:'💭', type:'🍜👁️',    name:'Ruifeng Night Market',       addr:'No. 400, Nanping Rd, Zuoying, Kaohsiung',            lat:22.6978, lng:120.3128, itin:null },
+  { city:'kaohsiung', pri:'🔥', type:'🍜👁️',    name:'Liouhe Night Market',      addr:'Liouhe 2nd Rd, Xinxing District, Kaohsiung',          lat:22.6348, lng:120.3020, itin:'Trip 1, Apr 19' },
+  { city:'kaohsiung', pri:'🔥', type:'👁️',       name:'Formosa Boulevard MRT',    addr:'No. 115, Zhongshan 1st Rd, Xinxing, Kaohsiung',        lat:22.6325, lng:120.3021, itin:'Trip 1, Apr 19' },
+  { city:'kaohsiung', pri:'🔥', type:'👁️🎯',    name:'Pier-2 Art Center',         addr:'No. 1, Dayong Rd, Yancheng, Kaohsiung',               lat:22.6259, lng:120.2895, itin:'Trip 1, Apr 19' },
+  { city:'kaohsiung', pri:'✨', type:'👁️🎯',    name:'Love River (愛河)',           addr:'Minzu 1st Rd, Gushan District, Kaohsiung',            lat:22.6360, lng:120.2961, itin:'Trip 1, Apr 19' },
+  { city:'kaohsiung', pri:'✨', type:'🎯👁️🍜', name:'Cijin Island',               addr:'Cijin District (ferry from Gushan Ferry Terminal)',     lat:22.6200, lng:120.2620, itin:null },
+  { city:'kaohsiung', pri:'✨', type:'👁️',       name:'Zuoying Lotus Pond',        addr:'Shengmin Rd, Zuoying District, Kaohsiung',             lat:22.7106, lng:120.2961, itin:null },
+  { city:'kaohsiung', pri:'💭', type:'🍜👁️',    name:'Ruifeng Night Market',       addr:'No. 400, Nanping Rd, Zuoying, Kaohsiung',             lat:22.6978, lng:120.3128, itin:null },
 
   // SOUTH
-  { city:'south', pri:'🔥', type:'👁️🎯', name:"Eluanbi (Taiwan's Southern Tip)", addr:'No. 90, Eluanbi Rd, Hengchun Township, Pingtung',  lat:21.9008, lng:120.8538, itin:'Trip 1, Apr 20 (on-route)' },
-  { city:'south', pri:'🔥', type:'👁️🎯', name:'Kenting National Park',            addr:'Hengchun Township, Pingtung County',                lat:21.9500, lng:120.8000, itin:null },
-  { city:'south', pri:'✨', type:'👁️',   name:'Hengchun Old Town (Walled City)',  addr:'Hengchun Township, Pingtung County',                lat:22.0022, lng:120.7439, itin:null },
-  { city:'south', pri:'✨', type:'🍜',   name:'Fresh Coastal Seafood',            addr:'Checheng Township center, Pingtung County',         lat:22.0147, lng:120.6998, itin:null },
+  { city:'south', pri:'🔥', type:'👁️🎯', name:"Eluanbi (Taiwan's Southern Tip)", addr:'No. 90, Eluanbi Rd, Hengchun Township, Pingtung',   lat:21.9008, lng:120.8538, itin:'Trip 1, Apr 20' },
+  { city:'south', pri:'🔥', type:'👁️🎯', name:'Kenting National Park',            addr:'Hengchun Township, Pingtung County',                 lat:21.9500, lng:120.8000, itin:null },
+  { city:'south', pri:'✨', type:'👁️',   name:'Hengchun Old Town (Walled City)',  addr:'Hengchun Township, Pingtung County',                 lat:22.0022, lng:120.7439, itin:null },
+  { city:'south', pri:'✨', type:'🍜',   name:'Fresh Coastal Seafood',            addr:'Checheng Township center, Pingtung County',          lat:22.0147, lng:120.6998, itin:'Trip 1, Apr 20' },
 
   // TAITUNG
-  { city:'taitung', pri:'🔥', type:'🍜',       name:'Chishang Lunchbox (池上便當)', addr:'Chishang Station, Chishang Township, Taitung',     lat:23.1000, lng:121.3668, itin:'Trip 1, Apr 22 (on-route)' },
-  { city:'taitung', pri:'🔥', type:'👁️🎯🍜', name:'Tiehua Music Village',          addr:'No. 369, Tiexian Rd, Taitung City',                lat:22.7566, lng:121.1524, itin:'Trip 1, Apr 21' },
-  { city:'taitung', pri:'✨', type:'👁️🎯',    name:'Taitung Forest Park',            addr:'Lane 115, Sec 1, Zhiqing Rd, Taitung City',        lat:22.7639, lng:121.1625, itin:'Trip 1, Apr 21' },
-  { city:'taitung', pri:'✨', type:'🎯👁️',    name:'Zhiben Hot Springs',             addr:'Zhiben Rd, Beinan Township, Taitung County',       lat:22.7012, lng:121.1268, itin:null },
-  { city:'taitung', pri:'💭', type:'🎯👁️',    name:'Green Island Day Trip (ferry)',   addr:'Lyudao Township (ferry from Fugang Pier, Taitung)', lat:22.6689, lng:121.1536, itin:null },
+  { city:'taitung', pri:'🔥', type:'🍜',       name:'Chishang Lunchbox (池上便當)', addr:'Chishang Station, Chishang Township, Taitung',      lat:23.1000, lng:121.3668, itin:'Trip 1, Apr 22' },
+  { city:'taitung', pri:'🔥', type:'👁️🎯🍜', name:'Tiehua Music Village',          addr:'No. 369, Tiexian Rd, Taitung City',                 lat:22.7566, lng:121.1524, itin:'Trip 1, Apr 21' },
+  { city:'taitung', pri:'✨', type:'👁️🎯',    name:'Taitung Forest Park',            addr:'Lane 115, Sec 1, Zhiqing Rd, Taitung City',         lat:22.7639, lng:121.1625, itin:'Trip 1, Apr 21' },
+  { city:'taitung', pri:'✨', type:'🎯👁️',    name:'Zhiben Hot Springs',             addr:'Zhiben Rd, Beinan Township, Taitung County',        lat:22.7012, lng:121.1268, itin:null },
+  { city:'taitung', pri:'💭', type:'🎯👁️',    name:'Green Island Day Trip (ferry)',   addr:'Lyudao Township (ferry from Fugang Pier, Taitung)',  lat:22.6689, lng:121.1536, itin:null },
 
   // YULI
-  { city:'yuli', pri:'🔥', type:'🍜',    name:'Yuli Beef Noodles',                addr:'Zhongshan Rd, Yuli Township, Hualien County',      lat:23.3384, lng:121.3123, itin:null },
-  { city:'yuli', pri:'🔥', type:'🍜',    name:'Yuli Lamb Hotpot',                 addr:'Zhongshan Rd, Yuli Township, Hualien County',      lat:23.3390, lng:121.3130, itin:null },
-  { city:'yuli', pri:'✨', type:'👁️🎯', name:'Chishang Scenic Bike Path (伯朗大道)', addr:'Chishang Township, Taitung County',             lat:23.0941, lng:121.3534, itin:'Trip 1, Apr 22 (on-route)' },
-  { city:'yuli', pri:'💭', type:'🎯👁️', name:'Antong Hot Springs',               addr:'Antong Rd, Fuli Township, Hualien County',         lat:23.3200, lng:121.4050, itin:null },
+  { city:'yuli', pri:'🔥', type:'🍜',    name:'Yuli Beef Noodles',                addr:'Zhongshan Rd, Yuli Township, Hualien County',       lat:23.3384, lng:121.3123, itin:null },
+  { city:'yuli', pri:'🔥', type:'🍜',    name:'Yuli Lamb Hotpot',                 addr:'Zhongshan Rd, Yuli Township, Hualien County',       lat:23.3390, lng:121.3130, itin:null },
+  { city:'yuli', pri:'✨', type:'👁️🎯', name:'Chishang Scenic Bike Path (伯朗大道)', addr:'Chishang Township, Taitung County',              lat:23.0941, lng:121.3534, itin:'Trip 1, Apr 22' },
+  { city:'yuli', pri:'💭', type:'🎯👁️', name:'Antong Hot Springs',               addr:'Antong Rd, Fuli Township, Hualien County',          lat:23.3200, lng:121.4050, itin:null },
 
   // HUALIEN + TAROKO
-  { city:'hualien', pri:'🔥', type:'🎯👁️', name:'Taroko — Shakadang Trail',          addr:'Taroko National Park, Xiulin Township, Hualien', lat:24.1577, lng:121.6261, itin:'Trip 1, Apr 24' },
-  { city:'hualien', pri:'🔥', type:'🎯👁️', name:'Taroko — Swallow Grotto (燕子口)',   addr:'Central Cross-Island Hwy, Xiulin, Hualien',      lat:24.1722, lng:121.5866, itin:'Trip 1, Apr 24' },
-  { city:'hualien', pri:'🔥', type:'🎯👁️', name:'Taroko — Tunnel of Nine Turns',      addr:'Central Cross-Island Hwy, Xiulin, Hualien',      lat:24.1853, lng:121.5726, itin:'Trip 1, Apr 24' },
-  { city:'hualien', pri:'🔥', type:'🍜',    name:'Hualien Mochi (花蓮麻糬)',            addr:'Zhongshan Rd, Hualien City 970',                 lat:23.9900, lng:121.6010, itin:'Trip 1, Apr 23' },
-  { city:'hualien', pri:'🔥', type:'🍜👁️', name:'Dongdamen Night Market',             addr:'No. 120, Sec 1, North Zhongshan Rd, Hualien',    lat:23.9877, lng:121.6002, itin:'Trip 1, Apr 23' },
-  { city:'hualien', pri:'✨', type:'👁️🎯', name:'Qixingtan Beach (七星潭)',            addr:'Qixingtan Rd, Xincheng Township, Hualien',       lat:24.0283, lng:121.6283, itin:null },
-  { city:'hualien', pri:'✨', type:'👁️🎯', name:'Taroko — Buluowan Terrace',          addr:'Buluowan, Xiulin Township, Hualien County',      lat:24.1650, lng:121.6050, itin:'Trip 1, Apr 24' },
+  { city:'hualien', pri:'🔥', type:'🎯👁️', name:'Taroko — Shakadang Trail',          addr:'Taroko National Park, Xiulin Township, Hualien',  lat:24.1577, lng:121.6261, itin:'Trip 1, Apr 24' },
+  { city:'hualien', pri:'🔥', type:'🎯👁️', name:'Taroko — Swallow Grotto (燕子口)',   addr:'Central Cross-Island Hwy, Xiulin, Hualien',       lat:24.1722, lng:121.5866, itin:'Trip 1, Apr 24' },
+  { city:'hualien', pri:'🔥', type:'🎯👁️', name:'Taroko — Tunnel of Nine Turns',      addr:'Central Cross-Island Hwy, Xiulin, Hualien',       lat:24.1853, lng:121.5726, itin:'Trip 1, Apr 24' },
+  { city:'hualien', pri:'🔥', type:'🍜',    name:'Hualien Mochi (花蓮麻糬)',            addr:'Zhongshan Rd, Hualien City 970',                  lat:23.9900, lng:121.6010, itin:'Trip 1, Apr 23' },
+  { city:'hualien', pri:'🔥', type:'🍜👁️', name:'Dongdamen Night Market',             addr:'No. 120, Sec 1, North Zhongshan Rd, Hualien',     lat:23.9877, lng:121.6002, itin:'Trip 1, Apr 23' },
+  { city:'hualien', pri:'✨', type:'👁️🎯', name:'Qixingtan Beach (七星潭)',            addr:'Qixingtan Rd, Xincheng Township, Hualien',        lat:24.0283, lng:121.6283, itin:null },
+  { city:'hualien', pri:'✨', type:'👁️🎯', name:'Taroko — Buluowan Terrace',          addr:'Buluowan, Xiulin Township, Hualien County',       lat:24.1650, lng:121.6050, itin:'Trip 1, Apr 24' },
 
   // JIUFEN + SHIFEN
-  { city:'jiufen', pri:'🔥', type:'🎯👁️', name:'Shifen Sky Lantern Release',      addr:'Shifen Old St, Pingxi District, New Taipei',       lat:25.0362, lng:121.7786, itin:'Trip 2, Apr 27' },
-  { city:'jiufen', pri:'🔥', type:'👁️🍜', name:'Jiufen Old Street',               addr:'基山街, Ruifang District, New Taipei City',        lat:25.1085, lng:121.8441, itin:'Trip 2, Apr 27' },
-  { city:'jiufen', pri:'🔥', type:'🍜👁️', name:'A-Mei Tea House (阿妹茶樓)',       addr:'No. 20, Shuchi Rd, Jiufen, Ruifang, New Taipei',   lat:25.1072, lng:121.8437, itin:'Trip 2, Apr 27' },
-  { city:'jiufen', pri:'🔥', type:'🍜',   name:'Taro Ball Soup (芋圓)',            addr:'基山街 stalls, Ruifang District, New Taipei',      lat:25.1080, lng:121.8435, itin:'Trip 2, Apr 27' },
-  { city:'jiufen', pri:'✨', type:'🎯👁️', name:'Shifen Waterfall',                 addr:'Shifen, Pingxi District, New Taipei City',         lat:25.0310, lng:121.7820, itin:'Trip 2, Apr 27' },
-  { city:'jiufen', pri:'✨', type:'👁️',   name:'Golden Waterfall + Yin-Yang Sea',  addr:'Provincial Hwy 102, Ruifang District, New Taipei', lat:25.1019, lng:121.8236, itin:'Trip 2, Apr 27' },
+  { city:'jiufen', pri:'🔥', type:'🎯👁️', name:'Shifen Sky Lantern Release',      addr:'Shifen Old St, Pingxi District, New Taipei',        lat:25.0362, lng:121.7786, itin:'Trip 2, Apr 27' },
+  { city:'jiufen', pri:'🔥', type:'👁️🍜', name:'Jiufen Old Street',               addr:'基山街, Ruifang District, New Taipei City',         lat:25.1085, lng:121.8441, itin:'Trip 2, Apr 27' },
+  { city:'jiufen', pri:'🔥', type:'🍜👁️', name:'A-Mei Tea House (阿妹茶樓)',       addr:'No. 20, Shuchi Rd, Jiufen, Ruifang, New Taipei',    lat:25.1072, lng:121.8437, itin:'Trip 2, Apr 27' },
+  { city:'jiufen', pri:'🔥', type:'🍜',   name:'Taro Ball Soup (芋圓)',            addr:'基山街 stalls, Ruifang District, New Taipei',       lat:25.1080, lng:121.8435, itin:'Trip 2, Apr 27' },
+  { city:'jiufen', pri:'✨', type:'🎯👁️', name:'Shifen Waterfall',                 addr:'Shifen, Pingxi District, New Taipei City',          lat:25.0310, lng:121.7820, itin:'Trip 2, Apr 27' },
+  { city:'jiufen', pri:'✨', type:'👁️',   name:'Golden Waterfall + Yin-Yang Sea',  addr:'Provincial Hwy 102, Ruifang District, New Taipei',  lat:25.1019, lng:121.8236, itin:'Trip 2, Apr 27' },
 
   // SUN MOON LAKE
-  { city:'sml', pri:'🔥', type:'👁️🎯', name:'Sunrise at Shuishe Pier',         addr:'Shuishe Village, Yuchi Township, Nantou County', lat:23.8604, lng:120.9175, itin:'Trip 2, Apr 29' },
-  { city:'sml', pri:'🔥', type:'🎯👁️', name:'33km Lake Cycling Loop (e-bike)', addr:'Shuishe Pier, Yuchi Township, Nantou County',    lat:23.8608, lng:120.9178, itin:'Trip 2, Apr 29' },
-  { city:'sml', pri:'🔥', type:'👁️🎯', name:'Wenwu Temple (文武廟)',            addr:'No. 63, Zhongshan Rd, Yuchi Township, Nantou',   lat:23.8802, lng:120.9278, itin:'Trip 2, Apr 28' },
-  { city:'sml', pri:'🔥', type:'🍜',   name:'Bamboo Tube Rice (竹筒飯)',        addr:'Ita Thao Village, Yuchi Township, Nantou',       lat:23.8470, lng:120.9117, itin:'Trip 2, Apr 29' },
-  { city:'sml', pri:'✨', type:'🎯👁️', name:"Ci'en Pagoda (慈恩塔)",           addr:'Datong Village, Yuchi Township, Nantou County',  lat:23.8482, lng:120.9281, itin:'Trip 2, Apr 30' },
-  { city:'sml', pri:'✨', type:'🍜',   name:'President Fish + Wild Boar Sausage', addr:'Ita Thao Village, Yuchi Township, Nantou',    lat:23.8475, lng:120.9120, itin:'Trip 2, Apr 29' },
+  { city:'sml', pri:'🔥', type:'👁️🎯', name:'Sunrise at Shuishe Pier',         addr:'Shuishe Village, Yuchi Township, Nantou County',  lat:23.8604, lng:120.9175, itin:'Trip 2, Apr 29' },
+  { city:'sml', pri:'🔥', type:'🎯👁️', name:'33km Lake Cycling Loop (e-bike)', addr:'Shuishe Pier, Yuchi Township, Nantou County',     lat:23.8608, lng:120.9178, itin:'Trip 2, Apr 29' },
+  { city:'sml', pri:'🔥', type:'👁️🎯', name:'Wenwu Temple (文武廟)',            addr:'No. 63, Zhongshan Rd, Yuchi Township, Nantou',    lat:23.8802, lng:120.9278, itin:'Trip 2, Apr 28' },
+  { city:'sml', pri:'🔥', type:'🍜',   name:'Bamboo Tube Rice (竹筒飯)',        addr:'Ita Thao Village, Yuchi Township, Nantou',        lat:23.8470, lng:120.9117, itin:'Trip 2, Apr 29' },
+  { city:'sml', pri:'✨', type:'🎯👁️', name:"Ci'en Pagoda (慈恩塔)",           addr:'Datong Village, Yuchi Township, Nantou County',   lat:23.8482, lng:120.9281, itin:'Trip 2, Apr 30' },
+  { city:'sml', pri:'✨', type:'🍜',   name:'President Fish + Wild Boar Sausage', addr:'Ita Thao Village, Yuchi Township, Nantou',      lat:23.8475, lng:120.9120, itin:'Trip 2, Apr 29' },
 
   // ALISHAN
-  { city:'alishan', pri:'🔥', type:'🎯👁️', name:'Zhushan Sunrise Train (祝山觀日車)', addr:'Zhushan Station, Alishan Township, Chiayi', lat:23.5078, lng:120.8086, itin:'Trip 2, May 1' },
-  { city:'alishan', pri:'🔥', type:'👁️🎯', name:'Giant Tree Trail (2,000-yr cypress)', addr:'Alishan National Scenic Area, Chiayi',    lat:23.5134, lng:120.8031, itin:'Trip 2, May 1' },
-  { city:'alishan', pri:'🔥', type:'🍜🎯', name:'Alishan High-Mountain Oolong Tea',    addr:'Alishan Village, Alishan Township, Chiayi', lat:23.5140, lng:120.8025, itin:'Trip 2, May 1' },
+  { city:'alishan', pri:'🔥', type:'🎯👁️', name:'Zhushan Sunrise Train (祝山觀日車)', addr:'Zhushan Station, Alishan Township, Chiayi',   lat:23.5078, lng:120.8086, itin:'Trip 2, May 1' },
+  { city:'alishan', pri:'🔥', type:'👁️🎯', name:'Giant Tree Trail (2,000-yr cypress)', addr:'Alishan National Scenic Area, Chiayi',       lat:23.5134, lng:120.8031, itin:'Trip 2, May 1' },
+  { city:'alishan', pri:'🔥', type:'🍜🎯', name:'Alishan High-Mountain Oolong Tea',    addr:'Alishan Village, Alishan Township, Chiayi',   lat:23.5140, lng:120.8025, itin:'Trip 2, May 1' },
   { city:'alishan', pri:'✨', type:'👁️🎯', name:'Sister Ponds (姊妹潭)',               addr:'Alishan National Scenic Area, Chiayi County', lat:23.5145, lng:120.8028, itin:'Trip 2, Apr 30' },
-  { city:'alishan', pri:'✨', type:'🎯👁️', name:'Alishan Forest Railway',              addr:'Chiayi Station → Alishan Station, Chiayi',  lat:23.4802, lng:120.4573, itin:null },
+  { city:'alishan', pri:'✨', type:'🎯👁️', name:'Alishan Forest Railway',              addr:'Chiayi Station → Alishan Station, Chiayi',    lat:23.4802, lng:120.4573, itin:null },
 
   // TAINAN
-  { city:'tainan', pri:'🔥', type:'🍜',       name:'Dan Zai Noodles — Du Hsiao Yueh',  addr:'No. 16, Zhongzheng Rd, West Central, Tainan',       lat:22.9988, lng:120.1965, itin:'Trip 2, May 1' },
-  { city:'tainan', pri:'🔥', type:'🍜',       name:'Coffin Bread (棺材板)',             addr:'Near Chihkan Tower, West Central District, Tainan',  lat:22.9990, lng:120.1982, itin:'Trip 2, May 2' },
-  { city:'tainan', pri:'🔥', type:'🍜',       name:'Milkfish Congee (虱目魚粥)',        addr:'Anping or West Central District, Tainan',            lat:22.9960, lng:120.1970, itin:'Trip 2, May 3' },
-  { city:'tainan', pri:'🔥', type:'👁️🎯',    name:'Fort Zeelandia (安平古堡)',         addr:'No. 82, Guosheng Rd, Anping District, Tainan',       lat:22.9937, lng:120.1614, itin:'Trip 2, May 2' },
-  { city:'tainan', pri:'🔥', type:'👁️',       name:'Confucius Temple (孔廟)',           addr:'No. 2, Nanmen Rd, West Central District, Tainan',    lat:22.9958, lng:120.1997, itin:'Trip 2, May 2' },
-  { city:'tainan', pri:'🔥', type:'🍜👁️🎯', name:'Garden Night Market (花園夜市)',    addr:'Haian Rd, North District, Tainan — Thu/Sat/Sun',     lat:23.0123, lng:120.2016, itin:'Trip 2, May 1–2' },
-  { city:'tainan', pri:'✨', type:'👁️🍜',    name:'Anping Old Street',                 addr:'Anping Rd, Anping District, Tainan City',            lat:22.9935, lng:120.1630, itin:'Trip 2, May 2' },
-  { city:'tainan', pri:'✨', type:'👁️',       name:'Anping Tree House',                 addr:'No. 108, Gubao St, Anping District, Tainan',         lat:22.9930, lng:120.1618, itin:'Trip 2, May 2' },
-  { city:'tainan', pri:'✨', type:'👁️',       name:'Chihkan Tower (赤崁樓)',            addr:'No. 212, Sec 2, Minzu Rd, West Central, Tainan',     lat:22.9990, lng:120.1983, itin:'Trip 2, May 2' },
-  { city:'tainan', pri:'💭', type:'👁️🎯',    name:'Temple Crawl (300+ temples)',        addr:'West Central District, Tainan',                      lat:22.9980, lng:120.2000, itin:null },
+  { city:'tainan', pri:'🔥', type:'🍜',       name:'Dan Zai Noodles — Du Hsiao Yueh',  addr:'No. 16, Zhongzheng Rd, West Central, Tainan',        lat:22.9988, lng:120.1965, itin:'Trip 2, May 1' },
+  { city:'tainan', pri:'🔥', type:'🍜',       name:'Coffin Bread (棺材板)',             addr:'Near Chihkan Tower, West Central District, Tainan',   lat:22.9990, lng:120.1982, itin:'Trip 2, May 2' },
+  { city:'tainan', pri:'🔥', type:'🍜',       name:'Milkfish Congee (虱目魚粥)',        addr:'Anping or West Central District, Tainan',             lat:22.9960, lng:120.1970, itin:'Trip 2, May 3' },
+  { city:'tainan', pri:'🔥', type:'👁️🎯',    name:'Fort Zeelandia (安平古堡)',         addr:'No. 82, Guosheng Rd, Anping District, Tainan',        lat:22.9937, lng:120.1614, itin:'Trip 2, May 2' },
+  { city:'tainan', pri:'🔥', type:'👁️',       name:'Confucius Temple (孔廟)',           addr:'No. 2, Nanmen Rd, West Central District, Tainan',     lat:22.9958, lng:120.1997, itin:'Trip 2, May 2' },
+  { city:'tainan', pri:'🔥', type:'🍜👁️🎯', name:'Garden Night Market (花園夜市)',    addr:'Haian Rd, North District, Tainan — Thu/Sat/Sun',      lat:23.0123, lng:120.2016, itin:'Trip 2, May 1–2' },
+  { city:'tainan', pri:'✨', type:'👁️🍜',    name:'Anping Old Street',                 addr:'Anping Rd, Anping District, Tainan City',             lat:22.9935, lng:120.1630, itin:'Trip 2, May 2' },
+  { city:'tainan', pri:'✨', type:'👁️',       name:'Anping Tree House',                 addr:'No. 108, Gubao St, Anping District, Tainan',          lat:22.9930, lng:120.1618, itin:'Trip 2, May 2' },
+  { city:'tainan', pri:'✨', type:'👁️',       name:'Chihkan Tower (赤崁樓)',            addr:'No. 212, Sec 2, Minzu Rd, West Central, Tainan',      lat:22.9990, lng:120.1983, itin:'Trip 2, May 2' },
+  { city:'tainan', pri:'💭', type:'👁️🎯',    name:'Temple Crawl (300+ temples)',        addr:'West Central District, Tainan',                       lat:22.9980, lng:120.2000, itin:null },
 
   // OTHER
-  { city:'other', pri:'✨', type:'🍜👁️', name:'Miyahara — Taichung (宮原眼科)',   addr:'No. 20, Zhongshan Rd, Central District, Taichung',   lat:24.1376, lng:120.6850, itin:'Trip 2, Apr 28 (brief stop)' },
-  { city:'other', pri:'💭', type:'👁️',   name:'Rainbow Village — Taichung',       addr:'No. 56, Lane 56, Chuncheng Rd, Nantun, Taichung',    lat:24.1241, lng:120.6629, itin:null },
-  { city:'other', pri:'✨', type:'🍜👁️', name:'Miaokou Night Market — Keelung',   addr:"Rensan Rd, Ren'ai District, Keelung City",            lat:25.1290, lng:121.7386, itin:null },
-  { city:'other', pri:'✨', type:'👁️🎯', name:'Wulai Waterfall + Atayal Village', addr:'Wulai Township, New Taipei City (May = fireflies)',   lat:24.8697, lng:121.5540, itin:null },
+  { city:'other', pri:'✨', type:'🍜👁️', name:'Miyahara — Taichung (宮原眼科)',   addr:'No. 20, Zhongshan Rd, Central District, Taichung',    lat:24.1376, lng:120.6850, itin:'Trip 2, Apr 28' },
+  { city:'other', pri:'💭', type:'👁️',   name:'Rainbow Village — Taichung',       addr:'No. 56, Lane 56, Chuncheng Rd, Nantun, Taichung',     lat:24.1241, lng:120.6629, itin:null },
+  { city:'other', pri:'✨', type:'🍜👁️', name:'Miaokou Night Market — Keelung',   addr:"Rensan Rd, Ren'ai District, Keelung City",             lat:25.1290, lng:121.7386, itin:null },
+  { city:'other', pri:'✨', type:'👁️🎯', name:'Wulai Waterfall + Atayal Village', addr:'Wulai Township, New Taipei City (May = fireflies)',    lat:24.8697, lng:121.5540, itin:null },
 ];
 
-// ── MARKER ICON ─────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────────────────────────
+// ROUTES
+// ────────────────────────────────────────────────────────────────────────────
+const routes = [
+  // ── WEEK 1 TRANSIT ──
+  {
+    type: 'train', date: 'Apr 19',
+    label: '🚆 HSR: Taipei → Kaohsiung',
+    detail: 'Taiwan High Speed Rail · ~1.5h · ~NT$1,490<br>Taipei Main → Zuoying (Kaohsiung)',
+    coords: [
+      [25.048, 121.514], [24.901, 121.294], [24.796, 120.982],
+      [24.480, 120.685], [23.490, 120.436], [22.702, 120.298]
+    ]
+  },
+  // ── WEEK 1 BIKE ROUTE ──
+  {
+    type: 'bike', date: 'Apr 20',
+    label: '🚴 Bike: Kaohsiung → Checheng',
+    detail: '~55 mi (89 km) · ~1,100 ft gain · Moderate<br>Southwest coast → Eluanbi (southern tip) → Checheng',
+    coords: [
+      [22.627, 120.301],
+      [22.500, 120.370],
+      [22.450, 120.440],
+      [22.370, 120.584],
+      [22.175, 120.730],
+      [22.002, 120.744],
+      [21.958, 120.810],
+      [21.901, 120.854],
+      [22.015, 120.700]
+    ]
+  },
+  {
+    type: 'bike', date: 'Apr 21',
+    label: '🚴 Bike: Checheng → Taitung',
+    detail: '~74 mi (119 km) · ~4,300 ft gain · Challenging ⚠️<br>Shuangliu Forest → Dawu → Taitung',
+    coords: [
+      [22.015, 120.700],
+      [22.080, 120.820],
+      [22.200, 120.920],
+      [22.350, 121.000],
+      [22.500, 121.050],
+      [22.620, 121.100],
+      [22.757, 121.152]
+    ]
+  },
+  {
+    type: 'bike', date: 'Apr 22',
+    label: '🚴 Bike: Taitung → Yuli',
+    detail: '~52 mi (84 km) · ~1,200 ft gain · Moderate<br>Huadong Rift Valley · Chishang rice fields · Yuli',
+    coords: [
+      [22.757, 121.152],
+      [22.900, 121.205],
+      [23.040, 121.298],
+      [23.094, 121.353],
+      [23.200, 121.340],
+      [23.338, 121.312]
+    ]
+  },
+  {
+    type: 'bike', date: 'Apr 23',
+    label: '🚴 Bike: Yuli → Hualien',
+    detail: '~58 mi (93 km) · ~2,000 ft gain · Moderate<br>East coast cliffs · Pacific views · Hualien 🎉',
+    coords: [
+      [23.338, 121.312],
+      [23.450, 121.380],
+      [23.580, 121.440],
+      [23.700, 121.510],
+      [23.840, 121.570],
+      [23.990, 121.601]
+    ]
+  },
+  // ── WEEK 1 RETURN ──
+  {
+    type: 'train', date: 'Apr 25',
+    label: '🚆 Train: Hualien → Taipei',
+    detail: 'Puyuma / Taroko Express · ~2h scenic · ~NT$440<br>East coast cliffs → Yilan → Taipei',
+    coords: [
+      [23.990, 121.601],
+      [24.150, 121.647],
+      [24.380, 121.700],
+      [24.600, 121.763],
+      [24.760, 121.749],
+      [24.960, 121.660],
+      [25.048, 121.517]
+    ]
+  },
+  // ── WEEK 2 TAIPEI BASE ──
+  {
+    type: 'train', date: 'Apr 27',
+    label: '🚆 Train: Taipei → Ruifang → Shifen/Jiufen',
+    detail: 'Day trip · Taipei Main → Ruifang (~1h, NT$49)<br>→ Shifen (~20 min) · Bus → Jiufen · Return bus ~NT$100',
+    coords: [
+      [25.048, 121.517],
+      [25.063, 121.560],
+      [25.080, 121.640],
+      [25.107, 121.773],
+      [25.036, 121.779]
+    ]
+  },
+  {
+    type: 'train', date: 'Apr 27',
+    label: '🚌 Bus: Shifen → Jiufen',
+    detail: 'Shifen → Jiufen · ~20 min · NT$25',
+    coords: [
+      [25.036, 121.779],
+      [25.075, 121.810],
+      [25.108, 121.844]
+    ]
+  },
+  // ── WEEK 2 SUN MOON LAKE ──
+  {
+    type: 'train', date: 'Apr 28',
+    label: '🚆 HSR: Taipei → Taichung',
+    detail: 'Taiwan HSR · ~40 min · ~NT$700<br>Stop at Miyahara ice cream (宮原眼科) if time',
+    coords: [
+      [25.048, 121.514],
+      [24.796, 120.982],
+      [24.480, 120.685]
+    ]
+  },
+  {
+    type: 'bus', date: 'Apr 28',
+    label: '🚌 Bus: Taichung → Sun Moon Lake',
+    detail: 'Nantou Bus 6670 · ~1.5h · NT$193<br>From THSR Taichung Station → Shuishe Village',
+    coords: [
+      [24.480, 120.685],
+      [24.320, 120.750],
+      [24.100, 120.820],
+      [23.860, 120.918]
+    ]
+  },
+  // ── WEEK 2 ALISHAN ──
+  {
+    type: 'bus', date: 'Apr 30',
+    label: '🚌 Bus: Sun Moon Lake → Chiayi',
+    detail: '⚠️ Only 2 departures/day (1pm, 2:30pm) · ~2h · NT$230<br>Book ahead: yulinbus@gmail.com',
+    coords: [
+      [23.860, 120.918],
+      [23.700, 120.700],
+      [23.545, 120.460],
+      [23.480, 120.432]
+    ]
+  },
+  {
+    type: 'bus', date: 'Apr 30',
+    label: '🚌 Bus/Train: Chiayi → Alishan',
+    detail: 'Forest Railway (~2.5h, scenic) or bus (~2h) · Arrive evening<br>⚠️ Book Zhushan Sunrise Train tickets immediately on arrival',
+    coords: [
+      [23.480, 120.432],
+      [23.490, 120.560],
+      [23.505, 120.700],
+      [23.513, 120.803]
+    ]
+  },
+  // ── WEEK 2 TAINAN ──
+  {
+    type: 'bus', date: 'May 1',
+    label: '🚌 Bus: Alishan → Chiayi',
+    detail: 'After sunrise + forest walk · ~1.5h · NT$200',
+    coords: [
+      [23.513, 120.803],
+      [23.505, 120.700],
+      [23.490, 120.560],
+      [23.480, 120.432]
+    ]
+  },
+  {
+    type: 'train', date: 'May 1',
+    label: '🚆 HSR: Chiayi → Tainan',
+    detail: 'Taiwan HSR · ~15 min · NT$140<br>Then check in West Central District',
+    coords: [
+      [23.480, 120.432],
+      [23.240, 120.320],
+      [22.998, 120.196]
+    ]
+  },
+  // ── WEEK 2 RETURN TO TAIPEI ──
+  {
+    type: 'train', date: 'May 3',
+    label: '🚆 HSR: Tainan → Taipei',
+    detail: 'Taiwan HSR · ~2h · ~NT$1,350<br>Arrive Taipei for final evening, Raohe Night Market',
+    coords: [
+      [22.998, 120.196],
+      [23.490, 120.436],
+      [24.300, 120.654],
+      [24.796, 120.982],
+      [25.048, 121.514]
+    ]
+  },
+];
+
+// ────────────────────────────────────────────────────────────────────────────
+// MARKER ICON
+// ────────────────────────────────────────────────────────────────────────────
 function makeIcon(typeStr, pri) {
   const { color, emoji } = getPinStyle(typeStr);
-  const size = pri === '🔥' ? 36 : pri === '✨' ? 28 : 22;
+  const size     = pri === '🔥' ? 36 : pri === '✨' ? 28 : 22;
   const fontSize = pri === '🔥' ? 16 : pri === '✨' ? 13 : 10;
-  const border = pri === '🔥' ? '2.5px solid rgba(255,255,255,0.95)' : '2px solid rgba(255,255,255,0.8)';
-  const shadow = pri === '🔥'
+  const border   = pri === '🔥' ? '2.5px solid rgba(255,255,255,0.95)' : '2px solid rgba(255,255,255,0.75)';
+  const shadow   = pri === '🔥'
     ? '0 3px 10px rgba(0,0,0,0.5), 0 0 0 2px rgba(255,255,255,0.2)'
     : '0 2px 6px rgba(0,0,0,0.4)';
-
-  const html = `<div style="
-    width:${size}px; height:${size}px;
-    background:${color};
-    border-radius:50%;
-    border:${border};
-    box-shadow:${shadow};
-    display:flex; align-items:center; justify-content:center;
-    font-size:${fontSize}px;
-    line-height:1;
-  ">${emoji}</div>`;
-
   return L.divIcon({
     className: '',
-    html,
+    html: `<div style="width:${size}px;height:${size}px;background:${color};border-radius:50%;border:${border};box-shadow:${shadow};display:flex;align-items:center;justify-content:center;font-size:${fontSize}px;line-height:1;">${emoji}</div>`,
     iconSize: [size, size],
-    iconAnchor: [size / 2, size / 2],
-    popupAnchor: [0, -(size / 2 + 6)]
+    iconAnchor: [size/2, size/2],
+    popupAnchor: [0, -(size/2 + 6)]
   });
 }
 
-// ── POPUP ────────────────────────────────────────────────────────────────────
+// ────────────────────────────────────────────────────────────────────────────
+// POPUP CONTENT
+// ────────────────────────────────────────────────────────────────────────────
 function makePopup(p) {
-  const city = CITIES[p.city];
+  const city  = CITIES[p.city];
   const { color } = getPinStyle(p.type);
   const isScheduled = !!p.itin;
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name + ' ' + p.addr)}`;
-
   return `
-    <div class="popup-header" style="background:${color}">
-      ${p.name}
-    </div>
+    <div class="popup-header" style="background:${color}">${p.name}</div>
     <div class="popup-body">
       <div class="popup-meta">
         <span class="popup-badge">${p.pri} ${PRI_LABEL[p.pri]}</span>
@@ -380,39 +649,187 @@ function makePopup(p) {
     </div>`;
 }
 
-// ── BUILD LAYERS ─────────────────────────────────────────────────────────────
-const layers = {};
-Object.keys(CITIES).forEach(k => { layers[k] = L.layerGroup().addTo(map); });
+// ────────────────────────────────────────────────────────────────────────────
+// STATE
+// ────────────────────────────────────────────────────────────────────────────
+const cityActive   = {};     // city key → bool
+const routeActive  = {};     // route type key → bool
+let   selectedDate = null;   // null = all dates
 
-places.forEach(p => {
-  L.marker([p.lat, p.lng], { icon: makeIcon(p.type, p.pri) })
-   .bindPopup(makePopup(p), { maxWidth: 310 })
-   .addTo(layers[p.city]);
+// Pre-compute date sets
+const placeDates = places.map(p => parseItinDates(p.itin));  // array of date arrays
+const routeDates = routes.map(r => r.date);                   // string per route
+
+// Dates that have scheduled items or routes
+const datesWithItems = new Set();
+places.forEach(p => { parseItinDates(p.itin).forEach(d => datesWithItems.add(d)); });
+const datesWithRoutes = new Set(routes.map(r => r.date));
+
+// ────────────────────────────────────────────────────────────────────────────
+// BUILD MARKERS
+// ────────────────────────────────────────────────────────────────────────────
+const markerObjects = places.map((p, i) => {
+  const m = L.marker([p.lat, p.lng], { icon: makeIcon(p.type, p.pri) })
+    .bindPopup(makePopup(p), { maxWidth: 310 });
+  m.addTo(map);
+  return { marker: m, city: p.city, dates: placeDates[i] };
 });
 
-// ── CITY TOGGLE BUTTONS ──────────────────────────────────────────────────────
-const toggleContainer = document.getElementById('city-toggles');
-const activeState = {};
+// ────────────────────────────────────────────────────────────────────────────
+// BUILD ROUTE POLYLINES
+// ────────────────────────────────────────────────────────────────────────────
+const routeObjects = routes.map(r => {
+  const cfg = ROUTE_TYPES[r.type];
+  const poly = L.polyline(r.coords, {
+    color: cfg.color,
+    weight: cfg.weight,
+    opacity: cfg.opacity,
+    dashArray: cfg.dashArray,
+    lineJoin: 'round',
+    lineCap: 'round',
+  });
+  poly.bindPopup(`
+    <div class="route-popup-wrap">
+      <div class="route-popup-head" style="background:${cfg.color}">${r.label}</div>
+      <div class="route-popup-body">${r.detail}</div>
+    </div>`, { maxWidth: 280 });
+  poly.addTo(map);
+  return { polyline: poly, type: r.type, date: r.date };
+});
 
+// ────────────────────────────────────────────────────────────────────────────
+// VISIBILITY UPDATE
+// ────────────────────────────────────────────────────────────────────────────
+function updateVisibility() {
+  markerObjects.forEach(({ marker, city, dates }) => {
+    const cityOk = cityActive[city] !== false;
+    const dateOk = !selectedDate || dates.includes(selectedDate);
+    if (cityOk && dateOk) {
+      if (!map.hasLayer(marker)) marker.addTo(map);
+    } else {
+      if (map.hasLayer(marker)) map.removeLayer(marker);
+    }
+  });
+  routeObjects.forEach(({ polyline, type, date }) => {
+    const typeOk = routeActive[type] !== false;
+    const dateOk = !selectedDate || date === selectedDate;
+    if (typeOk && dateOk) {
+      if (!map.hasLayer(polyline)) polyline.addTo(map);
+    } else {
+      if (map.hasLayer(polyline)) map.removeLayer(polyline);
+    }
+  });
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// BUILD CITY TOGGLES
+// ────────────────────────────────────────────────────────────────────────────
+const toggleContainer = document.getElementById('city-toggles');
 Object.entries(CITIES).forEach(([key, city]) => {
-  activeState[key] = true;
+  cityActive[key] = true;
   const btn = document.createElement('div');
   btn.className = 'city-toggle active';
   btn.innerHTML = `<div class="city-dot" style="background:${city.color}"></div>${city.emoji} ${city.label}`;
   btn.addEventListener('click', () => {
-    activeState[key] = !activeState[key];
-    if (activeState[key]) {
-      layers[key].addTo(map);
-      btn.classList.add('active');
-      btn.classList.remove('inactive');
-    } else {
-      map.removeLayer(layers[key]);
-      btn.classList.remove('active');
-      btn.classList.add('inactive');
-    }
+    cityActive[key] = !cityActive[key];
+    btn.classList.toggle('active', cityActive[key]);
+    btn.classList.toggle('inactive', !cityActive[key]);
+    updateVisibility();
   });
   toggleContainer.appendChild(btn);
 });
+
+// ────────────────────────────────────────────────────────────────────────────
+// BUILD ROUTE TOGGLES
+// ────────────────────────────────────────────────────────────────────────────
+const routeToggleContainer = document.getElementById('route-toggles');
+Object.entries(ROUTE_TYPES).forEach(([key, rt]) => {
+  routeActive[key] = true;
+  const btn = document.createElement('div');
+  btn.className = 'route-toggle active';
+  btn.style.cssText = `border: 1.5px solid ${rt.color}33; color: ${rt.color};`;
+
+  // Build line preview based on dash style
+  let lineStyle = `background:${rt.color};`;
+  if (rt.dashArray === '10,6') {
+    lineStyle = `background: repeating-linear-gradient(90deg,${rt.color} 0,${rt.color} 6px,transparent 6px,transparent 11px);`;
+  } else if (rt.dashArray === '4,8') {
+    lineStyle = `background: repeating-linear-gradient(90deg,${rt.color} 0,${rt.color} 3px,transparent 3px,transparent 8px);`;
+  }
+  btn.innerHTML = `<div class="route-line" style="${lineStyle}height:4px;width:22px;border-radius:2px;flex-shrink:0;"></div>${rt.label}`;
+
+  btn.addEventListener('click', () => {
+    routeActive[key] = !routeActive[key];
+    btn.classList.toggle('active', routeActive[key]);
+    btn.classList.toggle('inactive', !routeActive[key]);
+    updateVisibility();
+  });
+  routeToggleContainer.appendChild(btn);
+});
+
+// ────────────────────────────────────────────────────────────────────────────
+// BUILD DATE PILLS
+// ────────────────────────────────────────────────────────────────────────────
+const datePillsContainer = document.getElementById('date-pills');
+const datePillEls = {};
+
+TRIP_DATES.forEach(d => {
+  const hasItems  = datesWithItems.has(d.key);
+  const hasRoute  = datesWithRoutes.has(d.key);
+  const pill = document.createElement('div');
+  pill.className = 'date-pill' +
+    (hasItems  ? ' has-items'  : '') +
+    (hasRoute  ? ' has-route'  : '');
+  pill.innerHTML = `
+    <span class="dp-month">${d.month}</span>
+    <span class="dp-day">${d.day}</span>
+    <span class="dp-wd">${d.wd}</span>
+    <div class="dp-dot"></div>`;
+  pill.title = d.key + (hasItems ? ' — has scheduled items' : '') + (hasRoute ? ' · has route' : '');
+  pill.addEventListener('click', () => selectDate(d.key));
+  datePillsContainer.appendChild(pill);
+  datePillEls[d.key] = pill;
+});
+
+// "All" button
+document.getElementById('date-all-btn').addEventListener('click', () => selectDate(null));
+
+function selectDate(dateKey) {
+  selectedDate = dateKey;
+  // Update "All" button
+  document.getElementById('date-all-btn').classList.toggle('active', !dateKey);
+  // Update date pills
+  TRIP_DATES.forEach(d => {
+    datePillEls[d.key].classList.toggle('active', d.key === dateKey);
+  });
+  updateVisibility();
+  // If a date is selected, zoom to relevant content
+  if (dateKey) {
+    const visible = markerObjects.filter(({ city, dates }) =>
+      cityActive[city] !== false && dates.includes(dateKey)
+    );
+    const visibleRoutes = routeObjects.filter(({ type, date }) =>
+      routeActive[type] !== false && date === dateKey
+    );
+    let bounds = null;
+    if (visible.length > 0 || visibleRoutes.length > 0) {
+      const latLngs = [
+        ...visible.map(({ marker }) => marker.getLatLng()),
+        ...visibleRoutes.flatMap(({ polyline }) => polyline.getLatLngs()),
+      ];
+      bounds = L.latLngBounds(latLngs);
+    }
+    if (bounds && bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [50, 50], maxZoom: 13 });
+    }
+  }
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// INIT
+// ────────────────────────────────────────────────────────────────────────────
+resizeMap();
+updateVisibility();
 </script>
 </body>
 </html>
