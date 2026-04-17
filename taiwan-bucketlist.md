@@ -1,3 +1,8 @@
+---
+title: "Taiwan Bucket List"
+layout: default
+---
+
 # 🇹🇼 Taiwan Bucket List
 
 > **Priority:** 🔥 Must · ✨ Worth It · 💭 If Time &nbsp;|&nbsp; **Type:** 👁️ See · 🍜 Eat · 🎯 Do

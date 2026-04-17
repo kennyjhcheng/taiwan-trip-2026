@@ -1,3 +1,8 @@
+---
+title: "Week 1 — Bike Route"
+layout: default
+---
+
 # 2026 Taiwan Bike Trip — Week 1
 
 **Dates:** April 17–25, 2026 | **Group:** 6 riders | **Route:** Kaohsiung → Hualien
