@@ -80,16 +80,12 @@
 
 ## 🛒 Buy in Taipei Today (Apr 18 — Guanghua Digital Plaza)
 
-*Guanghua Digital Plaza (光華數位新天地) — buy-and-sell-back prices, great for tech.*
-
-- [ ] Large portable battery bank (10,000–20,000 mAh)
-- [ ] Phone handlebar mount / bike stand
-- [ ] Action camera (GoPro-style) for the ride
-- [ ] Wireless earphones
-- [ ] Fit-over sunglasses (wraparound — wind + UV protection on the bike)
-
-*Also pick up nearby:*
-- [ ] Chamois cream — any cycling shop in Taipei (Assos, DZ Nuts, or equivalent)
+- [x] Large portable battery bank
+- [x] Phone handlebar mount / bike stand
+- [x] Action camera (GoPro-style)
+- [x] Wireless earphones
+- [x] Fit-over sunglasses (wraparound)
+- [x] Chamois cream
 - [ ] Electrolyte packets or tabs (Liquid IV equivalent — available at Wellcome / PXmart)
 - [ ] Sunscreen SPF 50+
 
