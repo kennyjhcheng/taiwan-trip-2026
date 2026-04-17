@@ -218,6 +218,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 function resizeMap() {
   const h = document.getElementById('header').offsetHeight;
   document.getElementById('map').style.height = (window.innerHeight - h) + 'px';
+  map.invalidateSize();
 }
 window.addEventListener('resize', resizeMap);
 // Called after DOM is ready at bottom of script
