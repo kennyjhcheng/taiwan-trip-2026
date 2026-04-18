@@ -16,7 +16,7 @@ layout: default
 | Done | Pri | Type | What | Address | Itinerary |
 |---|---|---|---|---|---|
 | [ ] | 🔥 | 👁️🍜 | **Jiufen Old Street** — red lanterns, hillside alleys, ocean views; go at dusk | 基山街, Ruifang District, New Taipei City | Trip 2, Apr 27 |
-| [ ] | 🔥 | 🎯👁️ | **Elephant Mountain (象山)** — 20-min hike; iconic Taipei 101 skyline view | Xiangshan Trailhead, No. 150, Section 5, Xinyi Rd, Xinyi District, Taipei | Trip 2, Apr 26 |
+| [ ] | 🔥 | 🎯👁️ | **Elephant Mountain (象山)** — 20-min hike; iconic Taipei 101 skyline view | Xiangshan Trailhead, No. 150, Section 5, Xinyi Rd, Xinyi District, Taipei | Trip 1, Apr 18 |
 | [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
 | [ ] | 🔥 | 👁️🍜🎯 | **Ximending** — pedestrian youth district; wandering + street food + shopping | Wuchang St, Wanhua District, Taipei 108 | Trip 1, Apr 18 (mentioned) |
 | [ ] | 🔥 | 🍜👁️ | **Shilin Night Market** — largest in Taiwan; oyster vermicelli, giant fried chicken, stinky tofu | No. 101, Jihe Rd, Shilin District, Taipei 111 | Trip 1, Apr 18 (mentioned) |
@@ -26,7 +26,7 @@ layout: default
 | [ ] | ✨ | 🍜👁️ | **Raohe Night Market** — black pepper buns (go to the temple stall), pork rib soup | Raohe St, Songshan District, Taipei 105 | Trip 2, May 3 |
 | [ ] | ✨ | 👁️🎯 | **CKS Memorial Hall** — grand plaza, changing of the guard on the hour; free | No. 21, Zhongshan S. Rd, Zhongzheng District, Taipei 100 | — |
 | [ ] | ✨ | 🎯👁️ | **Beitou Hot Springs** — volcanic hot spring district; Millennium pool is public (NT$40–80) | No. 2, Lane 2, Zhongshan Rd, Beitou District, Taipei 112 | Trip 2, Apr 26 |
-| [ ] | ✨ | 🎯👁️ | **Maokong Gondola** — cable car to mountain teahouses; great evening activity | No. 8, Section 2, Xinsheng S. Rd, Wenshan District, Taipei 116 | — |
+| [ ] | ✨ | 🎯👁️ | **Maokong Gondola** — cable car to mountain teahouses; great evening activity | No. 8, Section 2, Xinsheng S. Rd, Wenshan District, Taipei 116 | Trip 1, Apr 18 |
 | [ ] | ✨ | 🍜 | **Fu Hang Dou Jiang (阜杭豆漿)** — legendary breakfast; soy milk + savory bing; go early | 2F, No. 108, Section 1, Zhongxiao E. Rd, Zhongzheng District, Taipei | Trip 2, Apr 27 (suggested) |
 | [ ] | ✨ | 🍜👁️ | **Yongkang Street food crawl** — scallion pancakes, mango ice, bubble tea all in one block | Yongkang St, Da'an District, Taipei 106 | — |
 | [ ] | ✨ | 🎯🍜 | **Guanghua Digital Plaza** — electronics market; good for buy-and-return gear | No. 8, Section 3, Civic Blvd, Zhongzheng District, Taipei 100 | Trip 1, Apr 18 (mentioned) |

@@ -263,6 +263,7 @@ const ROUTE_TYPES = {
   bike:  { label: '🚴 Bike',      color: '#84cc16', dashArray: null,   weight: 5, opacity: 0.9 },
   train: { label: '🚆 Train/HSR', color: '#fb923c', dashArray: '10,6', weight: 3, opacity: 0.85 },
   bus:   { label: '🚌 Bus',       color: '#38bdf8', dashArray: '4,8',  weight: 3, opacity: 0.85 },
+  mrt:   { label: '🚇 MRT',       color: '#a78bfa', dashArray: '6,4',  weight: 3, opacity: 0.85 },
 };
 
 // ────────────────────────────────────────────────────────────────────────────
@@ -317,8 +318,8 @@ function parseItinDates(itin) {
 const places = [
   // TAIPEI
   { city:'taipei', pri:'🔥', type:'👁️🍜',    name:'Jiufen Old Street',           addr:'基山街, Ruifang District, New Taipei',              lat:25.1085, lng:121.8441, itin:'Trip 2, Apr 27' },
-  { city:'taipei', pri:'🔥', type:'🎯👁️',    name:'Elephant Mountain (象山)',     addr:'Xiangshan Trailhead, Xinyi District, Taipei',       lat:25.0268, lng:121.5768, itin:'Trip 2, Apr 26' },
-  { city:'taipei', pri:'🔥', type:'👁️🍜',    name:'Longshan Temple',              addr:'No. 211, Guangzhou St, Wanhua, Taipei',             lat:25.0374, lng:121.4997, itin:null },
+  { city:'taipei', pri:'🔥', type:'🎯👁️',    name:'Elephant Mountain (象山)',     addr:'Xiangshan Trailhead, Xinyi District, Taipei',       lat:25.0268, lng:121.5768, itin:'Trip 1, Apr 18' },
+  { city:'taipei', pri:'🔥', type:'👁️🍜',    name:'Longshan Temple',              addr:'No. 211, Guangzhou St, Wanhua, Taipei',             lat:25.0374, lng:121.4997, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'🔥', type:'👁️🍜🎯', name:'Ximending',                    addr:'Wuchang St, Wanhua District, Taipei',               lat:25.0425, lng:121.5077, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'🔥', type:'🍜👁️',    name:'Shilin Night Market',          addr:'No. 101, Jihe Rd, Shilin District, Taipei',         lat:25.0877, lng:121.5238, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'🔥', type:'🍜',       name:'Din Tai Fung (Original)',      addr:"No. 194, Sec 2, Xinyi Rd, Da'an, Taipei",           lat:25.0330, lng:121.5440, itin:null },
@@ -327,7 +328,7 @@ const places = [
   { city:'taipei', pri:'✨', type:'🍜👁️',    name:'Raohe Night Market',           addr:'Raohe St, Songshan District, Taipei',               lat:25.0503, lng:121.5773, itin:'Trip 2, May 3' },
   { city:'taipei', pri:'✨', type:'👁️🎯',    name:'CKS Memorial Hall',            addr:'No. 21, Zhongshan S. Rd, Zhongzheng, Taipei',       lat:25.0361, lng:121.5218, itin:null },
   { city:'taipei', pri:'✨', type:'🎯👁️',    name:'Beitou Hot Springs',           addr:'No. 2, Lane 2, Zhongshan Rd, Beitou, Taipei',       lat:25.1366, lng:121.5044, itin:'Trip 2, Apr 26' },
-  { city:'taipei', pri:'✨', type:'🎯👁️',    name:'Maokong Gondola',              addr:'Taipei Zoo Station, Wenshan District, Taipei',      lat:24.9994, lng:121.5686, itin:null },
+  { city:'taipei', pri:'✨', type:'🎯👁️',    name:'Maokong Gondola',              addr:'Taipei Zoo Station, Wenshan District, Taipei',      lat:24.9994, lng:121.5686, itin:'Trip 1, Apr 18' },
   { city:'taipei', pri:'✨', type:'🍜',       name:'Fu Hang Dou Jiang (阜杭豆漿)', addr:'2F, No. 108, Sec 1, Zhongxiao E. Rd, Taipei',       lat:25.0448, lng:121.5178, itin:'Trip 2, Apr 27' },
   { city:'taipei', pri:'✨', type:'🍜👁️',    name:'Yongkang Street Food Crawl',   addr:"Yongkang St, Da'an District, Taipei",               lat:25.0327, lng:121.5310, itin:null },
   { city:'taipei', pri:'✨', type:'🎯🍜',    name:'Guanghua Digital Plaza',        addr:'No. 8, Sec 3, Civic Blvd, Zhongzheng, Taipei',      lat:25.0441, lng:121.5315, itin:'Trip 1, Apr 18' },
@@ -418,6 +419,43 @@ const places = [
 // ROUTES
 // ────────────────────────────────────────────────────────────────────────────
 const routes = [
+  // ── APR 18 TAIPEI DAY ROUTE ──
+  {
+    type: 'mrt', date: 'Apr 18',
+    label: '🚇 MRT: Taipei Main → Elephant Mountain',
+    detail: 'Red Line south to Xiangshan · ~15 min · ~NT$20<br>Trailhead is a 2-min walk from station',
+    coords: [
+      [25.048, 121.514],
+      [25.040, 121.525],
+      [25.033, 121.543],
+      [25.027, 121.575]
+    ]
+  },
+  {
+    type: 'mrt', date: 'Apr 18',
+    label: '🚇 MRT + Gondola: Elephant Mountain → Maokong',
+    detail: 'Red Line north to Zhongxiao Fuxing → Brown Line to Taipei Zoo · ~30 min<br>Then Maokong Gondola up (~25 min, NT$120 one-way) · Gondola runs until 10 PM on Sat',
+    coords: [
+      [25.027, 121.575],
+      [25.042, 121.544],
+      [25.027, 121.543],
+      [25.012, 121.565],
+      [24.999, 121.578],
+      [24.999, 121.569]
+    ]
+  },
+  {
+    type: 'mrt', date: 'Apr 18',
+    label: '🚇 MRT: Maokong → Ximending',
+    detail: 'Gondola down → Brown Line → transfer → Red Line to Ximen · ~45 min<br>Evening plan: Ximending + Longshan Temple with friends',
+    coords: [
+      [24.999, 121.569],
+      [24.999, 121.578],
+      [25.012, 121.555],
+      [25.027, 121.520],
+      [25.042, 121.507]
+    ]
+  },
   // ── WEEK 1 TRANSIT ──
   {
     type: 'train', date: 'Apr 19',

@@ -93,13 +93,22 @@ layout: default
 - Clear customs, get SIM (or activate Google Fi globally)
 - Withdraw NTD at airport ATM (NT$2,000–3,000 to start)
 - MRT Airport Express → Taipei Main (~35 min, NT$160)
-- **3:00 PM — Check in at MU House ✓ booked**
+- Drop luggage at MU House (ask front desk to hold bags before 3 PM check-in)
   - 19F-1, No. 50, Section 1, Zhongxiao West Road, Zhongzheng District
-  - ~10 min walk from Taipei Main Station
-- Rest and recover from flight
-- Light explore: Ximending, Shilin Night Market, or Taipei 101
-- **Longshan Temple** (No. 211, Guangzhou St, Wanhua) — active temple with great street snacks outside; easy evening stop near Ximending
-- **Night:** Pack gear, stock supplies for Kaohsiung transfer tomorrow
+
+**Daytime — Clockwise sweep of the city:**
+- 🚇 Red Line south to Xiangshan → **Elephant Mountain (象山)** — 20-min stair hike, iconic Taipei 101 skyline shot
+- Walk through **Xinyi District** (Taipei 101 area, good for coffee/snacks)
+- 🚇 Transfer at Zhongxiao Fuxing → Brown Line → Taipei Zoo → **Maokong Gondola** (NT$120 one-way) — afternoon/sunset at a mountain teahouse with oolong tea and sweeping city views; gondola runs until 10 PM on Saturdays
+
+- **3:00 PM — Check in at MU House ✓ booked** (check in before heading to Maokong if timing allows, or check in on the way back)
+
+**Evening — Group arrives:**
+- 🚇 Red Line to Ximen → **Ximending** (pedestrian youth district, street food, wandering)
+- **Longshan Temple** (No. 211, Guangzhou St, Wanhua) — 5 min walk from Ximending; active temple with great old-school snack stalls outside
+- Meet friends in the evening at Ximending
+
+**Night:** Pack gear, stock supplies for Kaohsiung transfer tomorrow
 
 ---
 
