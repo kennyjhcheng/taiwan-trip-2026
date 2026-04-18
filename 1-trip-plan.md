@@ -3,6 +3,8 @@ title: "Week 1 — Bike Route"
 layout: default
 ---
 
+[← Back to Home](index.md)
+
 # 2026 Taiwan Bike Trip — Week 1
 
 **Dates:** April 17–25, 2026 | **Group:** 6 riders | **Route:** Kaohsiung → Hualien
@@ -364,8 +366,8 @@ Alternate ideas for rest of group if they skip Taroko: coastal ride, Hualien cit
 | ✅ Bike rental (Kenny) | ~$225 USD | NT$7,200 — paid Mar 25 |
 | ✅ Hotel — Taipei Apr 18 (MU House) | $255.30 USD | 1 night, 3 adults — non-refundable |
 | ✅ Airbnb — Kaohsiung Apr 19 | TBD | Confirmation HMX9EKYYMQ |
-| ✅ HSR Train — Taipei → Zuoying Apr 19 | ~$186 USD | NT$5,960 · Train 129 · 4 adults · Car 9 seats 7D/7E/8D/8E |
-| **Confirmed Total** | **$1,402+ USD** | |
+| ✅ HSR Train — Taipei → Zuoying Apr 19 | ~$47 USD | NT$1,490 (Kenny's share — NT$5,960 split 4 ways) · Train 129 · Car 9 seats 7D/7E/8D/8E |
+| **Confirmed Total** | **$1,263+ USD** | |
 
 ### Estimated Expenses (Taiwan — 8 days, Kenny only)
 

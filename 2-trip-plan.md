@@ -3,6 +3,8 @@ title: "Week 2 — Solo Travel Plan"
 layout: default
 ---
 
+[← Back to Home](index.md)
+
 # 2026 Taiwan Solo Trip — Week 2 Planning Guide
 
 **Dates:** April 26 – May 3, 2026 (8 full days) | **Traveler:** Kenny (solo)
