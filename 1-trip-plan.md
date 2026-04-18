@@ -100,8 +100,11 @@ layout: default
 
 **Daytime — Clockwise sweep of the city:**
 - 🚇 Red Line south to Xiangshan → **Elephant Mountain (象山)** — 20-min stair hike, iconic Taipei 101 skyline shot
-- Walk through **Xinyi District** (Taipei 101 area, good for coffee/snacks)
-- 🚇 Transfer at Zhongxiao Fuxing → Brown Line → Taipei Zoo → **Maokong Gondola** (NT$120 one-way) — afternoon/sunset at a mountain teahouse with oolong tea and sweeping city views; gondola runs until 10 PM on Saturdays
+- Walk through **Xinyi District / Taipei 101** — good coffee/snack zone before heading east
+- 🚇 Transfer at Zhongxiao Fuxing → Brown Line → Taipei Zoo → **Maokong Gondola** (NT$120 one-way) — ride up into **Maokong (貓空)**; gondola runs until 10 PM on Saturdays
+- **Sunyang Tea House (上暘茶莊)** — classic Maokong tea stop for mountain views + oolong
+- **Maokong Yang Tai (貓空暘臺)** — quick tea ice cream stop near the gondola station
+- **貓空美食** — leave time for tea-house snacks / mountain dinner in the Maokong station area before sunset
 
 - **3:00 PM — Check in at MU House ✓ booked** (check in before heading to Maokong if timing allows, or check in on the way back)
 
