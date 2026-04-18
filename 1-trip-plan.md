@@ -114,7 +114,9 @@ layout: default
 
 ### Apr 19 (Sun) — Transfer to Kaohsiung + Bike Pickup
 - **Check out of MU House by 12:00 PM** (earliest 6:00 AM)
-- Morning: Taiwan HSR Taipei → Zuoying (Kaohsiung) ~1.5h (~NT$1,490)
+- ✅ **Taiwan HSR Train 129 — BOOKED**
+  - 12:31 Taipei → 14:05 Zuoying (Kaohsiung) · 1h 34m
+  - Car 9: Seats 7D, 7E, 8D, 8E · Adult × 4 · TWD 5,960 total
 - **11:00 AM — Bike pickup at Giant Adventure, Kaohsiung Sanduo Fuxing Store**
   - Order #TW_R1_269080542 — TCR AD Pro 0 UT Di2 (ML) — Paid NT$7,200
 - Test ride, adjust bike fit (saddle height, cleats)
@@ -248,7 +250,7 @@ Alternate ideas for rest of group if they skip Taroko: coastal ride, Hualien cit
 ---
 
 #### 🏙️ Apr 18 — Taipei ✅ **BOOKED**
-*Next day: HSR from Taipei Main → Kaohsiung Zuoying (~1.5h, ~NT$1,490)*
+*Next day: HSR Train 129 from Taipei → Kaohsiung Zuoying — 12:31→14:05 (1h 34m) ✅ booked — NT$5,960/4 pax*
 
 | Field | Detail |
 |---|---|
@@ -362,7 +364,8 @@ Alternate ideas for rest of group if they skip Taroko: coastal ride, Hualien cit
 | ✅ Bike rental (Kenny) | ~$225 USD | NT$7,200 — paid Mar 25 |
 | ✅ Hotel — Taipei Apr 18 (MU House) | $255.30 USD | 1 night, 3 adults — non-refundable |
 | ✅ Airbnb — Kaohsiung Apr 19 | TBD | Confirmation HMX9EKYYMQ |
-| **Confirmed Total** | **$1,216+ USD** | |
+| ✅ HSR Train — Taipei → Zuoying Apr 19 | ~$186 USD | NT$5,960 · Train 129 · 4 adults · Car 9 seats 7D/7E/8D/8E |
+| **Confirmed Total** | **$1,402+ USD** | |
 
 ### Estimated Expenses (Taiwan — 8 days, Kenny only)
 
@@ -370,7 +373,7 @@ Alternate ideas for rest of group if they skip Taroko: coastal ride, Hualien cit
 |----------|-----------|-------|
 | Accommodation (8 nights) | ~$480 USD | ~$60/night avg across all stops |
 | Food & drinks | ~$240 USD | ~$30/day (mix of convenience stores, local restaurants, night markets) |
-| Transport (HSR + trains) | ~$65 USD | HSR Taipei→KHH ~$47, Hualien→Taipei train ~$14, local ~$10 |
+| Transport (HSR + trains) | ~$65 USD | HSR Taipei→KHH ✅ confirmed NT$5,960/4 pax, Hualien→Taipei train ~$14, local ~$10 |
 | Luggage forwarding (5 transfers) | ~$45 USD | ~NT$300/bag × 5 = NT$1,500 |
 | Activities & misc | ~$80 USD | Taroko Gorge, night markets, incidentals |
 | Contingency (10%) | ~$90 USD | |
