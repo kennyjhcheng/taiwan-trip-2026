@@ -98,6 +98,7 @@ layout: default
   - ~10 min walk from Taipei Main Station
 - Rest and recover from flight
 - Light explore: Ximending, Shilin Night Market, or Taipei 101
+- **Longshan Temple** (No. 211, Guangzhou St, Wanhua) — active temple with great street snacks outside; easy evening stop near Ximending
 - **Night:** Pack gear, stock supplies for Kaohsiung transfer tomorrow
 
 ---
@@ -124,9 +125,11 @@ layout: default
 
 - Wake up by 6 AM, on bike by 7 AM
 - Route hugs southwest coast to Taiwan's southern tip
+- Pass **Hengchun Old Town** — intact Qing-dynasty walled city, one of few remaining in Taiwan; worth a brief stop
 - Pass Eluanbi (southernmost point of Taiwan)
 - Arrive Checheng
 - ⚠️ Small town — limited options, confirm accommodation and bike storage
+- **Dinner:** Fresh seafood at coastal stalls — you're in a fishing village, grilled catch is the move
 - **Night:** Stock up food/water at convenience stores for tomorrow
 
 ---
@@ -138,6 +141,7 @@ layout: default
 - Route passes through Shuangliu Forest Recreation Area and Dawu
 - Significant mountain climbing — pace yourselves, eat and hydrate constantly
 - Descend into Taitung — celebrate, eat well
+- **Evening (optional):** **Zhiben Hot Springs** — 15 min south of Taitung city; Atayal-area hot spring soak; medically justified after the hardest ride day (~NT$150–300)
 - **Night:** Pack up, stock up
 
 ---
@@ -150,6 +154,7 @@ layout: default
 - Indigenous culture along the route
 - Arrive Yuli
 - ⚠️ Small town — limited options, confirm accommodation and bike storage
+- **Dinner:** Yuli Beef Noodles or Yuli Lamb Hotpot — this town is disproportionately famous for both; ask hostel for the best current spot
 - **Night:** Pack up, stock up
 
 ---
@@ -160,7 +165,8 @@ layout: default
 - Continue north with Pacific Ocean views
 - Pass Fuyuan National Forest Recreation Area and coastal cliffs
 - Arrive Hualien — 🎉 bike route complete!
-- Feast tonight — well deserved
+- **Afternoon/evening:** Hualien Mochi from shops near the night market + Dongdamen Night Market for the celebration dinner
+- **Dinner option:** Hualien Beef Noodles — local variation uses more tomato; excellent near the train station area
 
 ---
 
@@ -168,6 +174,7 @@ layout: default
 
 **Plan: Day trip to Taroko Gorge** (Kenny's Week 2 plan assumes Taroko is covered today — see `2-trip-plan.md`).
 
+- **Morning (before gorge):** **Qixingtan Beach (七星潭)** — crescent pebble beach with mountain backdrop, 20 min from Hualien city; on the way toward Taroko; stunning in morning light
 - Bus from Hualien City to gorge (~40 min, NT$140 day pass)
 - **Shakadang Trail** — 3–4h round trip along turquoise marble-walled river
 - **Swallow Grotto (燕子口)** — dramatic cliffside walkway

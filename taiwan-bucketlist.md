@@ -17,7 +17,7 @@ layout: default
 |---|---|---|---|---|---|
 | [ ] | 🔥 | 👁️🍜 | **Jiufen Old Street** — red lanterns, hillside alleys, ocean views; go at dusk | 基山街, Ruifang District, New Taipei City | Trip 2, Apr 27 |
 | [ ] | 🔥 | 🎯👁️ | **Elephant Mountain (象山)** — 20-min hike; iconic Taipei 101 skyline view | Xiangshan Trailhead, No. 150, Section 5, Xinyi Rd, Xinyi District, Taipei | Trip 2, Apr 26 |
-| [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | — |
+| [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
 | [ ] | 🔥 | 👁️🍜🎯 | **Ximending** — pedestrian youth district; wandering + street food + shopping | Wuchang St, Wanhua District, Taipei 108 | Trip 1, Apr 18 (mentioned) |
 | [ ] | 🔥 | 🍜👁️ | **Shilin Night Market** — largest in Taiwan; oyster vermicelli, giant fried chicken, stinky tofu | No. 101, Jihe Rd, Shilin District, Taipei 111 | Trip 1, Apr 18 (mentioned) |
 | [ ] | 🔥 | 🍜 | **Din Tai Fung** — the original xiao long bao location; queue expected | No. 194, Section 2, Xinyi Rd, Da'an District, Taipei 106 | — |
@@ -58,8 +58,8 @@ layout: default
 |---|---|---|---|---|---|
 | [ ] | 🔥 | 👁️🎯 | **Eluanbi (鵝鑾鼻)** — Taiwan's southernmost point; lighthouse + coastal cliffs | No. 90, Eluanbi Rd, Hengchun Township, Pingtung County 946 | Trip 1, Apr 20 (on-route) |
 | [ ] | 🔥 | 👁️🎯 | **Kenting National Park** — best beaches in Taiwan; coral coast; swimming + snorkeling | Hengchun Township, Pingtung County 946 | — |
-| [ ] | ✨ | 👁️ | **Hengchun Old Town** — intact Qing-dynasty walled city; one of few remaining in Taiwan | Hengchun Township, Pingtung County 946 | — |
-| [ ] | ✨ | 🍜 | **Fresh seafood at coastal stalls** — you're in a fishing town; grilled catch is the move | Checheng Township center, Pingtung County 944 | — |
+| [ ] | ✨ | 👁️ | **Hengchun Old Town** — intact Qing-dynasty walled city; one of few remaining in Taiwan | Hengchun Township, Pingtung County 946 | Trip 1, Apr 20 |
+| [ ] | ✨ | 🍜 | **Fresh seafood at coastal stalls** — you're in a fishing town; grilled catch is the move | Checheng Township center, Pingtung County 944 | Trip 1, Apr 20 |
 
 ---
 
@@ -71,7 +71,7 @@ layout: default
 | [ ] | 🔥 | 🍜 | **Chishang Lunchbox (池上便當)** — famous bento; buy at Chishang Station en route | Chishang Station, Chishang Township, Taitung County 958 | Trip 1, Apr 22 (pass through on bike) |
 | [ ] | 🔥 | 👁️🎯🍜 | **Tiehua Music Village (鐵花村)** — outdoor music + crafts + food; indigenous culture; lively nights | No. 369, Tiexian Rd, Taitung City 950 | Trip 1, Apr 21 |
 | [ ] | ✨ | 👁️🎯 | **Taitung Forest Park (台東森林公園)** — coastal lagoon + forest; good evening walk | Lane 115, Section 1, Zhiqing Rd, Taitung City 950 | Trip 1, Apr 21 |
-| [ ] | ✨ | 🎯👁️ | **Zhiben Hot Springs** — soak after the hardest ride day; medically justified | Zhiben Rd, Beinan Township, Taitung County 954 | — |
+| [ ] | ✨ | 🎯👁️ | **Zhiben Hot Springs** — soak after the hardest ride day; medically justified | Zhiben Rd, Beinan Township, Taitung County 954 | Trip 1, Apr 21 |
 | [ ] | 💭 | 🎯👁️ | **Green Island day trip** — volcanic island; snorkeling + hot springs + sea turtles | Lyudao Township, Taitung County (ferry from Fugang Pier) | — |
 
 ---
@@ -81,8 +81,8 @@ layout: default
 
 | Done | Pri | Type | What | Address | Itinerary |
 |---|---|---|---|---|---|
-| [ ] | 🔥 | 🍜 | **Yuli Beef Noodles** — local specialty the town is disproportionately famous for | Zhongshan Rd, Yuli Township, Hualien County 981 | — |
-| [ ] | 🔥 | 🍜 | **Yuli Lamb Hotpot** — another local specialty; ask hostel for best current spot | Zhongshan Rd, Yuli Township, Hualien County 981 | — |
+| [ ] | 🔥 | 🍜 | **Yuli Beef Noodles** — local specialty the town is disproportionately famous for | Zhongshan Rd, Yuli Township, Hualien County 981 | Trip 1, Apr 22 |
+| [ ] | 🔥 | 🍜 | **Yuli Lamb Hotpot** — another local specialty; ask hostel for best current spot | Zhongshan Rd, Yuli Township, Hualien County 981 | Trip 1, Apr 22 |
 | [ ] | ✨ | 👁️🎯 | **Chishang Scenic Bike Path (伯朗大道)** — golden rice fields + mountain backdrop; you pass through on the ride | Chishang Township, Taitung County 958 | Trip 1, Apr 22 (on-route) |
 | [ ] | 💭 | 🎯👁️ | **Antong Hot Springs** — mountain hot springs; secluded and scenic | Antong Rd, Fuli Township, Hualien County 983 | — |
 
@@ -98,9 +98,9 @@ layout: default
 | [ ] | 🔥 | 🎯👁️ | **Taroko — Tunnel of Nine Turns** — twisting marble tunnel with river views *(check access status)* | Central Cross-Island Hwy, Xiulin Township, Hualien County 972 | Trip 1, Apr 24 |
 | [ ] | 🔥 | 🍜 | **Hualien Mochi (花蓮麻糬)** — crystal-clear, chewy; buy from shops near the night market | Zhongshan Rd, Hualien City 970 | Trip 1, Apr 23 |
 | [ ] | 🔥 | 🍜👁️ | **Dongdamen Night Market** — milk popsicles + mochi + local eats for the celebration dinner | No. 120, Section 1, North Zhongshan Rd, Hualien City 970 | Trip 1, Apr 23 |
-| [ ] | ✨ | 👁️🎯 | **Qixingtan Beach (七星潭)** — crescent pebble beach with mountain backdrop; best at sunrise | Qixingtan Rd, Xincheng Township, Hualien County 971 | — |
+| [ ] | ✨ | 👁️🎯 | **Qixingtan Beach (七星潭)** — crescent pebble beach with mountain backdrop; best at sunrise | Qixingtan Rd, Xincheng Township, Hualien County 971 | Trip 1, Apr 24 |
 | [ ] | ✨ | 👁️🎯 | **Taroko — Buluowan Terrace** — Truku cultural exhibits, elevated boardwalks, indigenous crafts | Buluowan, Xiulin Township, Hualien County 972 | Trip 1, Apr 24 |
-| [ ] | 💭 | 🍜 | **Hualien Beef Noodles** — local variation uses more tomato; try near the train station area | Train station area, Section 1, Fuxing St, Hualien City 970 | — |
+| [ ] | 💭 | 🍜 | **Hualien Beef Noodles** — local variation uses more tomato; try near the train station area | Train station area, Section 1, Fuxing St, Hualien City 970 | Trip 1, Apr 23 |
 
 ---
 
