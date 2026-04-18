@@ -467,6 +467,7 @@ Eating NT$500–700/day (~$15–22) on street food is extremely easy and delicio
 
 **Afternoon — Elephant Mountain + Da'an**
 - MRT → Xiangshan Station, 20-min hike for Taipei 101 skyline golden-hour view
+- **Lunch: Din Tai Fung (鼎泰豐)** — original Xinyi Road location, 5 min from Xiangshan Station (No. 194, Section 2, Xinyi Rd). Opens 11am; queue by 11:30am on weekends or expect a wait. Order: xiao long bao (小籠包), pork chop fried rice, and steamed pork dumplings. This is the reference standard.
 - Walk Da'an District: cafes, bookstores, parks, excellent food density
 
 **Evening — Ningxia Night Market (寧夏夜市)**
@@ -475,6 +476,11 @@ Eating NT$500–700/day (~$15–22) on street food is extremely easy and delicio
 ---
 
 ### Apr 27 (Mon) — Jiufen + Shifen Day Trip
+
+**6:30 AM — Fu Hang Dou Jiang (阜杭豆漿) Breakfast**
+- Lines form at 5:30am — arrive by 6:30am to avoid a 45–60 min queue
+- 2F, No. 108, Section 1, Zhongxiao E. Rd, Zhongzheng District (10-min walk from Taipei Main Station)
+- Order: hot or cold soy milk (豆漿), savory bing with egg (燒餅夾蛋), and tian bing (甜餅 — flaky sweet flatbread). Total ~NT$60–100. The best Taiwanese breakfast in the city.
 
 **Morning — Shifen (~9am)**
 - Train Taipei Main → Ruifang (~1h, NT$49) → local train to Shifen (~20 min, NT$15)
@@ -533,6 +539,7 @@ Eating NT$500–700/day (~$15–22) on street food is extremely easy and delicio
 
 **Afternoon — Travel to Alishan**
 - **1:00 PM bus: Sun Moon Lake → Chiayi (~2h, NT$230)** — ⚠️ **Only 2 departures/day (1pm, 2:30pm). Book in advance via yulinbus@gmail.com.**
+- **In Chiayi (~3pm layover, ~30–45 min):** Grab **Chiayi Turkey Rice (嘉義火雞肉飯)** — thin-sliced smoked turkey over steamed rice with gravy and pickled radish; the dish Chiayi is most famous for in Taiwan; NT$50–80; multiple spots within a 5-min walk of Chiayi Station (look for 噴水雞肉飯 or 文化路 area stalls)
 - From Chiayi: bus → Alishan (~2h) or Alishan Forest Railway if operational
 - Arrive Alishan ~5–6pm
 
@@ -578,7 +585,7 @@ Eating NT$500–700/day (~$15–22) on street food is extremely easy and delicio
 
 **Morning — Anping District**
 - **Fort Zeelandia (安平古堡)** — 17th-century Dutch colonial fort
-- **Anping Old Street** — local snacks, shrimp rolls, tofu pudding
+- **Anping Old Street** — local snacks, shrimp rolls, and **douhua (豆花)** — Tainan-style silky tofu pudding served warm with taro balls or sweet potato; noticeably smoother and more delicate than Taipei versions; sold at street stalls along the waterfront
 - **Anping Tree House** — 100-year-old banyan-wrapped warehouse, surreal
 
 **Lunch — Coffin Bread (棺材板) near Chihkan Tower**

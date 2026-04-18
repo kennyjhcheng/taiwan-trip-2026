@@ -105,10 +105,10 @@ layout: default
 
 **Evening — Group arrives:**
 - 🚇 Red Line to Ximen → **Ximending** (pedestrian youth district, street food, wandering)
-- **Longshan Temple** (No. 211, Guangzhou St, Wanhua) — 5 min walk from Ximending; active temple with great old-school snack stalls outside
+- **Longshan Temple** (No. 211, Guangzhou St, Wanhua) — 5 min walk from Ximending; active temple with great old-school snack stalls outside; grab **gua bao (刈包)** ("Taiwanese hamburger" — pork belly, crushed peanuts, pickled veg in a steamed bun) from the street stalls here
 - Meet friends in the evening at Ximending
 
-**Night:** Pack gear, stock supplies for Kaohsiung transfer tomorrow
+**Night:** **Shilin Night Market (士林夜市)** — 🚇 Red Line to Jiantan (~20 min from Ximen) for a first proper night-market baptism. Must-eats: oyster vermicelli (蚵仔麵線), giant fried chicken, stinky tofu, and **ba-wan (肉圓)** (gelatinous meatball stuffed with pork + bamboo shoots in sweet-savory sauce — unique to Taiwan, not to be skipped). Then pack gear and stock supplies for Kaohsiung transfer tomorrow.
 
 ---
 
@@ -204,7 +204,7 @@ Alternate ideas for rest of group if they skip Taroko: coastal ride, Hualien cit
 - Transfer to Taipei via:
   - Option A: Puyuma/Taroko Express train (~2h scenic — book in advance, ~NT$440)
   - Option B: HSR bus connection from Hualien
-- Check in Taipei, ball out tonight — group farewell dinner
+- Check in Taipei, ball out tonight — **group farewell dinner: Three Cup Chicken (三杯雞 — Sanbeiji)**. Braised chicken in sesame oil, soy sauce, rice wine, and fresh basil — one of Taiwan's most iconic dishes and perfect for a celebratory group dinner. Ask the hotel for a nearby local recommendation; any traditional Taiwanese restaurant will do it well.
 - **Kenny continues solo from here → see `2-trip-plan.md`**
 
 ---

@@ -20,8 +20,8 @@ layout: default
 | [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
 | [ ] | 🔥 | 👁️🍜🎯 | **Ximending** — pedestrian youth district; wandering + street food + shopping | Wuchang St, Wanhua District, Taipei 108 | Trip 1, Apr 18 (mentioned) |
 | [ ] | 🔥 | 🍜👁️ | **Shilin Night Market** — largest in Taiwan; oyster vermicelli, giant fried chicken, stinky tofu | No. 101, Jihe Rd, Shilin District, Taipei 111 | Trip 1, Apr 18 (mentioned) |
-| [ ] | 🔥 | 🍜 | **Din Tai Fung** — the original xiao long bao location; queue expected | No. 194, Section 2, Xinyi Rd, Da'an District, Taipei 106 | — |
-| [ ] | 🔥 | 🍜 | **Beef Noodle Soup at Yongkang** — Yongkang Beef Noodle (永康牛肉麵), decades old | No. 17, Lane 31, Section 2, Jinshan S. Rd, Da'an District, Taipei | — |
+| [ ] | 🔥 | 🍜 | **Din Tai Fung** — the original xiao long bao location; queue expected | No. 194, Section 2, Xinyi Rd, Da'an District, Taipei 106 | Trip 2, Apr 26 (lunch) |
+| [ ] | 🔥 | 🍜 | **Beef Noodle Soup at Yongkang** — Yongkang Beef Noodle (永康牛肉麵), decades old | No. 17, Lane 31, Section 2, Jinshan S. Rd, Da'an District, Taipei | Trip 2, Apr 27 (dinner) |
 | [ ] | ✨ | 🍜👁️ | **Ningxia Night Market** — locals' favorite; best braised pork rice + oyster omelette | Ningxia Rd, Datong District, Taipei 103 | Trip 2, Apr 26 |
 | [ ] | ✨ | 🍜👁️ | **Raohe Night Market** — black pepper buns (go to the temple stall), pork rib soup | Raohe St, Songshan District, Taipei 105 | Trip 2, May 3 |
 | [ ] | ✨ | 👁️🎯 | **CKS Memorial Hall** — grand plaza, changing of the guard on the hour; free | No. 21, Zhongshan S. Rd, Zhongzheng District, Taipei 100 | — |
@@ -115,7 +115,7 @@ layout: default
 | [ ] | 🔥 | 🍜 | **Taro Ball Soup (芋圓)** — Jiufen's signature dish; any of the stalls with ocean views | 基山街, Ruifang District, New Taipei City 224 | Trip 2, Apr 27 |
 | [ ] | ✨ | 🎯👁️ | **Shifen Waterfall** — Taiwan's widest; beautiful in morning mist; 10-min walk from station | Shifen, Pingxi District, New Taipei City 226 | Trip 2, Apr 27 |
 | [ ] | ✨ | 👁️ | **Golden Waterfall + Yin-Yang Sea** — mineral-stained golden waterfall + vivid blue-green ocean | Provincial Hwy 102, Ruifang District, New Taipei City | Trip 2, Apr 27 (en route) |
-| [ ] | 💭 | 🍜 | **Peanut Ice Cream Roll (花生捲冰淇淋)** — street snack unique to Jiufen; cilantro is not optional | 基山街, Ruifang District, New Taipei City 224 | — |
+| [ ] | 💭 | 🍜 | **Peanut Ice Cream Roll (花生捲冰淇淋)** — street snack unique to Jiufen; cilantro is not optional | 基山街, Ruifang District, New Taipei City 224 | Trip 2, Apr 27 |
 
 ---
 
@@ -192,8 +192,8 @@ layout: default
 
 | Done | Pri | Dish | Where to Get It | Itinerary |
 |---|---|---|---|---|
-| [ ] | 🔥 | **Xiao Long Bao (小籠包)** | Din Tai Fung — No. 194, Sec 2, Xinyi Rd, Taipei | — |
-| [ ] | 🔥 | **Beef Noodle Soup (牛肉麵)** | Yongkang Beef Noodle — Jinshan S. Rd, Da'an, Taipei | — |
+| [ ] | 🔥 | **Xiao Long Bao (小籠包)** | Din Tai Fung — No. 194, Sec 2, Xinyi Rd, Taipei | Trip 2, Apr 26 (lunch) |
+| [ ] | 🔥 | **Beef Noodle Soup (牛肉麵)** | Yongkang Beef Noodle — Jinshan S. Rd, Da'an, Taipei | Trip 2, Apr 27 (dinner) |
 | [ ] | 🔥 | **Bubble Tea (珍珠奶茶)** | Chun Shui Tang — No. 9-1, Daan Rd, Da'an, Taipei | Trip 2, May 3 |
 | [ ] | 🔥 | **Stinky Tofu (臭豆腐)** | Ningxia Night Market, Datong District, Taipei | Trip 2, Apr 26 |
 | [ ] | 🔥 | **Braised Pork Rice (滷肉飯)** | Any night market or local 便當 shop; everywhere | — |
@@ -203,6 +203,10 @@ layout: default
 | [ ] | ✨ | **Gua Bao (刈包)** — "Taiwanese hamburger" | Any night market; Raohe and Shilin both have good ones | — |
 | [ ] | ✨ | **Pineapple Cake (鳳梨酥)** | Any local bakery in Taipei (not a tourist gift shop) | — |
 | [ ] | ✨ | **Mango Shaved Ice (芒果冰)** | Ice Monster — No. 15, Yongkang St, Da'an, Taipei | — |
+| [ ] | 🔥 | **Three Cup Chicken (三杯雞 — Sanbeiji)** | Any traditional Taiwanese restaurant; ask hotel near Taipei for rec | Trip 1, Apr 25 (farewell dinner) |
+| [ ] | ✨ | **Ba Wan (肉圓 — Taiwanese Meatball)** | Any night market; Shilin Night Market, Shilin District, Taipei | Trip 1, Apr 18 (Shilin Night Market) |
+| [ ] | ✨ | **Chiayi Turkey Rice (嘉義火雞肉飯)** | 噴水雞肉飯 or stalls on 文化路, near Chiayi Station | Trip 2, Apr 30 (Chiayi transit) |
+| [ ] | ✨ | **Fu Hang Dou Jiang Breakfast (阜杭豆漿)** | 2F, No. 108, Sec 1, Zhongxiao E. Rd, Zhongzheng, Taipei | Trip 2, Apr 27 (breakfast) |
 | [ ] | 💭 | **7-Eleven / FamilyMart Everything** | Every 7-Eleven and FamilyMart in Taiwan | daily |
 
 ---
