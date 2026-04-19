@@ -20,17 +20,19 @@ layout: default
 | [ ] | 🔥 | 👁️🍜 | **Jiufen Old Street** — red lanterns, hillside alleys, ocean views; go at dusk | 基山街, Ruifang District, New Taipei City | Trip 2, Apr 27 |
 | [ ] | 🔥 | 🎯👁️ | **Elephant Mountain (象山)** — 20-min hike; iconic Taipei 101 skyline view | Xiangshan Trailhead, No. 150, Section 5, Xinyi Rd, Xinyi District, Taipei | Trip 1, Apr 18 |
 | [ ] | 🔥 | 👁️🎯 | **Taipei 101** — iconic tower + Xinyi district stroll before heading to Maokong | No. 45, Shifu Rd, Xinyi District, Taipei 110 | Trip 1, Apr 18 |
-| [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
-| [ ] | 🔥 | 👁️🍜🎯 | **Ximending** — pedestrian youth district; wandering + street food + shopping | Wuchang St, Wanhua District, Taipei 108 | Trip 1, Apr 18 (mentioned) |
-| [ ] | 🔥 | 🍜👁️ | **Shilin Night Market** — largest in Taiwan; oyster vermicelli, giant fried chicken, stinky tofu | No. 101, Jihe Rd, Shilin District, Taipei 111 | Trip 1, Apr 18 (mentioned) |
+| [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | — |
+| [x] | 🔥 | 👁️🍜🎯 | **Ximending** — pedestrian youth district; wandering + street food + shopping | Wuchang St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
+| [x] | 🔥 | 🍜 | **Ay-Chung Flour-Rice Noodle (阿宗麵線)** — standing-only oyster vermicelli in thick savory broth; Ximending landmark | No. 8-1, Section 2, Emei St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
+| [x] | 🔥 | 🍜 | **Popcorn Chicken King Ximen (雞排大王)** — classic Taiwanese fried popcorn chicken in Ximending | Ximending area, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
+| [ ] | 🔥 | 🍜👁️ | **Shilin Night Market** — largest in Taiwan; oyster vermicelli, giant fried chicken, stinky tofu | No. 101, Jihe Rd, Shilin District, Taipei 111 | — |
 | [ ] | 🔥 | 🍜 | **Din Tai Fung** — the original xiao long bao location; queue expected | No. 194, Section 2, Xinyi Rd, Da'an District, Taipei 106 | Trip 2, Apr 26 (lunch) |
 | [ ] | 🔥 | 🍜 | **Beef Noodle Soup at Yongkang** — Yongkang Beef Noodle (永康牛肉麵), decades old | No. 17, Lane 31, Section 2, Jinshan S. Rd, Da'an District, Taipei | Trip 2, Apr 27 (dinner) |
-| [ ] | ✨ | 🍜👁️ | **Ningxia Night Market** — locals' favorite; best braised pork rice + oyster omelette | Ningxia Rd, Datong District, Taipei 103 | Trip 2, Apr 26 |
+| [x] | ✨ | 🍜👁️ | **Ningxia Night Market** — locals' favorite; best braised pork rice + oyster omelette | Ningxia Rd, Datong District, Taipei 103 | Trip 1, Apr 18 |
 | [ ] | ✨ | 🍜👁️ | **Raohe Night Market** — black pepper buns (go to the temple stall), pork rib soup | Raohe St, Songshan District, Taipei 105 | Trip 2, May 3 |
 | [ ] | ✨ | 👁️🎯 | **CKS Memorial Hall** — grand plaza, changing of the guard on the hour; free | No. 21, Zhongshan S. Rd, Zhongzheng District, Taipei 100 | — |
 | [ ] | ✨ | 🎯👁️ | **Beitou Hot Springs** — volcanic hot spring district; Millennium pool is public (NT$40–80) | No. 2, Lane 2, Zhongshan Rd, Beitou District, Taipei 112 | Trip 2, Apr 26 |
-| [ ] | ✨ | 🎯👁️ | **Maokong Gondola** — cable car to mountain teahouses; great evening activity | No. 8, Section 2, Xinsheng S. Rd, Wenshan District, Taipei 116 | Trip 1, Apr 18 |
-| [ ] | ✨ | 👁️🎯 | **Maokong (貓空)** — tea-village hillside stop for views, teahouses, and slower pacing | Maokong Station area, Wenshan District, Taipei | Trip 1, Apr 18 |
+| [x] | ✨ | 🎯👁️ | **Maokong Gondola** — cable car to mountain teahouses; great evening activity | No. 8, Section 2, Xinsheng S. Rd, Wenshan District, Taipei 116 | Trip 1, Apr 18 |
+| [x] | ✨ | 👁️🎯 | **Maokong (貓空)** — tea-village hillside stop for views, teahouses, and slower pacing | Maokong Station area, Wenshan District, Taipei | Trip 1, Apr 18 |
 | [ ] | ✨ | 🍜👁️ | **Sunyang Tea House (上暘茶莊)** — classic Maokong tea house with outdoor views | 1F, No. 16-2, Lane 38, Section 3, Zhinan Rd, Wenshan District, Taipei 116 | Trip 1, Apr 18 |
 | [ ] | ✨ | 🍜 | **Maokong Yang Tai (貓空暘臺)** — tea soft serve stop right by the gondola exit | Near Maokong Station, Wenshan District, Taipei | Trip 1, Apr 18 |
 | [ ] | ✨ | 🍜 | **貓空美食** — browse the Maokong station area for tea snacks / mountain dinner | Maokong Station food area, Wenshan District, Taipei | Trip 1, Apr 18 |
@@ -202,9 +204,9 @@ layout: default
 | [ ] | 🔥 | **Xiao Long Bao (小籠包)** | Din Tai Fung — No. 194, Sec 2, Xinyi Rd, Taipei | Trip 2, Apr 26 (lunch) |
 | [ ] | 🔥 | **Beef Noodle Soup (牛肉麵)** | Yongkang Beef Noodle — Jinshan S. Rd, Da'an, Taipei | Trip 2, Apr 27 (dinner) |
 | [ ] | 🔥 | **Bubble Tea (珍珠奶茶)** | Chun Shui Tang — No. 9-1, Daan Rd, Da'an, Taipei | Trip 2, May 3 |
-| [ ] | 🔥 | **Stinky Tofu (臭豆腐)** | Ningxia Night Market, Datong District, Taipei | Trip 2, Apr 26 |
+| [x] | 🔥 | **Stinky Tofu (臭豆腐)** | Ningxia Night Market, Datong District, Taipei | Trip 1, Apr 18 |
 | [ ] | 🔥 | **Braised Pork Rice (滷肉飯)** | Any night market or local 便當 shop; everywhere | — |
-| [ ] | 🔥 | **Oyster Vermicelli (蚵仔麵線)** | Shilin Night Market, Shilin District, Taipei | Trip 1, Apr 18 |
+| [x] | 🔥 | **Oyster Vermicelli (蚵仔麵線)** | Ay-Chung Flour-Rice Noodle (阿宗麵線), Ximending — Trip 1, Apr 18 ✅ *(originally planned at Shilin)* | Trip 1, Apr 18 |
 | [ ] | ✨ | **Black Pepper Bun (胡椒餅)** | Temple entrance stall, Raohe Night Market, Songshan, Taipei | Trip 2, May 3 |
 | [ ] | ✨ | **Scallion Pancake + Egg (蔥油餅)** | Street stalls on Yongkang St, Da'an, Taipei | — |
 | [ ] | ✨ | **Gua Bao (刈包)** — "Taiwanese hamburger" | Any night market; Raohe and Shilin both have good ones | — |

@@ -108,12 +108,13 @@ layout: default
 
 - **3:00 PM — Check in at MU House ✓ booked** (check in before heading to Maokong if timing allows, or check in on the way back)
 
-**Evening — Group arrives:**
-- 🚇 Red Line to Ximen → **Ximending** (pedestrian youth district, street food, wandering)
-- **Longshan Temple** (No. 211, Guangzhou St, Wanhua) — 5 min walk from Ximending; active temple with great old-school snack stalls outside; grab **gua bao (刈包)** ("Taiwanese hamburger" — pork belly, crushed peanuts, pickled veg in a steamed bun) from the street stalls here
-- Meet friends in the evening at Ximending
+**Evening — Group arrives: ✅ Done**
+- 🚇 Red Line to Ximen → **Ximending** ✅ — pedestrian youth district, street food, wandering
+  - ✅ **Ay-Chung Flour-Rice Noodle (阿宗麵線)** — iconic Ximending spot; thick oyster vermicelli in savory broth, eaten standing in the street
+  - ✅ **Popcorn Chicken King Ximen (雞排大王)** — classic Taiwanese fried chicken
+- ~~**Longshan Temple**~~ *(skipped)*
 
-**Night:** **Shilin Night Market (士林夜市)** — 🚇 Red Line to Jiantan (~20 min from Ximen) for a first proper night-market baptism. Must-eats: oyster vermicelli (蚵仔麵線), giant fried chicken, stinky tofu, and **ba-wan (肉圓)** (gelatinous meatball stuffed with pork + bamboo shoots in sweet-savory sauce — unique to Taiwan, not to be skipped). Then pack gear and stock supplies for Kaohsiung transfer tomorrow.
+**Night:** ✅ **Ningxia Night Market (寧夏夜市)** — locals' favorite; had braised pork rice + oyster omelette and more. *(Originally planned Shilin Night Market — skipped.)*
 
 ---
 
