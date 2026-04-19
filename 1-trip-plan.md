@@ -121,7 +121,10 @@ layout: default
 
 ### Apr 19 (Sun) — Transfer to Kaohsiung + Bike Pickup
 - **Morning:** **一甲子餐飲** — old-school Taipei breakfast institution; traditional Taiwanese morning staples (braised pork rice, savory soups, side dishes); arrive early, it fills up fast
+- **Morning:** **Taipei Main Station Underground Mall (台北地下街)** — sprawling underground shopping arcade beneath Taipei Main Station; good for a browse before the HSR south
 - **Check out of MU House by 12:00 PM** (earliest 6:00 AM)
+
+> ⚠️ **Luggage strategy:** We are **not** using Black Cat forwarding for the bike route. The service requires advance booking (not available day-of) and adds logistical risk. Instead: **store the bulk of luggage at a Taipei luggage storage facility** (e.g. at or near Taipei Main Station — many options, ~NT$100–150/day/bag), and carry only a light pack to Kaohsiung. Pick up stored luggage when returning to Taipei on Apr 25.
 - ✅ **Taiwan HSR Train 129 — BOOKED**
   - 12:31 Taipei → 14:05 Zuoying (Kaohsiung) · 1h 34m
   - Car 9: Seats 7D, 7E, 8D, 8E · Adult × 4 · TWD 5,960 total
@@ -351,11 +354,11 @@ Alternate ideas for rest of group if they skip Taroko: coastal ride, Hualien cit
 
 ---
 
-### Luggage Forwarding
-- Use Taiwan's Black Cat Transport (宅急便 / Yamato) to ship luggage ahead each day
-- Much easier when staying at hotels vs homestays — hotels coordinate directly
-- Arrange forwarding the night before each riding day (~NT$200–300/bag per shipment)
-- Only carry a small saddle/handlebar bag while riding
+### Luggage Strategy
+
+> ⚠️ **Black Cat forwarding not being used.** Service requires advance booking (not day-of), and adds logistical risk for a fast-moving group itinerary.
+
+**Plan:** Store non-essential luggage at a Taipei luggage storage facility before departing for Kaohsiung (many options near Taipei Main Station, ~NT$100–150/day/bag). Ride the full route carrying light packs only. Retrieve stored bags when returning to Taipei on Apr 25.
 
 ---
 
