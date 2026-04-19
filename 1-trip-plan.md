@@ -112,13 +112,15 @@ layout: default
 - 🚇 Red Line to Ximen → **Ximending** ✅ — pedestrian youth district, street food, wandering
   - ✅ **Ay-Chung Flour-Rice Noodle (阿宗麵線)** — iconic Ximending spot; thick oyster vermicelli in savory broth, eaten standing in the street
   - ✅ **Popcorn Chicken King Ximen (雞排大王)** — classic Taiwanese fried chicken
-- ~~**Longshan Temple**~~ *(skipped)*
 
-**Night:** ✅ **Ningxia Night Market (寧夏夜市)** — locals' favorite; had braised pork rice + oyster omelette and more. *(Originally planned Shilin Night Market — skipped.)*
+**Night:** ✅ **Ningxia Night Market (寧夏夜市)** — locals' favorite; braised pork rice + oyster omelette and more.
+
+> Longshan Temple and Shilin Night Market saved for another day.
 
 ---
 
 ### Apr 19 (Sun) — Transfer to Kaohsiung + Bike Pickup
+- **Morning:** **一甲子餐飲** — old-school Taipei breakfast institution; traditional Taiwanese morning staples (braised pork rice, savory soups, side dishes); arrive early, it fills up fast
 - **Check out of MU House by 12:00 PM** (earliest 6:00 AM)
 - ✅ **Taiwan HSR Train 129 — BOOKED**
   - 12:31 Taipei → 14:05 Zuoying (Kaohsiung) · 1h 34m

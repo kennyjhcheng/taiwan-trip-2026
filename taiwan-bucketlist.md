@@ -22,6 +22,7 @@ layout: default
 | [ ] | 🔥 | 👁️🎯 | **Taipei 101** — iconic tower + Xinyi district stroll before heading to Maokong | No. 45, Shifu Rd, Xinyi District, Taipei 110 | Trip 1, Apr 18 |
 | [ ] | 🔥 | 👁️🍜 | **Longshan Temple** — active temple surrounded by old-school street snacks | No. 211, Guangzhou St, Wanhua District, Taipei 108 | — |
 | [x] | 🔥 | 👁️🍜🎯 | **Ximending** — pedestrian youth district; wandering + street food + shopping | Wuchang St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
+| [x] | 🔥 | 🍜 | **一甲子餐飲** — old-school Taipei breakfast institution; traditional braised pork rice, savory soups, classic morning dishes | No. 14, Lane 60, Section 1, Zhonghua Rd, Zhongzheng District, Taipei 100 | Trip 1, Apr 19 |
 | [x] | 🔥 | 🍜 | **Ay-Chung Flour-Rice Noodle (阿宗麵線)** — standing-only oyster vermicelli in thick savory broth; Ximending landmark | No. 8-1, Section 2, Emei St, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
 | [x] | 🔥 | 🍜 | **Popcorn Chicken King Ximen (雞排大王)** — classic Taiwanese fried popcorn chicken in Ximending | Ximending area, Wanhua District, Taipei 108 | Trip 1, Apr 18 |
 | [ ] | 🔥 | 🍜👁️ | **Shilin Night Market** — largest in Taiwan; oyster vermicelli, giant fried chicken, stinky tofu | No. 101, Jihe Rd, Shilin District, Taipei 111 | — |
