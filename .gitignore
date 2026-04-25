@@ -1,3 +1,6 @@
 .DS_Store
 *.pdf
 .omc/
+_ghpages_build/
+_site/
+.obsidian/
