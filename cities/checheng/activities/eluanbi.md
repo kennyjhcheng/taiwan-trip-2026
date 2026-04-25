@@ -1,0 +1,23 @@
+---
+name: Eluanbi (鵝鑾鼻) — Taiwan's Southernmost Point
+city: checheng
+tags: [sightseeing, activity]
+priority: must
+cost_ntd: "0"
+location: [21.9006, 120.8484]
+status: pending
+scheduled: "[[itinerary/apr-20]]"
+address: "No. 90, Eluanbi Rd, Hengchun Township, Pingtung County 946"
+done: false
+---
+
+# Eluanbi (鵝鑾鼻) — Taiwan's Southernmost Point
+
+> #sightseeing · #activity · **🔥 Must** · 💰 NT$0 · ⬜ Pending
+
+Taiwan's southernmost point. Lighthouse + coastal cliffs. You pass this on the bike route — stop for photos.
+
+---
+
+**City:** [[cities/checheng/index]]
+**Scheduled:** [[itinerary/apr-20]]

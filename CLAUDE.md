@@ -1,148 +1,120 @@
-# CLAUDE.md — Trip File Map & Propagation Rules
+# CLAUDE.md — Trip File Map & Rules
 
-## File Overview
-
-| File | Role | Covers |
-|------|------|--------|
-| `index.md` | **Hub / home page** | Intro, links to all docs, "At a Glance" calendar (Apr 17–May 4) |
-| `1-trip-plan.md` | **Week 1 master doc** | Apr 17–25: flights, daily bike route, bike rental, accommodation, budget, packing, to-do |
-| `2-trip-plan.md` | **Week 2 master doc** | Apr 26–May 4: destinations, route options, food guide, daily itinerary, accommodation, budget, return flight |
-| `taiwan-bucketlist.md` | **Master activity list** | All ~70 places/foods organized by city, each with an `Itinerary` column pointing to the relevant trip doc + date |
-| `taiwan-map.html` | **Interactive map** | Leaflet map pinning all bucket list locations, color-coded by activity type |
-| `_config.yml` | Jekyll site metadata | Title and theme only — no trip content |
-| `Taiwan Bike Trip 2026.pdf` | Source PDF | Original reference doc; treat as read-only |
-
----
-
-## File Dependency Map
+## Folder Structure
 
 ```
-index.md
-├── links to → 1-trip-plan.md
-├── links to → 2-trip-plan.md
-├── links to → taiwan-bucketlist.md
-└── links to → taiwan-map.html
-
-taiwan-bucketlist.md
-├── cross-references → 1-trip-plan.md  (Itinerary column: "Trip 1, Apr XX")
-└── cross-references → 2-trip-plan.md  (Itinerary column: "Trip 2, Apr/May XX")
-
-taiwan-map.html
-└── pins sourced from → taiwan-bucketlist.md
-
-2-trip-plan.md
-└── explicitly defers to → 1-trip-plan.md  (Taroko Gorge covered Apr 24 in Week 1)
-
-1-trip-plan.md
-└── cross-references → 2-trip-plan.md  (notes about Week 2 extension, Apr 25 handoff)
+cities/<city>/index.md          ← city overview + Dataview aggregate queries
+cities/<city>/activities/*.md   ← ONE FILE PER ACTIVITY (the source of truth)
+itinerary/apr-DD.md             ← ONE FILE PER DAY (links to activities)
+logistics/flights.md            ← flights only
+logistics/accommodation.md      ← all bookings + status
+logistics/bike-rental.md        ← bike booking
+logistics/budget.md             ← full budget tracker
+logistics/transport.md          ← HSR, buses, MRT
+logistics/packing.md            ← packing list
+logistics/emergency-contacts.md ← contacts
+scripts/generate_map_data.py    ← auto-generates locations.json
+index.md                        ← home page + at-a-glance calendar
+taiwan-map.html                 ← interactive map (reads locations.json)
+locations.json                  ← 🤖 AUTO-GENERATED — do not edit manually
 ```
 
 ---
 
-## Propagation Rules — What to Update When Things Change
+## Activity File Frontmatter Standard
 
-### ✈️ Flight changes (dates, times, confirmation numbers)
-| Changed in | Also update |
-|---|---|
-| `1-trip-plan.md` §2 Flights + §10B Appendix | `index.md` At a Glance table |
-| `2-trip-plan.md` §8 Return Flight | `index.md` At a Glance table (May 4 row) |
+Every file in `cities/*/activities/*.md` MUST have this frontmatter:
 
-### 🗓️ Date or itinerary changes (any day shifts)
-| Changed in | Also update |
-|---|---|
-| `1-trip-plan.md` §3 Daily Itinerary | `index.md` At a Glance table · `taiwan-bucketlist.md` Itinerary column for affected cities |
-| `2-trip-plan.md` §5 Daily Itinerary | `index.md` At a Glance table · `taiwan-bucketlist.md` Itinerary column for affected cities |
+```yaml
+---
+name: Display Name of Activity
+city: city-slug            # taipei | kaohsiung | checheng | taitung | yuli |
+                           # hualien | jiufen | sun-moon-lake | alishan | tainan | other
+tags: [eat, sightseeing]   # see tag vocabulary below
+priority: must             # must | worth-it | if-time
+cost_ntd: "200-400"        # string, e.g. "0" or "200-400"
+location: [23.97, 121.60]  # [lat, lng] — used by map
+status: pending            # pending | done | skip
+scheduled: "[[itinerary/apr-23]]"   # Obsidian wikilink or ""
+address: "Full address, District, City Postal"
+done: false                # true when completed
+---
+```
 
-### 🏨 Accommodation updates (booking confirmed, hotel changed)
-| Changed in | Also update |
-|---|---|
-| `1-trip-plan.md` §5 Accommodation table + detailed cards | `1-trip-plan.md` §9 Pre-Trip To-Do (check off or update status) |
-| `2-trip-plan.md` §6 Accommodation | `2-trip-plan.md` §9 Pre-Travel To-Do |
+### Tag Vocabulary
 
-### 💰 Budget changes (new confirmed expense, estimate revised)
-| Changed in | Also update |
-|---|---|
-| `1-trip-plan.md` §6 Budget Tracker | `2-trip-plan.md` §7 Full Trip Summary table (confirmed subtotal row) |
-| `2-trip-plan.md` §7 Budget Tracker | `2-trip-plan.md` §7 Grand Total Estimate |
-
-### ✅ Bucket list item scheduled or completed
-| Changed in | Also update |
-|---|---|
-| `taiwan-bucketlist.md` Itinerary column or Done checkbox | `1-trip-plan.md` or `2-trip-plan.md` daily itinerary entry for that date |
-
-### 🗺️ New location added to bucket list
-| Changed in | Also update |
-|---|---|
-| `taiwan-bucketlist.md` (add row) | `taiwan-map.html` (add pin with matching color/category) |
+| Tag | Meaning | Map pin color |
+|-----|---------|---------------|
+| `eat` | Restaurant, food stall, dish | 🔴 Red |
+| `nightmarket` | Night market | 🟠 Orange |
+| `sightseeing` | Temple, viewpoint, landmark | 🔵 Blue |
+| `activity` | Hiking, cycling, lanterns, etc. | 🟢 Green |
+| `hotspring` | Hot spring / onsen | 🟣 Purple |
+| `cycling` | Bike-specific route or rental | 🟡 Amber |
 
 ---
 
-## Key Cross-References to Keep in Sync
+## Ownership Rules — Single Point of Concern
 
-**Taroko Gorge** is the most explicitly shared item:
-- `1-trip-plan.md` Apr 24 entry covers the day trip
-- `2-trip-plan.md` §1 Anchors table and §2 Taroko section both note "covered Apr 24 during Week 1"
-- `taiwan-bucketlist.md` Hualien section, Itinerary column: "Trip 1, Apr 24"
-- If Taroko day moves, update all three.
+| Want to update… | Edit this file | Do NOT also edit |
+|-----------------|---------------|-----------------|
+| Flight details | `logistics/flights.md` | — |
+| Booking status / confirmation # | `logistics/accommodation.md` | — |
+| Activity details, cost, schedule | `cities/<city>/activities/<slug>.md` | Day files auto-link |
+| Day plan | `itinerary/<day>.md` | — |
+| Budget numbers | `logistics/budget.md` | — |
+| Bike rental info | `logistics/bike-rental.md` | — |
+| Map pins | Edit the activity file's `location:` frontmatter | `locations.json` is auto-generated |
 
-**Return flight (Delta DL 68, May 4)**:
-- `1-trip-plan.md` §2 + §10B + §9 To-Do note about Week 2 extension
-- `2-trip-plan.md` §8 Return Flight + §5 May 4 daily itinerary
-- `index.md` At a Glance table (May 4 row)
-
-**Apr 25 Taipei farewell / Week 1→2 handoff**:
-- `1-trip-plan.md` Apr 25 entry: "Kenny continues solo from here → see 2-trip-plan.md"
-- `2-trip-plan.md` document header: "Starting point: Taipei (group farewell night April 25)"
-
-**Week 1 dates header**:
-- `1-trip-plan.md` top: "April 17–25, 2026"
-- `index.md` intro: "Apr 17 – May 4, 2026"
+The at-a-glance table in `index.md` is a **summary only** — it does not need updating when activity details change, only when day-level themes change.
 
 ---
 
-## Current Booking Status (as of Apr 2026)
+## Map Pipeline
 
-| Item | Status | Notes |
-|------|--------|-------|
-| ✅ Outbound flight SEA→TPE | Booked | Asiana OZ271/OZ711, conf. CRT3ZP |
-| ✅ Return flight TPE→SEA | Booked | Delta DL68, May 4, conf. GPDGHD |
-| ✅ Bike rental (Kenny) | Booked | Giant Adventure, NT$7,200, order TW_R1_269080542 |
-| ✅ Taipei Apr 18 | Booked | MU House, $255.30 USD |
-| ✅ Kaohsiung Apr 19 | Booked | Airbnb w/ 小玉, conf. HMX9EKYYMQ |
-| ⚠️ Checheng Apr 20 | **BOOK ASAP** | Small town, limited options |
-| ⚠️ Yuli Apr 22 | **BOOK ASAP** | Small town, limited options |
-| ⚠️ Alishan Apr 30 | **BOOK ASAP** | Fills 3+ weeks out |
-| ☐ Taitung Apr 21 | TBD | |
-| ☐ Hualien Apr 23–24 | TBD | |
-| ☐ Taipei Apr 25 | TBD | |
-| ☐ Taipei Apr 26, 27, May 3 | TBD | Week 2 base |
-| ☐ Sun Moon Lake Apr 28–29 | TBD | |
-| ☐ Tainan May 1–2 | TBD | |
+`locations.json` is generated automatically by the pre-commit hook:
+
+```bash
+# Runs automatically on every git commit via .git/hooks/pre-commit
+python3 scripts/generate_map_data.py
+```
+
+To regenerate manually (e.g. after editing coordinates):
+```bash
+python3 scripts/generate_map_data.py
+```
 
 ---
 
 ## Git — Commit & Push After Every Update
 
-After making any change to any file in this project, always run:
-
 ```bash
 git add -A
-git commit -m "<short description of what changed>"
+git commit -m "<short description>"
 git push
 ```
 
-Use a descriptive commit message, e.g.:
-- `"Book Checheng Apr 20 — Qingquan Hot Spring Hotel"`
-- `"Update budget: add Taitung accommodation confirmed"`
-- `"Reschedule Taroko from Apr 24 to Apr 23"`
+The pre-commit hook will auto-regenerate `locations.json` and stage it before committing.
 
-Never leave changes uncommitted. Every update — even a single checkbox — should be committed and pushed so the trip plan stays in sync on GitHub.
+Example commit messages:
+- `"Book Checheng Apr 20 — Checheng Backpackers Hostel"`
+- `"Mark Dongdamen Night Market done"`
+- `"Add coordinates to Alishan activities"`
 
 ---
 
-## Notes for Future Edits
+## Cities Reference
 
-- The `taiwan-bucketlist.md` footer says "Last updated: April 2026 · Cross-referenced with 1-trip-plan.md and 2-trip-plan.md" — update this date whenever the file changes.
-- `_config.yml` only contains Jekyll metadata and does not need to be updated when itinerary changes.
-- `Taiwan Bike Trip 2026.pdf` is a source/reference document — do not edit it; update the `.md` files instead.
-- All budget figures use the exchange rate ~32 NTD = $1 USD. If this changes significantly, update the rate note in both `1-trip-plan.md` §6 and `2-trip-plan.md` §7.
+| City slug | When | Key files |
+|-----------|------|-----------|
+| `taipei` | Apr 18–19, 25–27, May 3 | [[cities/taipei/index]] |
+| `kaohsiung` | Apr 19 | [[cities/kaohsiung/index]] |
+| `checheng` | Apr 20 | [[cities/checheng/index]] |
+| `taitung` | Apr 21 | [[cities/taitung/index]] |
+| `yuli` | Apr 22 | [[cities/yuli/index]] |
+| `hualien` | Apr 23–24 | [[cities/hualien/index]] |
+| `jiufen` | Apr 27 (day trip) | [[cities/jiufen/index]] |
+| `sun-moon-lake` | Apr 28–29 | [[cities/sun-moon-lake/index]] |
+| `alishan` | Apr 30 – May 1 | [[cities/alishan/index]] |
+| `tainan` | May 1–3 | [[cities/tainan/index]] |
+| `other` | Transit stops | [[cities/other/index]] |
