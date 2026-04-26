@@ -92,8 +92,8 @@ def split_wikilink(inner: str):
 
     if '#' in target_str:
         path, anchor = target_str.split('#', 1)
-        return path.strip(), anchor.strip(), label
-    return target_str.strip(), None, label
+        return path.strip().rstrip('\\'), anchor.strip(), label
+    return target_str.strip().rstrip('\\'), None, label
 
 
 def derive_label(target_path: str, anchor: Optional[str], activity_index: dict) -> str:
