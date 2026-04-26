@@ -107,13 +107,13 @@ Example commit messages:
 
 | City slug | When | Key files |
 |-----------|------|-----------|
-| `taipei` | Apr 18–19, 25–27, May 3 | [[cities/taipei/index]] |
+| `taipei` | Apr 18–19, 25–26, May 3 | [[cities/taipei/index]] |
 | `kaohsiung` | Apr 19 | [[cities/kaohsiung/index]] |
 | `checheng` | Apr 20 | [[cities/checheng/index]] |
 | `taitung` | Apr 21 | [[cities/taitung/index]] |
 | `yuli` | Apr 22 | [[cities/yuli/index]] |
 | `hualien` | Apr 23–24 | [[cities/hualien/index]] |
-| `jiufen` | Apr 27 (day trip) | [[cities/jiufen/index]] |
+| `jiufen` | Apr 25 (day trip) | [[cities/jiufen/index]] |
 | `sun-moon-lake` | Apr 28–29 | [[cities/sun-moon-lake/index]] |
 | `alishan` | Apr 30 – May 1 | [[cities/alishan/index]] |
 | `tainan` | May 1–3 | [[cities/tainan/index]] |

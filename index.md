@@ -27,20 +27,20 @@ layout: default
 | [[itinerary/apr-17\|Apr 17 (Fri)]] | Seattle | ✈️ Depart 12:55 AM — Asiana OZ271 via ICN |
 | [[itinerary/apr-18\|Apr 18 (Sat)]] | Taipei | 🛬 Arrive 10:25 AM · MU House · Elephant Mtn · Maokong · Ximending |
 | [[itinerary/apr-19\|Apr 19 (Sun)]] | Kaohsiung | HSR south · Bike pickup Giant Adventure 11 AM · Liouhe Night Market |
-| [[itinerary/apr-20\|Apr 20 (Mon)]] | → Checheng | 🚴 55 mi · Southwest coast + Eluanbi southernmost point |
-| [[itinerary/apr-21\|Apr 21 (Tue)]] | → Taitung | 🚴 74 mi · Biggest climb day ⚠️ · Tiehua Music Village |
-| [[itinerary/apr-22\|Apr 22 (Wed)]] | → Yuli | 🚴 52 mi · Huadong Rift Valley · Chishang bento |
+| [[itinerary/apr-20\|Apr 20 (Mon)]] | → Checheng | 🚴 55 mi · Southwest coast · Sichongxi Hot Springs |
+| [[itinerary/apr-21\|Apr 21 (Tue)]] | → Taitung | 🚴 74 mi · Biggest climb day ⚠️ · Indigenous restaurant dinner |
+| [[itinerary/apr-22\|Apr 22 (Wed)]] | → Yuli | 🚴 52 mi · Huadong Rift Valley · camellia seed oil farm detour |
 | [[itinerary/apr-23\|Apr 23 (Thu)]] | → Hualien | 🚴 58 mi · **Bike route complete 🎉** · Dongdamen Night Market |
-| [[itinerary/apr-24\|Apr 24 (Fri)]] | Hualien | 🏔️ Free day — Taroko Gorge day trip |
-| [[itinerary/apr-25\|Apr 25 (Sat)]] | → Taipei | Return bikes · Group farewell · Three Cup Chicken |
-| [[itinerary/apr-26\|Apr 26 (Sun)]] | Taipei | ♨️ Week 2 begins — Beitou hot springs · Din Tai Fung · Elephant Mtn |
-| [[itinerary/apr-27\|Apr 27 (Mon)]] | Jiufen + Shifen | 🏮 Day trip — sky lanterns · A-Mei tea house · Yongkang dinner |
-| [[itinerary/apr-28\|Apr 28 (Tue)]] | → Sun Moon Lake | HSR to Taichung · bus to SML · Wenwu Temple sunset |
+| [[itinerary/apr-24\|Apr 24 (Fri)]] | Hualien | 🏔️ Taroko Gorge + Qixingtan · Return bikes early · Massage |
+| [[itinerary/apr-25\|Apr 25 (Sat)]] | Jiufen → Taipei | 🏮 Jiufen day trip · Beitou hot springs ♨️ · Raohe Night Market (group farewell) |
+| [[itinerary/apr-26\|Apr 26 (Sun)]] | Taipei → Taichung | 🧍 Solo begins — Longshan Temple · CKS · Yongkang · Shida · HSR to Taichung |
+| [[itinerary/apr-27\|Apr 27 (Mon)]] | Taichung | 🍦 Miyahara ice cream · Rainbow Village · Fengjia Night Market |
+| [[itinerary/apr-28\|Apr 28 (Tue)]] | → Sun Moon Lake | Bus Taichung → SML · Wenwu Temple sunset |
 | [[itinerary/apr-29\|Apr 29 (Wed)]] | Sun Moon Lake | 🌅 Sunrise at pier · 33km cycling loop · Thao dinner |
 | [[itinerary/apr-30\|Apr 30 (Thu)]] | → Alishan | Ci'en Pagoda · 1 PM bus to Chiayi · turkey rice · up to Alishan |
 | [[itinerary/may-01\|May 1 (Fri)]] | Alishan → Tainan | 🌄 4 AM sunrise train · giant trees · HSR to Tainan |
 | [[itinerary/may-02\|May 2 (Sat)]] | Tainan | 🏛️ Full food + history day · Garden Night Market |
-| [[itinerary/may-03\|May 3 (Sun)]] | → Taipei | HSR back · Raohe Night Market · final night out |
+| [[itinerary/may-03\|May 3 (Sun)]] | → Taipei | HSR back · Shilin Night Market · final night out |
 | [[itinerary/may-04\|May 4 (Mon)]] | Depart | ✈️ Delta DL68 · 9:35 AM TPE → SEA |
 
 ---
