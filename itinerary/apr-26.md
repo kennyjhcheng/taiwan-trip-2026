@@ -1,12 +1,12 @@
 ---
 date: Apr 26
 day_of_week: Sun
-theme: "🏛️ Taipei — Wanhua → CKS → Yongkang → Shida → Taichung"
+theme: "🏛️ Taipei — CKS → Wanhua → Tamsui → Shida → Taichung"
 city: taipei
 week: 2
 ---
 
-# Apr 26 (Sun) — 🏛️ Taipei: Wanhua → Yongkang → Taichung
+# Apr 26 (Sun) — 🏛️ Taipei: CKS → Wanhua → Tamsui → Taichung ✅
 
 **City:** [[cities/taipei/index]] | ← [[itinerary/apr-25]] | [[itinerary/apr-27]] →
 
@@ -20,25 +20,37 @@ week: 2
 - ~~Elephant Mountain~~ ✅ done Apr 18
 - ~~Ningxia Night Market~~ ✅ done Apr 18
 
-## Morning — Wanhua District (Farthest from Guting)
-- MRT to **Longshan Temple Station** (Blue Line, ~15 min from Guting)
-- **[[cities/taipei/activities/longshan-temple]]** — one of Taipei's oldest and most atmospheric temples, incense + local worshippers
-- 🍩 **一脆鮮奶脆皮甜甜圈總店** (Crispy Milk Donuts) — street snack near Longshan Temple
-- **Lunch: 一甲子餐飲** (Michelin) — traditional braised Taiwanese dishes
-  - No. 71, Section 2, Guiyang St, Wanhua District ⚠️ arrive early, popular with queues
+## Morning — CKS → Wanhua ✅
+- **CKS Memorial Hall** — Liberty Square, grand blue-roofed gate ✅
+- **Lunch: 川業肉圓 (Chuan-yeh)** — 紅糟肉圓 (red fermented rice meatballs) ✅  
+  *(替代 一甲子餐飲 — skipped)*
+- MRT to **Longshan Temple Station**
+- **Longshan Temple** — incense, local worshippers ✅
+- **一脆鮮奶脆皮甜甜圈總店** (Crispy Milk Donuts) — street snack near Longshan ✅
 
-## Afternoon — CKS Memorial → Yongkang
-- MRT to **Chiang Kai-shek Memorial Hall Station** (~3 stops from Ximen)
-- **[[cities/taipei/activities/cksmemorial]]** — Liberty Square, grand blue-roofed gate, changing of the guard on the hour (9 AM–5 PM, free)
-- MRT/walk to Dongmen → **[[cities/taipei/activities/yongkang-street-crawl]]** — cafes, tea shops, dessert crawl
-- **[[cities/taipei/activities/yongkang-beef-noodle]]** — red braised (紅燒) bowl, late afternoon
+## Afternoon — Tamsui Old Street ✅
+- **[[cities/taipei/activities/tamsui-old-street]]** — browsed Tamsui Old Street, bought souvenirs ✅
+- 🍰 Castella cake at a famous shop ✅
+- 🍵 Beitou black tea ✅
 
-## Evening — Shida Night Market → Taichung
-- 🌙 **師大夜市 (Shida Night Market)** — short walk from Guting, opens ~5:30 PM
-  - Oyster vermicelli · fried chicken cutlet · scallion pancakes · bubble tea
-- 🧳 Pick up luggage from Guting Airbnb by 6 PM
-- **HSR: Taipei → Taichung** (~35 min, NT$700) — evening train, arrive ~8–9 PM
-  - Book on 台灣高鐵 app or at station counter
+## Late Afternoon — Yongkang (dessert stop) ✅
+- **白水豆腐花 (Bai Shui Tofu Pudding)** — met Noel here for dessert ✅
+  - Famous tofu pudding spot on Yongkang Street
 
-**Stay:** Taichung (⚠️ book tonight)
+## ❌ Skipped
+- ~~Yongkang Street crawl (full browse)~~ — just did quick dessert stop
+- ~~Yongkang Beef Noodle~~ — skipped
+
+## Late Afternoon cont. — The Red House ✅
+- **西門紅樓 (The Red House)** — historic 1908 octagonal brick building in Ximending ✅
+
+## Evening — Shida Night Market → Taichung ✅
+- 🌙 **師大夜市 (Shida Night Market)** — with Noel ✅
+  - 小籠包 Xiaolongbao ✅
+  - 菠蘿包 Pineapple bun with butter ✅
+  - Fruit tea ✅
+- 🧳 Picked up luggage from Guting Airbnb
+- **HSR: Taipei → Taichung** ✅ (~35 min, NT$700)
+- Taxi from Taichung HSR → hotel area
+- **Stay: 寧萃 Ningcui Hotel, Taichung** ✅ — NT$800/night private room (dorm was full)
 

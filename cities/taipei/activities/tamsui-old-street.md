@@ -5,15 +5,15 @@ tags: [sightseeing, eat]
 priority: if-time
 cost_ntd: "150"
 location: [25.1695, 121.4415]
-status: pending
-scheduled: ""
+status: done
+scheduled: "[[itinerary/apr-26]]"
 address: "Zhongzheng Rd, Tamsui District, New Taipei City 251"
-done: false
+done: true
 ---
 
 # Tamsui Old Street (淡水老街)
 
-> #sightseeing · #eat · **💭 If Time** · 💰 NT$150 · ⬜ Pending
+> #sightseeing · #eat · **💭 If Time** · 💰 NT$150 · ✅ Done — Apr 26
 
 Riverside historic town with good sunset views and seafood stalls. About 40 min from central Taipei on MRT.
 

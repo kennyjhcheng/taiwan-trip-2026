@@ -905,6 +905,279 @@
     "file": "cities/sun-moon-lake/activities/wild-boar-sausage.md"
   },
   {
+    "name": "Animation Lane (動漫彩繪巷)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1578,
+    "lng": 120.6706,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Near Yizhong Street, North District, Taichung City 404",
+    "file": "cities/taichung/activities/animation-lane.md"
+  },
+  {
+    "name": "Capoo House Taichung (卡拿房台中店)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0-500",
+    "lat": 24.1497,
+    "lng": 120.6705,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "West District, Taichung City 403",
+    "file": "cities/taichung/activities/capoo-house.md"
+  },
+  {
+    "name": "Chun Shui Tang Siwei Main Shop (春水堂四維店)",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "120-250",
+    "lat": 24.146,
+    "lng": 120.6631,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "No. 12, Siwei Street, West District, Taichung City 403",
+    "file": "cities/taichung/activities/chun-shui-tang.md"
+  },
+  {
+    "name": "Fantasy Story Green Ray (幻想故事屋 綠光)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0-800",
+    "lat": 24.1518,
+    "lng": 120.6762,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Central / West District area, Taichung City",
+    "file": "cities/taichung/activities/fantasy-store-green-ray.md"
+  },
+  {
+    "name": "Fengchia Night Market (逢甲夜市)",
+    "city": "taichung",
+    "tags": [
+      "nightmarket",
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#f97316",
+    "cost_ntd": "200-600",
+    "lat": 24.1802,
+    "lng": 120.6393,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Fengchia Road, Xitun District, Taichung City 407",
+    "file": "cities/taichung/activities/fengchia-night-market.md"
+  },
+  {
+    "name": "Luce Memorial Chapel (路思義教堂)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1754,
+    "lng": 120.6262,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Tunghai University, No. 1727, Section 4, Taiwan Boulevard, Xitun District, Taichung City 407",
+    "file": "cities/taichung/activities/luce-memorial-chapel.md"
+  },
+  {
+    "name": "Minimal Michelin Ice Cream",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "150-300",
+    "lat": 24.139,
+    "lng": 120.6855,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Central District, Taichung City 400",
+    "file": "cities/taichung/activities/minimal-michelin-ice-cream.md"
+  },
+  {
+    "name": "Miyahara Ice Cream (宮原眼科)",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "200-400",
+    "lat": 24.1377,
+    "lng": 120.6847,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "No. 20, Zhongshan Road, Central District, Taichung City 400",
+    "file": "cities/taichung/activities/miyahara-ice-cream.md"
+  },
+  {
+    "name": "Night School Braised Pork Rice (夜校滷肉飯)",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "80-180",
+    "lat": 24.145,
+    "lng": 120.683,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Central District, Taichung City 400",
+    "file": "cities/taichung/activities/night-school-braised-pork-rice.md"
+  },
+  {
+    "name": "Rainbow Village (彩虹眷村)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1293,
+    "lng": 120.6552,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "No. 56, Chunan Road, Nantun District, Taichung City 408",
+    "file": "cities/taichung/activities/rainbow-village.md"
+  },
+  {
+    "name": "Shengxing Station (勝興車站) — Old Railroad",
+    "city": "taichung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0-200",
+    "lat": 24.381,
+    "lng": 120.7433,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "No. 119, Shengxing, Sanyi Township, Miaoli County 367",
+    "file": "cities/taichung/activities/shengxing-station.md"
+  },
+  {
+    "name": "Taichung National Theatre (臺中國家歌劇院)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1638,
+    "lng": 120.6475,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "No. 101, Huizhong Road, Xitun District, Taichung City 407",
+    "file": "cities/taichung/activities/taichung-national-theatre.md"
+  },
+  {
+    "name": "新社莊園 (Xinshey Manor / Villa)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "100-300",
+    "lat": 24.1975,
+    "lng": 120.849,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Xinshe District, Taichung City 426",
+    "file": "cities/taichung/activities/xinshey-manor.md"
+  },
+  {
+    "name": "Zhongshe Tourist Flower Market (中社觀光花市)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0-150",
+    "lat": 24.2271,
+    "lng": 120.8286,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Zhongshe, Houli District / Xinshe area, Taichung City",
+    "file": "cities/taichung/activities/zhongshe-flower-market.md"
+  },
+  {
     "name": "Anping Old Street",
     "city": "tainan",
     "tags": [
@@ -1501,9 +1774,11 @@
     "cost_ntd": "150",
     "lat": 25.1695,
     "lng": 121.4415,
-    "status": "pending",
-    "done": false,
-    "scheduled": "",
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
     "address": "Zhongzheng Rd, Tamsui District, New Taipei City 251",
     "file": "cities/taipei/activities/tamsui-old-street.md"
   },

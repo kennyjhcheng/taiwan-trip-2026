@@ -13,8 +13,9 @@ category: accommodation
 | Apr 21 | Taitung | TBD | ☐ Book soon | — | — |
 | Apr 22 | Yuli | TBD | ⚠️ BOOK ASAP | — | — |
 | Apr 23–24 | Hualien | TBD | ☐ Book soon | — | — |
-| Apr 25 | Taipei | TBD | ☐ Book soon | — | — |
-| Apr 26–27 | Taipei | TBD | ☐ Book soon | — | — |
+| Apr 25 | Taipei | Guting Airbnb Hostel | ✅ STAYED | — | — |
+| Apr 26 | Taichung | 寧萃 Ningcui Hotel (private room — dorm full) | ✅ STAYED | — | NT$800 |
+| Apr 27 | Taichung | Backpacker 41 Hostel | ✅ BOOKED | 95294-577100771 | TBD |
 | Apr 28–29 | Sun Moon Lake | TBD | ⚠️ BOOK ASAP | — | — |
 | Apr 30 | Alishan | TBD | ⚠️ BOOK ASAP | — | — |
 | May 1–2 | Tainan | TBD | ☐ Book soon | — | — |
@@ -119,7 +120,36 @@ Same area as MU House (Zhongzheng/Zhongshan). Consider splurging for group farew
 
 ---
 
-## Taipei — Week 2 (Apr 26–27, May 3) {#taipei-week2}
+## Taichung — Apr 26 {#taichung-apr26}
+
+| Field | Detail |
+|---|---|
+| **Hotel** | 寧萃 Ningcui Hotel (private room — dorm full) |
+| **Check-in** | Sun, Apr 26 |
+| **Check-out** | Mon, Apr 27 |
+| **Price** | NT$800 |
+| **Status** | ✅ STAYED |
+
+**Day:** [[itinerary/apr-26]]
+
+---
+
+## Taichung — Apr 27 {#taichung-apr27}
+
+| Field | Detail |
+|---|---|
+| **Hotel** | Backpacker 41 Hostel |
+| **Platform** | HostelWorld |
+| **Booking #** | 95294-577100771 |
+| **Check-in** | Mon, Apr 27 |
+| **Check-out** | Tue, Apr 28 |
+| **Status** | ✅ BOOKED |
+
+**Day:** [[itinerary/apr-27]]
+
+---
+
+## Taipei — May 3 {#taipei-may3-options}
 
 | # | Name | Area | Est. Price/Night | Notes |
 |---|------|------|-----------------|-------|
@@ -127,9 +157,7 @@ Same area as MU House (Zhongzheng/Zhongshan). Consider splurging for group farew
 | 💰 | **The Loft Hostel** | Zhongzheng | NT$900–1,400 (~$28–44) | Social vibe; rooftop |
 | 💰💰 | **Just Sleep Zhongshan** | Zhongshan | NT$1,800–2,600 (~$56–81) | Modern; near Ningxia Night Market |
 
-Can be the same property for all 3 nights.
-
-**Days:** [[itinerary/apr-26]] · [[itinerary/apr-27]] · [[itinerary/may-03]]
+**Day:** [[itinerary/may-03]]
 
 ---
 
