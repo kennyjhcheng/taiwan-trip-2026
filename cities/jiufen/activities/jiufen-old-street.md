@@ -5,15 +5,15 @@ tags: [sightseeing, eat]
 priority: must
 cost_ntd: "150"
 location: [25.1072, 121.8435]
-status: pending
-scheduled: "[[itinerary/apr-27]]"
+status: done
+scheduled: "[[itinerary/apr-25]]"
 address: "基山街, Ruifang District, New Taipei City 224"
-done: false
+done: true
 ---
 
 # Jiufen Old Street (九份老街)
 
-> #sightseeing · #eat · **🔥 Must** · 💰 NT$150 · ⬜ Pending
+> #sightseeing · #eat · **🔥 Must** · 💰 NT$150 · ✅ Done
 
 The definitive Taiwan aesthetic. Red lanterns, narrow alleys, sea mist, ocean views. Go at dusk. Supposedly inspired Spirited Away (Miyazaki denies it).
 

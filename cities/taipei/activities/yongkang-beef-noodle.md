@@ -6,7 +6,7 @@ priority: must
 cost_ntd: "250"
 location: [25.0294, 121.5292]
 status: pending
-scheduled: "[[itinerary/apr-27]]"
+scheduled: "[[itinerary/apr-26]]"
 address: "No. 17, Lane 31, Section 2, Jinshan S. Rd, Da'an District, Taipei"
 done: false
 ---

@@ -14,16 +14,21 @@ week: 1
 
 
 ## 🚴 The Ride — ~74 mi (119 km) | ~4,300 ft gain | Challenging ⚠️
-- **Earliest start of trip** — on bike by 6:30 AM
-- Route passes Shuangliu Forest Recreation Area and Dawu
-- Major mountain climbing — pace yourself, eat and hydrate constantly
-- 7-Elevens every 10–15 km — use them
-- Descend into Taitung — celebrate, eat well
+- ✅ Earliest start of trip — on bike by 6:30 AM
+- ❌ ~~Shuangliu Forest Recreation Area~~ — skipped, pushed straight through
+- ✅ Major mountain climbing through the day
+- ➕ **Rest stop at Daren (達仁鄉)** — ate, drank bubble tea, took a long break mid-ride
+- ➕ Rode through a **massive rainstorm** on the way into Taitung — biked through it anyway 🌧️
+- ✅ Arrived Taitung — hardest day done!
 
 ## Evening
-- **Dinner:** [[cities/taitung/activities/tiehua-music-village]] — outdoor music + indigenous food
-- Optional recovery: [[cities/taitung/activities/zhiben-hot-springs]] — 15 min south, NT$150–300
-- [[cities/taitung/activities/taitung-forest-park]] — short evening walk if energy allows
+- ➕ Took Megan + Derek to the **local Giant bike shop** in Taitung for bike repairs
+- ➕ **Dinner at a Taiwanese indigenous restaurant** nearby — owner was drunk and played guitar for the group 🎸
+- ❌ ~~[[cities/taitung/activities/tiehua-music-village]]~~ — skipped
+- ❌ ~~[[cities/taitung/activities/zhiben-hot-springs]]~~ — skipped
+- ❌ ~~[[cities/taitung/activities/taitung-forest-park]]~~ — skipped
+- ➕ Convenience store ice cream 🍦
+- ➕ Laundry + drying, then early sleep
 
-**Stay:** [[logistics/accommodation#taitung]] (TBD — book soon)
+**Stay:** [[logistics/accommodation#taitung]]
 

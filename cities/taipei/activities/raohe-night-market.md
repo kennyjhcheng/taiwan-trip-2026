@@ -5,19 +5,19 @@ tags: [eat, nightmarket]
 priority: worth-it
 cost_ntd: "200"
 location: [25.0508, 121.5774]
-status: pending
-scheduled: "[[itinerary/may-03]]"
+status: done
+scheduled: "[[itinerary/apr-25]]"
 address: "Raohe St, Songshan District, Taipei 105"
-done: false
+done: true
 ---
 
 # Raohe Street Night Market (饒河夜市)
 
-> #eat · #nightmarket · **✨ Worth It** · 💰 NT$200 · ⬜ Pending
+> #eat · #nightmarket · **✨ Worth It** · 💰 NT$200 · ✅ Done — Apr 25, last night with the group
 
-Locals' top-ranked night market. Black pepper buns at the temple entrance stall are the best in Taiwan. Also: pork rib soup, grilled squid.
+Ate: Michelin pepper buns ✅ · bomb scallion pancakes (炸弹葱油饼) · steamed pig blood rice cakes · lamb skewers. Ended with claw machines to burn through everyone's last coins 🕹️
 
 ---
 
 **City:** [[cities/taipei/index]]
-**Scheduled:** [[itinerary/may-03]]
+**Scheduled:** [[itinerary/apr-25]]

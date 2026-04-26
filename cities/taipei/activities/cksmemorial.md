@@ -6,7 +6,7 @@ priority: worth-it
 cost_ntd: "0"
 location: [25.0349, 121.5211]
 status: pending
-scheduled: ""
+scheduled: "[[itinerary/apr-26]]"
 address: "No. 21, Zhongshan S. Rd, Zhongzheng District, Taipei 100"
 done: false
 ---

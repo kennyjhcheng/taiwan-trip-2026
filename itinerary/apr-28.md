@@ -13,12 +13,15 @@ week: 2
 ---
 
 
-## Morning — HSR to Taichung
-- HSR Taipei → Taichung (~40 min, NT$700)
-- Optional 1-hour stop: **[[cities/other/activities/miyahara-taichung]]** — 1920s Japanese eye clinic turned ice cream shop
+## Morning — Checkout Taichung → Sun Moon Lake
+- ~~HSR Taipei → Taichung~~ — already in Taichung from Apr 27
+- ~~Miyahara~~ — already done Apr 27
+- Grab breakfast, check out of hotel
 
-## Afternoon — Sun Moon Lake
-- Nantou Bus 6670: THSR Taichung → Sun Moon Lake (~1.5h, NT$193)
+## Midday — Bus to Sun Moon Lake
+- 🚌 **Nantou Bus 6670: THSR Taichung → Sun Moon Lake** (~1.5h, NT$193)
+  - Departs from THSR Taichung Station bus stop (~20 min from city center)
+  - ⚠️ Only a few departures per day — check schedule in advance and aim for 10–11 AM bus
 - Check in at Shuishe Village → [[logistics/accommodation#sun-moon-lake]]
 - Rent e-bike for tomorrow (NT$400–600/day, ask hotel)
 - **[[cities/sun-moon-lake/activities/wenwu-temple]]** — dramatic lakeside temple, sunset views

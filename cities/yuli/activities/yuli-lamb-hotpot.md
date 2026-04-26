@@ -5,7 +5,7 @@ tags: [eat]
 priority: must
 cost_ntd: "300"
 location: [23.3397, 121.3067]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-22]]"
 address: "Zhongshan Rd, Yuli Township, Hualien County 981"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Yuli Lamb Hotpot
 
-> #eat · **🔥 Must** · 💰 NT$300 · ⬜ Pending
+> #eat · **🔥 Must** · 💰 NT$300 · ❌ Skipped
 
 Another Yuli local specialty. Ask hostel staff for the current best spot — the recommended place changes.
 

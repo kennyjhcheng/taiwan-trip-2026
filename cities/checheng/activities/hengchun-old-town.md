@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [22.0022, 120.7446]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-20]]"
 address: "Hengchun Township, Pingtung County 946"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Hengchun Old Town (恆春古城)
 
-> #sightseeing · **✨ Worth It** · 💰 NT$0 · ⬜ Pending
+> #sightseeing · **✨ Worth It** · 💰 NT$0 · ❌ Skipped
 
 Intact Qing-dynasty walled city — one of the few remaining in Taiwan. Brief stop on the bike route south.
 

@@ -5,15 +5,15 @@ tags: [eat, nightmarket]
 priority: must
 cost_ntd: "200"
 location: [22.6324, 120.3015]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-19]]"
 address: "Liouhe 2nd Rd, Xinxing District, Kaohsiung 800"
-done: false
+done: true
 ---
 
 # Liouhe Night Market (六合夜市)
 
-> #eat · #nightmarket · **🔥 Must** · 💰 NT$200 · ⬜ Pending
+> #eat · #nightmarket · **🔥 Must** · 💰 NT$200 · ✅ Done
 
 5 min walk from the Airbnb. Papaya milk, grilled seafood, shrimp rolls. Evening of arrival — good intro to Kaohsiung.
 

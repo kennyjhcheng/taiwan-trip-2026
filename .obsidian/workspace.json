@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cities/taipei/index.md",
+                "file": "itinerary/apr-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "apr-28"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cities/taipei/index.md",
+                "file": "itinerary/apr-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for apr-28"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cities/taipei/index.md",
+                "file": "itinerary/apr-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from apr-28"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cities/taipei/index.md",
+                "file": "itinerary/apr-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of apr-28"
             }
           }
         ]
@@ -185,11 +185,16 @@
   },
   "active": "4d24867400ba599d",
   "lastOpenFiles": [
+    "itinerary/apr-27.md",
+    "itinerary/apr-26.md",
+    "itinerary/apr-25.md",
+    "cities/taipei/index.md",
+    "cities/hualien/activities/shandong-soymilk.md",
+    "cities/jiufen/activities/age-inn-beef-noodle.md",
     "cities/taipei/activities/ay-chung-noodle.md",
     "cities/jiufen/index.md",
     "scripts/convert_wikilinks.py",
     "cities/alishan/index.md",
-    "itinerary/apr-25.md",
     "index.md"
   ]
 }

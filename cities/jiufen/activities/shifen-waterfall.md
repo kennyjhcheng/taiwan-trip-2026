@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [25.0795, 121.7736]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-27]]"
 address: "Shifen, Pingxi District, New Taipei City 226"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Shifen Waterfall (十分瀑布)
 
-> #sightseeing · **✨ Worth It** · 💰 NT$0 · ⬜ Pending
+> #sightseeing · **✨ Worth It** · 💰 NT$0 · ❌ Skipped
 
 Taiwan's widest waterfall. Beautiful in morning mist. 10-minute walk from Shifen station.
 

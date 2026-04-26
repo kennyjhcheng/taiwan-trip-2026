@@ -1,23 +1,23 @@
 ---
-name: Taro Ball Soup (芋圓)
+name: Grandma Lai Taro Balls (賴阿婆芋圓)
 city: jiufen
 tags: [eat]
 priority: must
 cost_ntd: "80"
 location: [25.1072, 121.8435]
-status: pending
-scheduled: "[[itinerary/apr-27]]"
+status: done
+scheduled: "[[itinerary/apr-25]]"
 address: "基山街, Ruifang District, New Taipei City 224"
-done: false
+done: true
 ---
 
-# Taro Ball Soup (芋圓)
+# Grandma Lai Taro Balls (賴阿婆芋圓)
 
-> #eat · **🔥 Must** · 💰 NT$80 · ⬜ Pending
+> #eat · **🔥 Must** · 💰 NT$80 · ✅ Done
 
-Jiufen's signature dish. Any of the stalls with ocean views. Chewy, sweet, the thing to eat here.
+Jiufen's most famous taro ball stall. Chewy sweet taro and sweet potato balls served hot or cold with ocean views. The definitive Jiufen snack.
 
 ---
 
 **City:** [[cities/jiufen/index]]
-**Scheduled:** [[itinerary/apr-27]]
+**Scheduled:** [[itinerary/apr-25]]

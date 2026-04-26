@@ -22,17 +22,18 @@ week: 1
   - 19F-1, No. 50, Section 1, Zhongxiao West Road, Zhongzheng District
 
 ## Daytime — Clockwise City Sweep
-- 🚇 Red Line south → **[[cities/taipei/activities/elephant-mountain]]** — 20-min hike, Taipei 101 skyline shot
-- Walk **[[cities/taipei/activities/taipei-101]]** (Xinyi District)
-- 🚇 → Brown Line → Taipei Zoo → **[[cities/taipei/activities/maokong-gondola]]** (NT$120) up to **[[cities/taipei/activities/maokong-tea]]**
-- Optional morning: **[[cities/taipei/activities/guanghua-digital]]** — buy gear before heading south (battery bank, action cam, earphones)
-- **3:00 PM** — Check in at MU House ✅ booked → [[logistics/accommodation#taipei]]
+- ✅ 🚇 Red Line south → **[[cities/taipei/activities/elephant-mountain]]** — 20-min hike, Taipei 101 skyline shot
+- ✅ Walk **[[cities/taipei/activities/taipei-101]]** (Xinyi District)
+- ✅ 🚇 → Brown Line → Taipei Zoo → **[[cities/taipei/activities/maokong-gondola]]** (NT$120) up to **[[cities/taipei/activities/maokong-tea]]**
+- ❌ ~~**[[cities/taipei/activities/guanghua-digital]]**~~ — skipped
+- ✅ **3:00 PM** — Check in at MU House → [[logistics/accommodation#taipei]]
 
 ## Evening — Group Arrives ✅ Done
-- 🚇 Red Line → Ximen → **[[cities/taipei/activities/ximending]]** ✅
-  - **[[cities/taipei/activities/ay-chung-noodle]]** ✅
-  - **[[cities/taipei/activities/popcorn-chicken-king]]** ✅
-- Night: **[[cities/taipei/activities/ningxia-night-market]]** ✅
+- ✅ 🚇 Red Line → Ximen → **[[cities/taipei/activities/ximending]]**
+  - ✅ **[[cities/taipei/activities/ay-chung-noodle]]**
+  - ✅ **[[cities/taipei/activities/popcorn-chicken-king]]**
+- ✅ Night: **[[cities/taipei/activities/ningxia-night-market]]**
+- ➕ Richard arrived ~6 PM, Derek arrived ~8 PM
 
 **Stay:** [[logistics/accommodation#taipei]] (MU House — ✅ booked $255.30)
 

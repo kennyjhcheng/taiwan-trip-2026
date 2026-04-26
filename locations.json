@@ -129,7 +129,7 @@
     "cost_ntd": "300",
     "lat": 22.0055,
     "lng": 120.7101,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-20]"
@@ -150,7 +150,7 @@
     "cost_ntd": "0",
     "lat": 21.9006,
     "lng": 120.8484,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-20]"
@@ -170,7 +170,7 @@
     "cost_ntd": "0",
     "lat": 22.0022,
     "lng": 120.7446,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-20]"
@@ -191,7 +191,7 @@
     "cost_ntd": "0",
     "lat": 21.96,
     "lng": 120.82,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Hengchun Township, Pingtung County 946",
@@ -210,8 +210,8 @@
     "cost_ntd": "250",
     "lat": 23.9754,
     "lng": 121.6011,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-23]"
     ],
@@ -230,7 +230,7 @@
     "cost_ntd": "200",
     "lat": 23.9764,
     "lng": 121.604,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-23]"
@@ -250,8 +250,8 @@
     "cost_ntd": "100",
     "lat": 23.9764,
     "lng": 121.604,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-23]"
     ],
@@ -270,13 +270,33 @@
     "cost_ntd": "0",
     "lat": 24.0311,
     "lng": 121.6411,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-24]"
     ],
     "address": "Qixingtan Rd, Xincheng Township, Hualien County 971",
     "file": "cities/hualien/activities/qixingtan-beach.md"
+  },
+  {
+    "name": "山東豆漿大王 (Shandong Soy Milk King)",
+    "city": "hualien",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "80",
+    "lat": 23.9738,
+    "lng": 121.6052,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "No. 182, Nanjing St, Hualien City, Hualien County 970",
+    "file": "cities/hualien/activities/shandong-soymilk.md"
   },
   {
     "name": "Taroko — Buluowan Terrace",
@@ -291,7 +311,7 @@
     "cost_ntd": "0",
     "lat": 24.16,
     "lng": 121.6316,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-24]"
@@ -312,7 +332,7 @@
     "cost_ntd": "0",
     "lat": 24.172,
     "lng": 121.622,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-24]"
@@ -333,7 +353,7 @@
     "cost_ntd": "0",
     "lat": 24.1523,
     "lng": 121.624,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-24]"
@@ -354,7 +374,7 @@
     "cost_ntd": "0",
     "lat": 24.1686,
     "lng": 121.628,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-24]"
@@ -375,13 +395,33 @@
     "cost_ntd": "400",
     "lat": 25.1072,
     "lng": 121.8435,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
     "address": "No. 20, Shuchi Rd, Jiufen, Ruifang District, New Taipei City 224",
     "file": "cities/jiufen/activities/a-mei-tea-house.md"
+  },
+  {
+    "name": "Age Inn Beef Noodles (阿柑姨牛肉麵)",
+    "city": "jiufen",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "150",
+    "lat": 25.1072,
+    "lng": 121.8435,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "基山街, Ruifang District, New Taipei City 224",
+    "file": "cities/jiufen/activities/age-inn-beef-noodle.md"
   },
   {
     "name": "Golden Waterfall + Yin-Yang Sea",
@@ -395,7 +435,7 @@
     "cost_ntd": "0",
     "lat": 25.102,
     "lng": 121.86,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-27]"
@@ -416,10 +456,10 @@
     "cost_ntd": "150",
     "lat": 25.1072,
     "lng": 121.8435,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
-      "[itinerary/apr-27]"
+      "[itinerary/apr-25]"
     ],
     "address": "基山街, Ruifang District, New Taipei City 224",
     "file": "cities/jiufen/activities/jiufen-old-street.md"
@@ -436,7 +476,7 @@
     "cost_ntd": "60",
     "lat": 25.1072,
     "lng": 121.8435,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-27]"
@@ -456,7 +496,7 @@
     "cost_ntd": "200",
     "lat": 25.0836,
     "lng": 121.7785,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-27]"
@@ -476,7 +516,7 @@
     "cost_ntd": "0",
     "lat": 25.0795,
     "lng": 121.7736,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-27]"
@@ -485,7 +525,7 @@
     "file": "cities/jiufen/activities/shifen-waterfall.md"
   },
   {
-    "name": "Taro Ball Soup (芋圓)",
+    "name": "Grandma Lai Taro Balls (賴阿婆芋圓)",
     "city": "jiufen",
     "tags": [
       "eat"
@@ -496,10 +536,10 @@
     "cost_ntd": "80",
     "lat": 25.1072,
     "lng": 121.8435,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
-      "[itinerary/apr-27]"
+      "[itinerary/apr-25]"
     ],
     "address": "基山街, Ruifang District, New Taipei City 224",
     "file": "cities/jiufen/activities/taro-ball-soup.md"
@@ -536,7 +576,7 @@
     "cost_ntd": "0",
     "lat": 22.628,
     "lng": 120.3017,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-19]"
@@ -557,8 +597,8 @@
     "cost_ntd": "200",
     "lat": 22.6324,
     "lng": 120.3015,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-19]"
     ],
@@ -595,7 +635,7 @@
     "cost_ntd": "0",
     "lat": 22.631,
     "lng": 120.298,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-19]"
@@ -616,7 +656,7 @@
     "cost_ntd": "0",
     "lat": 22.6247,
     "lng": 120.2853,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-19]"
@@ -679,7 +719,7 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-28]"
+      "[itinerary/apr-27]"
     ],
     "address": "No. 20, Zhongshan Rd, Central District, Taichung 400",
     "file": "cities/other/activities/miyahara-taichung.md"
@@ -1118,10 +1158,10 @@
     "cost_ntd": "80",
     "lat": 25.1313,
     "lng": 121.506,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
-      "[itinerary/apr-26]"
+      "[itinerary/apr-25]"
     ],
     "address": "No. 2, Lane 2, Zhongshan Rd, Beitou District, Taipei 112",
     "file": "cities/taipei/activities/beitou-hot-springs.md"
@@ -1140,7 +1180,9 @@
     "lng": 121.5211,
     "status": "pending",
     "done": false,
-    "scheduled": "",
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
     "address": "No. 21, Zhongshan S. Rd, Zhongzheng District, Taipei 100",
     "file": "cities/taipei/activities/cksmemorial.md"
   },
@@ -1177,8 +1219,8 @@
     "cost_ntd": "0",
     "lat": 25.0273,
     "lng": 121.5769,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-18]"
     ],
@@ -1217,7 +1259,7 @@
     "cost_ntd": "0",
     "lat": 25.0439,
     "lng": 121.5308,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-18]"
@@ -1240,7 +1282,9 @@
     "lng": 121.4999,
     "status": "pending",
     "done": false,
-    "scheduled": "",
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
     "address": "No. 211, Guangzhou St, Wanhua District, Taipei 108",
     "file": "cities/taipei/activities/longshan-temple.md"
   },
@@ -1358,10 +1402,10 @@
     "cost_ntd": "200",
     "lat": 25.0508,
     "lng": 121.5774,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
-      "[itinerary/may-03]"
+      "[itinerary/apr-25]"
     ],
     "address": "Raohe St, Songshan District, Taipei 105",
     "file": "cities/taipei/activities/raohe-night-market.md"
@@ -1415,8 +1459,8 @@
     "cost_ntd": "0",
     "lat": 25.0338,
     "lng": 121.5645,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-18]"
     ],
@@ -1436,8 +1480,8 @@
     "cost_ntd": "0",
     "lat": 25.0478,
     "lng": 121.517,
-    "status": "done",
-    "done": true,
+    "status": "skip",
+    "done": false,
     "scheduled": [
       "[itinerary/apr-19]"
     ],
@@ -1519,7 +1563,7 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-27]"
+      "[itinerary/apr-26]"
     ],
     "address": "No. 17, Lane 31, Section 2, Jinshan S. Rd, Da'an District, Taipei",
     "file": "cities/taipei/activities/yongkang-beef-noodle.md"
@@ -1538,7 +1582,9 @@
     "lng": 121.5289,
     "status": "pending",
     "done": false,
-    "scheduled": "",
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
     "address": "Yongkang St, Da'an District, Taipei 106",
     "file": "cities/taipei/activities/yongkang-street-crawl.md"
   },
@@ -1554,7 +1600,7 @@
     "cost_ntd": "100",
     "lat": 23.096,
     "lng": 121.2161,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-22]"
@@ -1575,7 +1621,7 @@
     "cost_ntd": "1500",
     "lat": 22.6667,
     "lng": 121.4833,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Lyudao Township, Taitung County (ferry from Fugang Pier)",
@@ -1594,7 +1640,7 @@
     "cost_ntd": "0",
     "lat": 22.747,
     "lng": 121.1646,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-21]"
@@ -1616,7 +1662,7 @@
     "cost_ntd": "100",
     "lat": 22.7534,
     "lng": 121.1502,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-21]"
@@ -1637,7 +1683,7 @@
     "cost_ntd": "200",
     "lat": 22.6971,
     "lng": 121.0021,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-21]"
@@ -1658,7 +1704,7 @@
     "cost_ntd": "200",
     "lat": 23.31,
     "lng": 121.34,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Antong Rd, Fuli Township, Hualien County 983",
@@ -1677,8 +1723,8 @@
     "cost_ntd": "0",
     "lat": 23.096,
     "lng": 121.2161,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-22]"
     ],
@@ -1697,7 +1743,7 @@
     "cost_ntd": "120",
     "lat": 23.3397,
     "lng": 121.3067,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-22]"
@@ -1717,7 +1763,7 @@
     "cost_ntd": "300",
     "lat": 23.3397,
     "lng": 121.3067,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-22]"

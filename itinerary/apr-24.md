@@ -13,22 +13,24 @@ week: 1
 ---
 
 
-## Morning — Beach First
-- **[[cities/hualien/activities/qixingtan-beach]]** — crescent pebble beach, on the way to Taroko, sunrise light
+## Booked Car Service — Full Day Tour
+- ✅ **[[cities/hualien/activities/qixingtan-beach]]** — crescent pebble beach 📸
+- ➕ **Qingshui Cliff (清水斷崖)** — stunning coastal cliffs en route
+- ✅ **Taroko Gorge Visitor Center** — most of the park is closed; drive-through only with no trail stops
+  - ⚠️ Tour guide noted: return trip only permitted at certain times — too time-consuming for little payoff
+- ❌ ~~**[[cities/hualien/activities/taroko-shakadang]]**~~ — closed
+- ❌ ~~**[[cities/hualien/activities/taroko-swallow-grotto]]**~~ — closed
+- ❌ ~~**[[cities/hualien/activities/taroko-nine-turns]]**~~ — closed
+- ❌ ~~**[[cities/hualien/activities/taroko-buluowan]]**~~ — closed
+- ➕ **Xincheng Old Street (新城老街)** — lunch at **佳興冰菓店** (tour guide's local rec): noodles, rice, lemon tea, cheesecake 🍋
 
-## Taroko Gorge Day Trip
-- Bus from Hualien City → gorge (~40 min, NT$140 day pass)
-- **[[cities/hualien/activities/taroko-shakadang]]** — 3–4h round trip, turquoise marble river
-- **[[cities/hualien/activities/taroko-swallow-grotto]]** — cliffside walkway above the Liwu River
-- **[[cities/hualien/activities/taroko-nine-turns]]** — twisting marble tunnel *(check access status)*
-- **[[cities/hualien/activities/taroko-buluowan]]** — Truku cultural exhibits
-- Lunch: simple Truku lunchbox at Buluowan or Tianxiang
-- Back to Hualien by late afternoon
+## Afternoon — Group Split + Recovery
+- ➕ **[[cities/hualien/activities/hualien-mochi]]** — bought mochi at **Tzen's Magi Story House Store (曾記麻糬 故事館門市)** 🍡
+- ➕ Returned bikes a day early — group decided no more biking
+- ➕ **Richard, Derek, Henry** → took the train back to Taipei
+- ➕ **Kenny, Patrick, Megan** stayed in Hualien → got a massage (foot + shoulder + foot bath) 🧖
+- ❌ ~~Hualien Night Market~~ — skipped
+- ➕ Kenny ended the night feverish — drank lots of water, stayed warm, skipped dinner, early sleep 🤒
 
-## Evening
-- Hualien Night Market — mochi + milk popsicles again (no shame)
-
-> ⚠️ **Check [taroko.gov.tw/en](https://taroko.gov.tw/en) before going** — some trails still restricted from 2024 earthquake/typhoon damage.
-
-**Stay:** [[logistics/accommodation#hualien]]
+**Stay:** Airbnb — Lane 148, Yanping St, Hualien City
 

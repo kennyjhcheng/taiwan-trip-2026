@@ -6,7 +6,7 @@ priority: must
 cost_ntd: "0"
 location: [25.0368, 121.4999]
 status: pending
-scheduled: ""
+scheduled: "[[itinerary/apr-26]]"
 address: "No. 211, Guangzhou St, Wanhua District, Taipei 108"
 done: false
 ---

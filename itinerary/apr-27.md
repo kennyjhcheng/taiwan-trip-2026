@@ -1,36 +1,38 @@
 ---
 date: Apr 27
 day_of_week: Mon
-theme: "🏮 Jiufen + Shifen Day Trip"
-city: jiufen
+theme: "🍦 Taichung — Miyahara + Fengjia Night Market"
+city: other
 week: 2
 ---
 
-# Apr 27 (Mon) — 🏮 Jiufen + Shifen Day Trip
+# Apr 27 (Mon) — 🍦 Taichung
 
-**City:** [[cities/jiufen/index]] | ← [[itinerary/apr-26]] | [[itinerary/apr-28]] →
+**City:** [[cities/other/index]] | ← [[itinerary/apr-26]] | [[itinerary/apr-28]] →
 
 ---
 
+## ❌ Jiufen/Shifen Day Trip — Cancelled
+- ~~Shifen Waterfall~~ — skipped
+- ~~Shifen Sky Lanterns~~ — skipped
+- ~~A-Mei Tea House~~ — skipped
+- ~~Golden Waterfall~~ — skipped
+- Jiufen Old Street, Taro Balls, Age Inn Beef Noodle — ✅ already done Apr 25
 
-## 6:30 AM — Breakfast First
-- **[[cities/taipei/activities/fu-hang-breakfast]]** — legendary soy milk + bing. Arrive by 6:30 AM to avoid 45-min queue.
+## Morning — Slow Start in Taichung
+- Breakfast near hotel — Taichung has excellent breakfast spots
+- **[[cities/other/activities/miyahara-taichung]]** — 1920s Japanese eye clinic turned ice cream shop (opens 10 AM)
+  - Elaborate sundaes + pineapple cakes · NT$180–250 · No. 20, Zhongshan Rd, Central District
 
-## Morning — Shifen (~9 AM)
-- Train: Taipei Main → Ruifang (~1h, NT$49) → local train to Shifen (~20 min, NT$15)
-- **[[cities/jiufen/activities/shifen-waterfall]]** — Taiwan's widest, 10-min walk from station
-- **[[cities/jiufen/activities/shifen-sky-lantern]]** — NT$150–200/lantern over the train tracks
+## Afternoon — Taichung Wander
+- **Calligraphy Greenway (草悟道)** — linear park with indie bookstores, cafes, and design shops
+- **Rainbow Village (彩虹眷村)** — colorful murals by 96-year-old veteran, ~15 min by taxi
+- Or: browse the covered markets and lanes of Central Taichung
 
-## Afternoon — Jiufen (~12:30 PM)
-- Bus Shifen → Jiufen (~20 min, NT$25)
-- **[[cities/jiufen/activities/a-mei-tea-house]]** — window seat, tea + taro balls + ocean view
-- **[[cities/jiufen/activities/jiufen-old-street]]** — wander, [[cities/jiufen/activities/taro-ball-soup]]
-- **[[cities/jiufen/activities/golden-waterfall]]** — 10-min bus, eerie mineral-stained coast
-- **[[cities/jiufen/activities/peanut-ice-cream-roll]]** — the unique Jiufen street snack
+## Evening — Fengjia Night Market
+- 🌙 **逢甲夜市 (Fengjia Night Market)** — one of Taiwan's largest and most famous
+  - Large sausage wrapped in sticky rice sausage 🌭 · stinky tofu · honey BBQ · fresh juice · scallion rolls
+  - ~20 min from city center by taxi/bus
 
-## Evening — Return (~6–7 PM)
-- Direct bus Jiufen → Taipei (~1.5h, NT$100)
-- **Dinner: [[cities/taipei/activities/yongkang-beef-noodle]]** — Yongkang Street, decades-old institution
-
-**Stay:** [[logistics/accommodation#taipei-week2]]
+**Stay:** Taichung (same hotel as last night)
 

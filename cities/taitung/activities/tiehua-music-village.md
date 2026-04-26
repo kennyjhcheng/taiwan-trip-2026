@@ -5,7 +5,7 @@ tags: [sightseeing, activity, eat]
 priority: must
 cost_ntd: "100"
 location: [22.7534, 121.1502]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-21]]"
 address: "No. 369, Tiexian Rd, Taitung City 950"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Tiehua Music Village (鐵花村)
 
-> #sightseeing · #activity · #eat · **🔥 Must** · 💰 NT$100 · ⬜ Pending
+> #sightseeing · #activity · #eat · **🔥 Must** · 💰 NT$100 · ❌ Skipped
 
 Outdoor music + crafts + food. Indigenous culture, lively nights. Top evening stop after the hardest ride day.
 

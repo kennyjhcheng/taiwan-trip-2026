@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [22.631, 120.298]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-19]]"
 address: "Minzu 1st Rd, Gushan District, Kaohsiung"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Love River (愛河) Evening Walk
 
-> #sightseeing · **✨ Worth It** · 💰 NT$0 · ⬜ Pending
+> #sightseeing · **✨ Worth It** · 💰 NT$0 · ❌ Skipped
 
 Riverside promenade with lit bridges. Relaxed evening walk after the night market.
 

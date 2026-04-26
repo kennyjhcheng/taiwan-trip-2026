@@ -6,7 +6,7 @@ priority: worth-it
 cost_ntd: "200"
 location: [24.1398, 120.6808]
 status: pending
-scheduled: "[[itinerary/apr-28]]"
+scheduled: "[[itinerary/apr-27]]"
 address: "No. 20, Zhongshan Rd, Central District, Taichung 400"
 done: false
 ---

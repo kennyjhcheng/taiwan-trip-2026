@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: worth-it
 cost_ntd: "0"
 location: [24.16, 121.6316]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-24]]"
 address: "Buluowan, Xiulin Township, Hualien County 972"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Taroko — Buluowan Terrace
 
-> #sightseeing · #activity · **✨ Worth It** · 💰 NT$0 · ⬜ Pending
+> #sightseeing · #activity · **✨ Worth It** · 💰 NT$0 · ❌ Closed (park mostly shut, drive-through only)
 
 Truku cultural exhibits, elevated boardwalks, indigenous crafts and art. Good cultural complement to the gorge trails.
 

@@ -23,9 +23,11 @@ week: 2
 - Drop bags at Taipei hotel near Taipei Main → [[logistics/accommodation#taipei-may3]]
 
 ## Evening — Final Taipei Blowout 🎊
-- **[[cities/taipei/activities/raohe-night-market]]** — black pepper buns, pork rib soup, grilled squid
-- Final bubble tea (Chun Shui Tang — inventors of the drink)
-- Optional: Xinyi district rooftop bar near Taipei 101 for a send-off view
+- ~~[[cities/taipei/activities/raohe-night-market]]~~ ✅ already done Apr 25
+- **[[cities/taipei/activities/shilin-night-market]]** — largest night market in Taipei if not yet done
+- Or: **[[cities/taipei/activities/national-palace-museum]]** area dinner + evening stroll if museum visited today
+- Final bubble tea — Chun Shui Tang (春水堂), inventors of the drink
+- Optional: Xinyi district rooftop bar near Taipei 101 for a send-off view 🌃
 
 **Stay:** [[logistics/accommodation#taipei-may3]]
 

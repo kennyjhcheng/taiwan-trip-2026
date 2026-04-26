@@ -14,16 +14,22 @@ week: 1
 
 
 ## 🚴 The Ride — ~58 mi (93 km) | ~2,000 ft gain | Moderate
-- Continue north with Pacific Ocean views
-- Pass Fuyuan National Forest Recreation Area + coastal cliffs
-- **Arrive Hualien — 🎉 bike route complete!**
+- ➕ Breakfast at a local Yuli breakfast spot (many highly-rated options nearby)
+- ✅ Continued north — Pacific Ocean views + coastal cliffs
+- ➕ Convenience store stops along the route for fuel
+- ➕ **Group split mid-ride:**
+  - Kenny, Derek, Patrick, Megan → detoured to **Ruisui Hot Springs (瑞穗溫泉)** — private sulfur baths, very relaxing 🛁
+  - Richard + Henry → continued biking straight to Hualien
+- ✅ **Arrived Hualien — 🎉 bike route complete!**
+- ✅ Checked into Airbnb — Lane 148, Yanping St, Hualien City
 
-## Evening — Celebration Dinner
-- **[[cities/hualien/activities/hualien-mochi]]** — buy from shops near the night market
-- **[[cities/hualien/activities/dongdamen-night-market]]** — milk popsicles + mochi + celebration dinner 🎉
-- Optional: [[cities/hualien/activities/hualien-beef-noodle]] — tomato-forward local variation
+## Evening
+- ➕ **Dinner at a hotpot restaurant** — mediocre; Hualien apparently doesn't have good hotpot
+- ✅ Taxi to **[[cities/hualien/activities/dongdamen-night-market]]** — arrived late, market was already winding down (closes much earlier than Taipei night markets)
+- ❌ ~~**[[cities/hualien/activities/hualien-mochi]]**~~ — didn't get to it
+- ❌ ~~[[cities/hualien/activities/hualien-beef-noodle]]~~ — skipped
 
-**Stay:** [[logistics/accommodation#hualien]] (TBD — book with bike storage)
+**Stay:** Airbnb — Lane 148, Yanping St, Hualien City
 
 > **Tomorrow:** Free day → Taroko Gorge day trip — [[itinerary/apr-24]]
 

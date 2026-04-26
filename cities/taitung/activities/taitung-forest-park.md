@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: worth-it
 cost_ntd: "0"
 location: [22.747, 121.1646]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-21]]"
 address: "Lane 115, Section 1, Zhiqing Rd, Taitung City 950"
 done: false
@@ -13,7 +13,7 @@ done: false
 
 # Taitung Forest Park (台東森林公園)
 
-> #sightseeing · #activity · **✨ Worth It** · 💰 NT$0 · ⬜ Pending
+> #sightseeing · #activity · **✨ Worth It** · 💰 NT$0 · ❌ Skipped
 
 Coastal lagoon + forest. Good evening walk after arriving. Free.
 
