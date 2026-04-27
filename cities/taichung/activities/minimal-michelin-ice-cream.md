@@ -2,23 +2,18 @@
 name: Minimal Michelin Ice Cream
 city: taichung
 tags: [eat]
-priority: must
+priority: worth-it
 cost_ntd: "150-300"
-location: [24.1390, 120.6855]
-status: pending
+location: [24.1560, 120.6660]
+status: done
 scheduled: "[[itinerary/apr-27]]"
-address: "Central District, Taichung City 400"
-done: false
+address: "Taichung (confirm exact address on Google Maps)"
+done: true
 ---
 
 # Minimal Michelin Ice Cream
 
-A Taichung ice cream spot recognized for its quality — the "Michelin" nickname reflects its recommendation-level status among locals, not an official guide listing. Known for clean, minimalist presentation and premium soft-serve or popsicle flavors made with quality local ingredients.
+Taichung ice cream spot known for creative flavours and minimal aesthetic presentation.
 
-## Tips
-
-- Confirm the current address on Google Maps — search "Minimal 米其林冰淇淋 台中" or the shop name you have
-- Best combined with the Miyahara area since both are in the Central District
-- Popular flavors often include taro, hojicha, black sesame, and seasonal fruit
-
-> 📝 **Note:** Double-check the exact Chinese name and address before going — "Michelin ice cream" is a category nickname used for several top-rated shops in Taichung.
+## Notes (Apr 27)
+Afternoon treat after the Green Ray area. Hit as planned.

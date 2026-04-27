@@ -6,7 +6,7 @@ priority: must
 cost_ntd: "500"
 location: [23.8625, 120.917]
 status: pending
-scheduled: "[[itinerary/apr-29]]"
+scheduled: "[[itinerary/apr-28]]"
 address: "Shuishe Pier, Yuchi Township, Nantou County 555"
 done: false
 ---

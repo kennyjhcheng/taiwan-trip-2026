@@ -27,13 +27,27 @@ category: transport
 
 ## Critical Bus Routes
 
-### Sun Moon Lake → Chiayi — Apr 30 {#sml-chiayi-bus}
-⚠️ **Only 2 departures per day: 1:00 PM and 2:30 PM. Book in advance.**
+### Sun Moon Lake → Alishan — Apr 29 {#sml-chiayi-bus}
+✅ **BOOKED**
 
-- Email: **yulinbus@gmail.com**
-- Price: NT$230 (~$7)
-- Duration: ~2h
-- **Miss this and the entire Alishan day collapses.**
+| Field | Detail |
+|---|---|
+| **Route** | 台灣好行 6739 日月潭阿里山線 (去程) |
+| **Carrier** | 員林客運 (Yuanlin Bus) |
+| **Departure** | **08:00 AM** — arrive by **07:45 AM** |
+| **Boarding location** | No. 163, Zhongshan Rd, Yuchi Township, Nantou County |
+| **Destination** | 阿里山轉運站 · No. 55, South Alishan, Zhongshan Village, Alishan Township, Chiayi County |
+| **Date** | Apr 29, 2026 |
+| **Order #** | O6979252790 |
+| **Payment Order #** | PO-5819570486 |
+| **Booking #** | BO-2591878149 |
+| **Payment** | NT$292 · Credit Card · 2026-04-27 12:20 |
+| **Voucher** | https://voucher.fontour.com/p/M24eLd-O6979252790 |
+
+⚠️ **Boarding rules:**
+- Arrive at least **15 minutes early** (by 7:45 AM) — latecomers forfeit seat, no refund
+- Scan QR code **both when boarding AND alighting**
+- Max screen brightness when scanning · iPhone users keep away from Apple Pay
 
 ### Nantou Bus 6670 — Taichung HSR → Sun Moon Lake
 - Frequency: roughly hourly

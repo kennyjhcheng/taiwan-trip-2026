@@ -6,7 +6,7 @@ priority: if-time
 cost_ntd: "300"
 location: [23.8802, 120.917]
 status: pending
-scheduled: ""
+scheduled: "[[itinerary/apr-28]]"
 address: "Shuishe Village shops, Yuchi Township, Nantou County 555"
 done: false
 ---

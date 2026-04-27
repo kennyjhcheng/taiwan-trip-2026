@@ -1,27 +1,19 @@
 ---
-name: Animation Lane (動漫彩繪巷)
+name: Animation Lane (彩繪巷)
 city: taichung
 tags: [sightseeing]
-priority: must
+priority: worth-it
 cost_ntd: "0"
-location: [24.1578, 120.6706]
-status: pending
+location: [24.1647, 120.6852]
+status: done
 scheduled: "[[itinerary/apr-27]]"
-address: "Near Yizhong Street, North District, Taichung City 404"
-done: false
+address: "Yizhong Street area, North District, Taichung 404"
+done: true
 ---
 
-# Animation Lane (動漫彩繪巷)
+# Animation Lane 彩繪巷
 
-A narrow alley near Yizhong Street Commercial District where the walls and ground are covered floor-to-ceiling in hand-painted anime murals — Dragon Ball, One Piece, Naruto, Studio Ghibli characters, and more. Free, quick, and great for photos.
+Floor-to-ceiling anime and cartoon murals covering an entire alley near Yizhong Street. Free, quick, great for photos. Browse Yizhong Street snack stalls nearby if anything looks good. ~45 min.
 
-## Tips
-
-- Takes about 20–30 min to walk through and take photos
-- Best in the **morning before crowds** (open all day, no entry fee)
-- Combined well with the Yizhong Street snack area nearby — great for late-morning browsing
-- The alley is easy to miss: look for the narrow entrance between shops on Lixing Road near Yizhong
-
-## Nearby
-
-Yizhong Street has tons of street food, bubble tea shops, stationery stores, and vintage toy stalls. Good for a browse before heading west to Chun Shui Tang.
+## Notes (Apr 27)
+Visited after Chun Shui Tang. Quick and fun stop.

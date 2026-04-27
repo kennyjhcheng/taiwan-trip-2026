@@ -6,7 +6,7 @@ priority: worth-it
 cost_ntd: "0"
 location: [23.8479, 120.9384]
 status: pending
-scheduled: "[[itinerary/apr-30]]"
+scheduled: "[[itinerary/apr-28]]"
 address: "Datong Village, Yuchi Township, Nantou County 555"
 done: false
 ---

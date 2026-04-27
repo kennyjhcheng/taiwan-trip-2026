@@ -6,7 +6,7 @@ priority: worth-it
 cost_ntd: "350"
 location: [23.8449, 120.9085]
 status: pending
-scheduled: "[[itinerary/apr-29]]"
+scheduled: "[[itinerary/apr-28]]"
 address: "Ita Thao or Shuishe Village, Yuchi Township, Nantou County"
 done: false
 ---

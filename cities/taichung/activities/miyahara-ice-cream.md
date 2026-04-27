@@ -1,33 +1,21 @@
 ---
-name: Miyahara Ice Cream (宮原眼科)
+name: Miyahara Ice Cream
 city: taichung
 tags: [eat]
 priority: must
 cost_ntd: "200-400"
-location: [24.1377, 120.6847]
-status: pending
+location: [24.1388, 120.6820]
+status: done
 scheduled: "[[itinerary/apr-27]]"
-address: "No. 20, Zhongshan Road, Central District, Taichung City 400"
-done: false
+address: "20 Zhongshan Rd, Central District, Taichung 400"
+done: true
 ---
 
-# Miyahara Ice Cream (宮原眼科)
+# Miyahara Ice Cream
 
-A former Japanese-era ophthalmology clinic turned into one of Taiwan's most Instagram-worthy dessert shops. The interior is stunning — high dark-wood shelves stacked floor-to-ceiling with pineapple cakes and gift boxes, ornate chandeliers, a full Harry Potter-esque aesthetic.
+Ornate Japanese-era ophthalmology clinic turned ice cream parlour. Choose your sundae base and toppings at the counter. Also sells pineapple cakes — good spot to pick up gifts.
 
-## What to Order
+Go early to beat the crowds. ~45 min.
 
-- **Signature sundaes** — choose your ice cream flavor + 4 toppings piled dramatically high (NT$200–280)
-- **Pineapple cakes** — the boxed ones make excellent gifts; try a sample
-- **Hot chocolate** — worth it in cooler weather
-
-## Tips
-
-- Goes early — opens at **10:00 AM**, crowds build fast by 11
-- The line for ice cream moves quickly even when it looks long
-- The gift shop and pineapple cake counter are separate from the ice cream line — worth browsing both
-- Seating is inside and limited; grab your sundae and find a corner
-
-## Nearby
-
-A short walk from the old Taichung Railway Station area and Animation Lane.
+## Notes (Apr 27)
+Visited in the morning as planned. First stop after dropping luggage at Backpacker 41.

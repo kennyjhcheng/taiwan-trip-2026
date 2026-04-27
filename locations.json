@@ -758,7 +758,7 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-29]"
+      "[itinerary/apr-28]"
     ],
     "address": "Ita Thao Village, Yuchi Township, Nantou County 555",
     "file": "cities/sun-moon-lake/activities/bamboo-tube-rice.md"
@@ -779,7 +779,7 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-30]"
+      "[itinerary/apr-28]"
     ],
     "address": "Datong Village, Yuchi Township, Nantou County 555",
     "file": "cities/sun-moon-lake/activities/cien-pagoda.md"
@@ -800,7 +800,7 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-29]"
+      "[itinerary/apr-28]"
     ],
     "address": "Shuishe Pier, Yuchi Township, Nantou County 555",
     "file": "cities/sun-moon-lake/activities/lake-cycling-loop.md"
@@ -820,7 +820,7 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-29]"
+      "[itinerary/apr-28]"
     ],
     "address": "Ita Thao or Shuishe Village, Yuchi Township, Nantou County",
     "file": "cities/sun-moon-lake/activities/president-fish.md"
@@ -839,7 +839,9 @@
     "lng": 120.917,
     "status": "pending",
     "done": false,
-    "scheduled": "",
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
     "address": "Shuishe Village shops, Yuchi Township, Nantou County 555",
     "file": "cities/sun-moon-lake/activities/sml-red-tea.md"
   },
@@ -899,53 +901,51 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-29]"
+      "[itinerary/apr-28]"
     ],
     "address": "Ita Thao Village, Yuchi Township, Nantou County 555",
     "file": "cities/sun-moon-lake/activities/wild-boar-sausage.md"
   },
   {
-    "name": "Animation Lane (動漫彩繪巷)",
+    "name": "Animation Lane (彩繪巷)",
     "city": "taichung",
     "tags": [
       "sightseeing"
     ],
-    "priority": "must",
-    "weight": 3,
+    "priority": "worth-it",
+    "weight": 2,
     "color": "#3b82f6",
     "cost_ntd": "0",
-    "lat": 24.1578,
-    "lng": 120.6706,
-    "status": "pending",
-    "done": false,
+    "lat": 24.1647,
+    "lng": 120.6852,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
-    "address": "Near Yizhong Street, North District, Taichung City 404",
+    "address": "Yizhong Street area, North District, Taichung 404",
     "file": "cities/taichung/activities/animation-lane.md"
   },
   {
-    "name": "Capoo House Taichung (卡拿房台中店)",
+    "name": "Capoo House",
     "city": "taichung",
     "tags": [
       "sightseeing"
     ],
-    "priority": "must",
-    "weight": 3,
+    "priority": "worth-it",
+    "weight": 2,
     "color": "#3b82f6",
     "cost_ntd": "0-500",
-    "lat": 24.1497,
-    "lng": 120.6705,
-    "status": "pending",
+    "lat": 24.152,
+    "lng": 120.663,
+    "status": "skip",
     "done": false,
-    "scheduled": [
-      "[itinerary/apr-27]"
-    ],
-    "address": "West District, Taichung City 403",
+    "scheduled": "",
+    "address": "West District, Taichung",
     "file": "cities/taichung/activities/capoo-house.md"
   },
   {
-    "name": "Chun Shui Tang Siwei Main Shop (春水堂四維店)",
+    "name": "Chin Chih Yuan (Central) — Chicken Cutlet & Pork Chop Rice",
     "city": "taichung",
     "tags": [
       "eat"
@@ -953,57 +953,97 @@
     "priority": "must",
     "weight": 3,
     "color": "#ef4444",
-    "cost_ntd": "120-250",
-    "lat": 24.146,
-    "lng": 120.6631,
-    "status": "pending",
-    "done": false,
+    "cost_ntd": "100-200",
+    "lat": 24.1395,
+    "lng": 120.676,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
-    "address": "No. 12, Siwei Street, West District, Taichung City 403",
-    "file": "cities/taichung/activities/chun-shui-tang.md"
+    "address": "Central District, Taichung",
+    "file": "cities/taichung/activities/chin-chih-yuan.md"
   },
   {
-    "name": "Fantasy Story Green Ray (幻想故事屋 綠光)",
+    "name": "Chun Shui Tang — Siwei Main Shop",
     "city": "taichung",
     "tags": [
-      "sightseeing"
+      "eat"
     ],
     "priority": "must",
     "weight": 3,
-    "color": "#3b82f6",
-    "cost_ntd": "0-800",
-    "lat": 24.1518,
-    "lng": 120.6762,
-    "status": "pending",
-    "done": false,
+    "color": "#ef4444",
+    "cost_ntd": "150-300",
+    "lat": 24.1532,
+    "lng": 120.654,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
-    "address": "Central / West District area, Taichung City",
+    "address": "No. 30, Siwei St, West District, Taichung 403",
+    "file": "cities/taichung/activities/chun-shui-tang.md"
+  },
+  {
+    "name": "Fantasy Store Green Ray (綠光計畫)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0-500",
+    "lat": 24.1548,
+    "lng": 120.6638,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Green Ray Project area, West District, Taichung",
     "file": "cities/taichung/activities/fantasy-store-green-ray.md"
   },
   {
     "name": "Fengchia Night Market (逢甲夜市)",
     "city": "taichung",
     "tags": [
-      "nightmarket",
-      "eat"
+      "nightmarket"
     ],
     "priority": "must",
     "weight": 3,
     "color": "#f97316",
-    "cost_ntd": "200-600",
-    "lat": 24.1802,
-    "lng": 120.6393,
-    "status": "pending",
-    "done": false,
+    "cost_ntd": "200-500",
+    "lat": 24.1797,
+    "lng": 120.6414,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
-    "address": "Fengchia Road, Xitun District, Taichung City 407",
+    "address": "Wenhua Rd, Xitun District, Taichung 407",
     "file": "cities/taichung/activities/fengchia-night-market.md"
+  },
+  {
+    "name": "LFP Perfume Workshop — 台中綠光門市",
+    "city": "taichung",
+    "tags": [
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "2050",
+    "lat": 24.155,
+    "lng": 120.664,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "LFP香料香水實驗室 台中綠光門市, West District, Taichung",
+    "file": "cities/taichung/activities/lfp-perfume-workshop.md"
   },
   {
     "name": "Luce Memorial Chapel (路思義教堂)",
@@ -1015,12 +1055,12 @@
     "weight": 1,
     "color": "#3b82f6",
     "cost_ntd": "0",
-    "lat": 24.1754,
-    "lng": 120.6262,
-    "status": "pending",
+    "lat": 24.1818,
+    "lng": 120.6074,
+    "status": "skip",
     "done": false,
     "scheduled": "",
-    "address": "Tunghai University, No. 1727, Section 4, Taiwan Boulevard, Xitun District, Taichung City 407",
+    "address": "Tunghai University, No. 1727 Sec. 4 Taiwan Blvd, Xitun District, Taichung",
     "file": "cities/taichung/activities/luce-memorial-chapel.md"
   },
   {
@@ -1029,22 +1069,22 @@
     "tags": [
       "eat"
     ],
-    "priority": "must",
-    "weight": 3,
+    "priority": "worth-it",
+    "weight": 2,
     "color": "#ef4444",
     "cost_ntd": "150-300",
-    "lat": 24.139,
-    "lng": 120.6855,
-    "status": "pending",
-    "done": false,
+    "lat": 24.156,
+    "lng": 120.666,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
-    "address": "Central District, Taichung City 400",
+    "address": "Taichung (confirm exact address on Google Maps)",
     "file": "cities/taichung/activities/minimal-michelin-ice-cream.md"
   },
   {
-    "name": "Miyahara Ice Cream (宮原眼科)",
+    "name": "Miyahara Ice Cream",
     "city": "taichung",
     "tags": [
       "eat"
@@ -1053,34 +1093,32 @@
     "weight": 3,
     "color": "#ef4444",
     "cost_ntd": "200-400",
-    "lat": 24.1377,
-    "lng": 120.6847,
-    "status": "pending",
-    "done": false,
+    "lat": 24.1388,
+    "lng": 120.682,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-27]"
     ],
-    "address": "No. 20, Zhongshan Road, Central District, Taichung City 400",
+    "address": "20 Zhongshan Rd, Central District, Taichung 400",
     "file": "cities/taichung/activities/miyahara-ice-cream.md"
   },
   {
-    "name": "Night School Braised Pork Rice (夜校滷肉飯)",
+    "name": "Night School Braised Pork Rice",
     "city": "taichung",
     "tags": [
       "eat"
     ],
-    "priority": "must",
-    "weight": 3,
+    "priority": "worth-it",
+    "weight": 2,
     "color": "#ef4444",
-    "cost_ntd": "80-180",
-    "lat": 24.145,
-    "lng": 120.683,
-    "status": "pending",
+    "cost_ntd": "100-200",
+    "lat": 24.179,
+    "lng": 120.642,
+    "status": "skip",
     "done": false,
-    "scheduled": [
-      "[itinerary/apr-27]"
-    ],
-    "address": "Central District, Taichung City 400",
+    "scheduled": "",
+    "address": "Fengchia area, Xitun District, Taichung",
     "file": "cities/taichung/activities/night-school-braised-pork-rice.md"
   },
   {
@@ -1093,12 +1131,12 @@
     "weight": 1,
     "color": "#3b82f6",
     "cost_ntd": "0",
-    "lat": 24.1293,
-    "lng": 120.6552,
-    "status": "pending",
+    "lat": 24.1363,
+    "lng": 120.617,
+    "status": "skip",
     "done": false,
     "scheduled": "",
-    "address": "No. 56, Chunan Road, Nantun District, Taichung City 408",
+    "address": "56 Chunan Rd, Nantun District, Taichung 408",
     "file": "cities/taichung/activities/rainbow-village.md"
   },
   {
@@ -1126,18 +1164,16 @@
     "tags": [
       "sightseeing"
     ],
-    "priority": "must",
-    "weight": 3,
+    "priority": "worth-it",
+    "weight": 2,
     "color": "#3b82f6",
     "cost_ntd": "0",
-    "lat": 24.1638,
-    "lng": 120.6475,
-    "status": "pending",
+    "lat": 24.1628,
+    "lng": 120.617,
+    "status": "skip",
     "done": false,
-    "scheduled": [
-      "[itinerary/apr-27]"
-    ],
-    "address": "No. 101, Huizhong Road, Xitun District, Taichung City 407",
+    "scheduled": "",
+    "address": "101 Huiwen Rd, Xitun District, Taichung 407",
     "file": "cities/taichung/activities/taichung-national-theatre.md"
   },
   {

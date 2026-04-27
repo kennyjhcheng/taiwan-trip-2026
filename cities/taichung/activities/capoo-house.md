@@ -1,29 +1,19 @@
 ---
-name: Capoo House Taichung (卡拿房台中店)
+name: Capoo House
 city: taichung
 tags: [sightseeing]
-priority: must
+priority: worth-it
 cost_ntd: "0-500"
-location: [24.1497, 120.6705]
-status: pending
-scheduled: "[[itinerary/apr-27]]"
-address: "West District, Taichung City 403"
+location: [24.1520, 120.6630]
+status: skip
+scheduled: ""
+address: "West District, Taichung"
 done: false
 ---
 
-# Capoo House Taichung (卡拿房台中店)
+# Capoo House
 
-Flagship store for **Capoo (蟲吉幽吉 / Bug Cat)** — the beloved Taiwanese cat-bug character that went viral globally. The store is part café, part immersive art space, part merch shop. The interior is designed around Capoo's world with themed décor, giant plushies, and photo setups.
+Capoo (蟑螂拿鐵) themed cafe and merch store. Photos, collectibles, Capoo world.
 
-## What to Expect
-
-- Instagrammable photo corners with oversized Capoo figures
-- Exclusive Taichung-edition merchandise (plushies, pins, tote bags, stationery)
-- Light café menu — coffee and drinks, some themed snacks
-
-## Tips
-
-- Free to enter; no purchase required
-- Merch sells out fast on weekends — Monday is a good time to go
-- Budget 30–60 min for photos and browsing
-- Confirm current address on Google Maps before heading over — pop-up locations can shift
+## Notes (Apr 27)
+Skipped — swapped for LFP perfume workshop in the same Green Ray area.
