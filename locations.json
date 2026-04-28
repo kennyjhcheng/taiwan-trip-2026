@@ -1,0 +1,2420 @@
+[
+  {
+    "name": "1314 Observation Deck",
+    "city": "alishan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.502,
+    "lng": 120.562,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Haishu Mountain, near County Highway 166 km 37.8, Chiayi County",
+    "file": "cities/alishan/activities/1314-lookout.md"
+  },
+  {
+    "name": "Alishan Forest Railway",
+    "city": "alishan",
+    "tags": [
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "400",
+    "lat": 23.4799,
+    "lng": 120.4303,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Chiayi Station → Alishan Station, Chiayi County",
+    "file": "cities/alishan/activities/alishan-forest-railway.md"
+  },
+  {
+    "name": "Alishan High-Mountain Oolong Tea",
+    "city": "alishan",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "500",
+    "lat": 23.5136,
+    "lng": 120.8035,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Alishan Village, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/alishan-oolong.md"
+  },
+  {
+    "name": "Fenqihu Old Street (奮起湖老街)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.4946,
+    "lng": 120.7218,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Fenqihu Village, Zhuqi Township, Chiayi County 606",
+    "file": "cities/alishan/activities/fenqihu-old-street.md"
+  },
+  {
+    "name": "Alishan National Forest Recreation Area",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "300",
+    "lat": 23.5136,
+    "lng": 120.8035,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "No. 55, Zhongshan Village, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/forest-recreation-area.md"
+  },
+  {
+    "name": "Giant Tree Trail (巨木群棧道)",
+    "city": "alishan",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 23.5136,
+    "lng": 120.8035,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Alishan National Scenic Area, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/giant-tree-trail.md"
+  },
+  {
+    "name": "Green Tunnel (綠色隧道)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "cycling"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.464,
+    "lng": 120.691,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Ruili, Zhuqi Township, Chiayi County (Alishan National Scenic Area)",
+    "file": "cities/alishan/activities/green-tunnel.md"
+  },
+  {
+    "name": "Mountain Vegetable Set Meal",
+    "city": "alishan",
+    "tags": [
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#ef4444",
+    "cost_ntd": "300",
+    "lat": 23.5136,
+    "lng": 120.8035,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Alishan Village, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/mountain-vegetable-meal.md"
+  },
+  {
+    "name": "Sacred Tree Station (神木車站)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.5197,
+    "lng": 120.8027,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Shenmu Station, Alishan National Forest Recreation Area, Alishan Township, Chiayi County",
+    "file": "cities/alishan/activities/sacred-tree-station.md"
+  },
+  {
+    "name": "Sister Ponds (姊妹潭)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.5165,
+    "lng": 120.8055,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Sister Ponds Trail, Alishan National Forest Recreation Area, Alishan Township, Chiayi County",
+    "file": "cities/alishan/activities/sister-ponds.md"
+  },
+  {
+    "name": "Taiping Suspension Bridge (太平吊橋)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "80-100",
+    "lat": 23.567,
+    "lng": 120.583,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Taiping Village, Meishan Township, Chiayi County 604",
+    "file": "cities/alishan/activities/taiping-suspension-bridge.md"
+  },
+  {
+    "name": "Three Generations Trees (三代木)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.52,
+    "lng": 120.8022,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Near Sacred Tree Station, Alishan National Forest Recreation Area, Alishan Township, Chiayi County",
+    "file": "cities/alishan/activities/three-generations-trees.md"
+  },
+  {
+    "name": "YUYUPAS Cultural Park (鄒族文化部落)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "350-500",
+    "lat": 23.498,
+    "lng": 120.77,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Shizhuo, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/yuyupas-cultural-park.md"
+  },
+  {
+    "name": "Zhushan Sunrise Train (祝山觀日車)",
+    "city": "alishan",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "100",
+    "lat": 23.5097,
+    "lng": 120.7975,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Zhushan Station, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/zhushan-sunrise-train.md"
+  },
+  {
+    "name": "Checheng Old Street (民權巷)",
+    "city": "checheng",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8679,
+    "lng": 120.8594,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "民權巷, Shuili Township, Nantou County 553",
+    "file": "cities/checheng/activities/checheng-old-street.md"
+  },
+  {
+    "name": "Fresh Seafood at Coastal Stalls",
+    "city": "checheng",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "300",
+    "lat": 22.0055,
+    "lng": 120.7101,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-20]"
+    ],
+    "address": "Checheng Township center, Pingtung County 944",
+    "file": "cities/checheng/activities/coastal-seafood.md"
+  },
+  {
+    "name": "Eluanbi (鵝鑾鼻) — Taiwan's Southernmost Point",
+    "city": "checheng",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 21.9006,
+    "lng": 120.8484,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-20]"
+    ],
+    "address": "No. 90, Eluanbi Rd, Hengchun Township, Pingtung County 946",
+    "file": "cities/checheng/activities/eluanbi.md"
+  },
+  {
+    "name": "Hengchun Old Town (恆春古城)",
+    "city": "checheng",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.0022,
+    "lng": 120.7446,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-20]"
+    ],
+    "address": "Hengchun Township, Pingtung County 946",
+    "file": "cities/checheng/activities/hengchun-old-town.md"
+  },
+  {
+    "name": "Kenting National Park (墾丁)",
+    "city": "checheng",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 21.96,
+    "lng": 120.82,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Hengchun Township, Pingtung County 946",
+    "file": "cities/checheng/activities/kenting-national-park.md"
+  },
+  {
+    "name": "Dongdamen Night Market (東大門夜市)",
+    "city": "hualien",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "250",
+    "lat": 23.9754,
+    "lng": 121.6011,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-23]"
+    ],
+    "address": "No. 120, Section 1, North Zhongshan Rd, Hualien City 970",
+    "file": "cities/hualien/activities/dongdamen-night-market.md"
+  },
+  {
+    "name": "Hualien Beef Noodle Soup",
+    "city": "hualien",
+    "tags": [
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 23.9764,
+    "lng": 121.604,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-23]"
+    ],
+    "address": "Train station area, Section 1, Fuxing St, Hualien City 970",
+    "file": "cities/hualien/activities/hualien-beef-noodle.md"
+  },
+  {
+    "name": "Hualien Mochi (花蓮麻糬)",
+    "city": "hualien",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "100",
+    "lat": 23.9764,
+    "lng": 121.604,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-23]"
+    ],
+    "address": "Zhongshan Rd, Hualien City 970",
+    "file": "cities/hualien/activities/hualien-mochi.md"
+  },
+  {
+    "name": "Qixingtan Beach (七星潭)",
+    "city": "hualien",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.0311,
+    "lng": 121.6411,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-24]"
+    ],
+    "address": "Qixingtan Rd, Xincheng Township, Hualien County 971",
+    "file": "cities/hualien/activities/qixingtan-beach.md"
+  },
+  {
+    "name": "山東豆漿大王 (Shandong Soy Milk King)",
+    "city": "hualien",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "80",
+    "lat": 23.9738,
+    "lng": 121.6052,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "No. 182, Nanjing St, Hualien City, Hualien County 970",
+    "file": "cities/hualien/activities/shandong-soymilk.md"
+  },
+  {
+    "name": "Taroko — Buluowan Terrace",
+    "city": "hualien",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.16,
+    "lng": 121.6316,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-24]"
+    ],
+    "address": "Buluowan, Xiulin Township, Hualien County 972",
+    "file": "cities/hualien/activities/taroko-buluowan.md"
+  },
+  {
+    "name": "Taroko — Tunnel of Nine Turns (九曲洞)",
+    "city": "hualien",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 24.172,
+    "lng": 121.622,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-24]"
+    ],
+    "address": "Central Cross-Island Hwy, Xiulin Township, Hualien County 972",
+    "file": "cities/hualien/activities/taroko-nine-turns.md"
+  },
+  {
+    "name": "Taroko — Shakadang Trail (砂卡礑步道)",
+    "city": "hualien",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 24.1523,
+    "lng": 121.624,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-24]"
+    ],
+    "address": "Taroko National Park, Xiulin Township, Hualien County 972",
+    "file": "cities/hualien/activities/taroko-shakadang.md"
+  },
+  {
+    "name": "Taroko — Swallow Grotto (燕子口)",
+    "city": "hualien",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 24.1686,
+    "lng": 121.628,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-24]"
+    ],
+    "address": "Central Cross-Island Hwy, Xiulin Township, Hualien County 972",
+    "file": "cities/hualien/activities/taroko-swallow-grotto.md"
+  },
+  {
+    "name": "A-Mei Tea House (阿妹茶樓)",
+    "city": "jiufen",
+    "tags": [
+      "eat",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "400",
+    "lat": 25.1072,
+    "lng": 121.8435,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "No. 20, Shuchi Rd, Jiufen, Ruifang District, New Taipei City 224",
+    "file": "cities/jiufen/activities/a-mei-tea-house.md"
+  },
+  {
+    "name": "Age Inn Beef Noodles (阿柑姨牛肉麵)",
+    "city": "jiufen",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "150",
+    "lat": 25.1072,
+    "lng": 121.8435,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "基山街, Ruifang District, New Taipei City 224",
+    "file": "cities/jiufen/activities/age-inn-beef-noodle.md"
+  },
+  {
+    "name": "Golden Waterfall + Yin-Yang Sea",
+    "city": "jiufen",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 25.102,
+    "lng": 121.86,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Provincial Hwy 102, Ruifang District, New Taipei City",
+    "file": "cities/jiufen/activities/golden-waterfall.md"
+  },
+  {
+    "name": "Jiufen Old Street (九份老街)",
+    "city": "jiufen",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "150",
+    "lat": 25.1072,
+    "lng": 121.8435,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "基山街, Ruifang District, New Taipei City 224",
+    "file": "cities/jiufen/activities/jiufen-old-street.md"
+  },
+  {
+    "name": "Peanut Ice Cream Roll (花生捲冰淇淋)",
+    "city": "jiufen",
+    "tags": [
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#ef4444",
+    "cost_ntd": "60",
+    "lat": 25.1072,
+    "lng": 121.8435,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "基山街, Ruifang District, New Taipei City 224",
+    "file": "cities/jiufen/activities/peanut-ice-cream-roll.md"
+  },
+  {
+    "name": "Shifen Sky Lantern Release (天燈)",
+    "city": "jiufen",
+    "tags": [
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "200",
+    "lat": 25.0836,
+    "lng": 121.7785,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Shifen Old St, Pingxi District, New Taipei City 226",
+    "file": "cities/jiufen/activities/shifen-sky-lantern.md"
+  },
+  {
+    "name": "Shifen Waterfall (十分瀑布)",
+    "city": "jiufen",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 25.0795,
+    "lng": 121.7736,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Shifen, Pingxi District, New Taipei City 226",
+    "file": "cities/jiufen/activities/shifen-waterfall.md"
+  },
+  {
+    "name": "Grandma Lai Taro Balls (賴阿婆芋圓)",
+    "city": "jiufen",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "80",
+    "lat": 25.1072,
+    "lng": 121.8435,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "基山街, Ruifang District, New Taipei City 224",
+    "file": "cities/jiufen/activities/taro-ball-soup.md"
+  },
+  {
+    "name": "Cijin Island (旗津)",
+    "city": "kaohsiung",
+    "tags": [
+      "sightseeing",
+      "eat",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "30",
+    "lat": 22.6133,
+    "lng": 120.268,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Cijin District, Kaohsiung (ferry from Gushan Ferry Terminal)",
+    "file": "cities/kaohsiung/activities/cijin-island.md"
+  },
+  {
+    "name": "Formosa Boulevard MRT Station (美麗島)",
+    "city": "kaohsiung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.628,
+    "lng": 120.3017,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-19]"
+    ],
+    "address": "No. 115, Zhongshan 1st Rd, Xinxing District, Kaohsiung 800",
+    "file": "cities/kaohsiung/activities/formosa-boulevard-mrt.md"
+  },
+  {
+    "name": "Liouhe Night Market (六合夜市)",
+    "city": "kaohsiung",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 22.6324,
+    "lng": 120.3015,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-19]"
+    ],
+    "address": "Liouhe 2nd Rd, Xinxing District, Kaohsiung 800",
+    "file": "cities/kaohsiung/activities/liouhe-night-market.md"
+  },
+  {
+    "name": "Zuoying Lotus Pond (蓮池潭)",
+    "city": "kaohsiung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.6898,
+    "lng": 120.2997,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Shengmin Rd, Zuoying District, Kaohsiung 813",
+    "file": "cities/kaohsiung/activities/lotus-pond.md"
+  },
+  {
+    "name": "Love River (愛河) Evening Walk",
+    "city": "kaohsiung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.631,
+    "lng": 120.298,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-19]"
+    ],
+    "address": "Minzu 1st Rd, Gushan District, Kaohsiung",
+    "file": "cities/kaohsiung/activities/love-river.md"
+  },
+  {
+    "name": "Pier-2 Art Center (駁二藝術特區)",
+    "city": "kaohsiung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.6247,
+    "lng": 120.2853,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-19]"
+    ],
+    "address": "No. 1, Dayong Rd, Yancheng District, Kaohsiung 803",
+    "file": "cities/kaohsiung/activities/pier-2-art-center.md"
+  },
+  {
+    "name": "Chiayi Turkey Rice (嘉義火雞肉飯)",
+    "city": "other",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "80",
+    "lat": 23.4801,
+    "lng": 120.4515,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-30]"
+    ],
+    "address": "噴水雞肉飯 or stalls on 文化路, near Chiayi Station",
+    "file": "cities/other/activities/chiayi-turkey-rice.md"
+  },
+  {
+    "name": "Miaokou Night Market — Keelung (廟口夜市)",
+    "city": "other",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "150",
+    "lat": 25.1276,
+    "lng": 121.7406,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Rensan Rd, Ren'ai District, Keelung City 202",
+    "file": "cities/other/activities/keelung-miaokou.md"
+  },
+  {
+    "name": "Miyahara — Taichung (宮原眼科)",
+    "city": "other",
+    "tags": [
+      "eat",
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 24.1398,
+    "lng": 120.6808,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "No. 20, Zhongshan Rd, Central District, Taichung 400",
+    "file": "cities/other/activities/miyahara-taichung.md"
+  },
+  {
+    "name": "Wulai Waterfall + Atayal Village",
+    "city": "other",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.8691,
+    "lng": 121.5515,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Wulai Township, New Taipei City 233",
+    "file": "cities/other/activities/wulai-waterfall.md"
+  },
+  {
+    "name": "Bamboo Tube Rice (竹筒飯)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "150",
+    "lat": 23.8449,
+    "lng": 120.9085,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Ita Thao Village, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/bamboo-tube-rice.md"
+  },
+  {
+    "name": "Ci'en Pagoda (慈恩塔)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8479,
+    "lng": 120.9384,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Datong Village, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/cien-pagoda.md"
+  },
+  {
+    "name": "Han Bi Trail (涵碧步道)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 23.8712,
+    "lng": 120.9103,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Near Lalu Island, Shuishe, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/han-bi-trail.md"
+  },
+  {
+    "name": "33km Lake Cycling Loop",
+    "city": "sun-moon-lake",
+    "tags": [
+      "activity",
+      "cycling"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "500",
+    "lat": 23.8625,
+    "lng": 120.917,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Shuishe Pier, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/lake-cycling-loop.md"
+  },
+  {
+    "name": "Maolan Mountain Tea Plantation Trail (貓囒山步道)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 23.9,
+    "lng": 120.915,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Maolan Mountain, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/maolan-mountain-trail.md"
+  },
+  {
+    "name": "Nine Frog Stack (九蛙疊像)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8755,
+    "lng": 120.9155,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Near Shuishe, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/nine-frog-stack.md"
+  },
+  {
+    "name": "President Fish (總統魚)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "350",
+    "lat": 23.8449,
+    "lng": 120.9085,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Ita Thao or Shuishe Village, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/president-fish.md"
+  },
+  {
+    "name": "Shuiwatou Trail & Stacked Frogs (水蛙頭步道)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8732,
+    "lng": 120.9269,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Shuiwatou, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/shuiwatou-trail.md"
+  },
+  {
+    "name": "Shuiyuan Suspension Bridge (水源吊橋)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.865,
+    "lng": 120.92,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/shuiyuan-suspension-bridge.md"
+  },
+  {
+    "name": "Sun Moon Lake Red Tea (日月潭紅茶)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#ef4444",
+    "cost_ntd": "300",
+    "lat": 23.8802,
+    "lng": 120.917,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Shuishe Village shops, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/sml-red-tea.md"
+  },
+  {
+    "name": "Sunrise at Shuishe Pier",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8802,
+    "lng": 120.917,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Shuishe Village, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/sunrise-shuishe-pier.md"
+  },
+  {
+    "name": "Wenwu Temple (文武廟)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.9006,
+    "lng": 120.9286,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "No. 63, Zhongshan Rd, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/wenwu-temple.md"
+  },
+  {
+    "name": "Wild Boar Sausage + Millet Wine",
+    "city": "sun-moon-lake",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 23.8449,
+    "lng": 120.9085,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Ita Thao Village, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/wild-boar-sausage.md"
+  },
+  {
+    "name": "World's Best Cycling Path (Shuishe → Xiangshan)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "cycling",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#f59e0b",
+    "cost_ntd": "0",
+    "lat": 23.8625,
+    "lng": 120.917,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Shuishe Pier to Xiangshan Visitor Center, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/worlds-best-cycling-path.md"
+  },
+  {
+    "name": "Xiangshan Visitor Center (向山遊客中心)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8516,
+    "lng": 120.9003,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "No. 1, Zhongshan Rd, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/xiangshan-visitor-center.md"
+  },
+  {
+    "name": "Xuanzang Temple (玄奘寺)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8555,
+    "lng": 120.934,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "No. 1, Longfeng Rd, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/xuanzang-temple.md"
+  },
+  {
+    "name": "Animation Lane (彩繪巷)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1647,
+    "lng": 120.6852,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Yizhong Street area, North District, Taichung 404",
+    "file": "cities/taichung/activities/animation-lane.md"
+  },
+  {
+    "name": "Capoo House",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0-500",
+    "lat": 24.152,
+    "lng": 120.663,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "West District, Taichung",
+    "file": "cities/taichung/activities/capoo-house.md"
+  },
+  {
+    "name": "Chin Chih Yuan (Central) — Chicken Cutlet & Pork Chop Rice",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "100-200",
+    "lat": 24.1395,
+    "lng": 120.676,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Central District, Taichung",
+    "file": "cities/taichung/activities/chin-chih-yuan.md"
+  },
+  {
+    "name": "Chun Shui Tang — Siwei Main Shop",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "150-300",
+    "lat": 24.1532,
+    "lng": 120.654,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "No. 30, Siwei St, West District, Taichung 403",
+    "file": "cities/taichung/activities/chun-shui-tang.md"
+  },
+  {
+    "name": "Fantasy Store Green Ray (綠光計畫)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0-500",
+    "lat": 24.1548,
+    "lng": 120.6638,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Green Ray Project area, West District, Taichung",
+    "file": "cities/taichung/activities/fantasy-store-green-ray.md"
+  },
+  {
+    "name": "Fengchia Night Market (逢甲夜市)",
+    "city": "taichung",
+    "tags": [
+      "nightmarket"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#f97316",
+    "cost_ntd": "200-500",
+    "lat": 24.1797,
+    "lng": 120.6414,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Wenhua Rd, Xitun District, Taichung 407",
+    "file": "cities/taichung/activities/fengchia-night-market.md"
+  },
+  {
+    "name": "LFP Perfume Workshop — 台中綠光門市",
+    "city": "taichung",
+    "tags": [
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "2050",
+    "lat": 24.155,
+    "lng": 120.664,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "LFP香料香水實驗室 台中綠光門市, West District, Taichung",
+    "file": "cities/taichung/activities/lfp-perfume-workshop.md"
+  },
+  {
+    "name": "Luce Memorial Chapel (路思義教堂)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1818,
+    "lng": 120.6074,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Tunghai University, No. 1727 Sec. 4 Taiwan Blvd, Xitun District, Taichung",
+    "file": "cities/taichung/activities/luce-memorial-chapel.md"
+  },
+  {
+    "name": "Minimal Michelin Ice Cream",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "150-300",
+    "lat": 24.156,
+    "lng": 120.666,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "Taichung (confirm exact address on Google Maps)",
+    "file": "cities/taichung/activities/minimal-michelin-ice-cream.md"
+  },
+  {
+    "name": "Miyahara Ice Cream",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "200-400",
+    "lat": 24.1388,
+    "lng": 120.682,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "20 Zhongshan Rd, Central District, Taichung 400",
+    "file": "cities/taichung/activities/miyahara-ice-cream.md"
+  },
+  {
+    "name": "Night School Braised Pork Rice",
+    "city": "taichung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "100-200",
+    "lat": 24.179,
+    "lng": 120.642,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Fengchia area, Xitun District, Taichung",
+    "file": "cities/taichung/activities/night-school-braised-pork-rice.md"
+  },
+  {
+    "name": "Rainbow Village (彩虹眷村)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1363,
+    "lng": 120.617,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "56 Chunan Rd, Nantun District, Taichung 408",
+    "file": "cities/taichung/activities/rainbow-village.md"
+  },
+  {
+    "name": "Shengxing Station (勝興車站) — Old Railroad",
+    "city": "taichung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0-200",
+    "lat": 24.381,
+    "lng": 120.7433,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "No. 119, Shengxing, Sanyi Township, Miaoli County 367",
+    "file": "cities/taichung/activities/shengxing-station.md"
+  },
+  {
+    "name": "Taichung National Theatre (臺中國家歌劇院)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 24.1628,
+    "lng": 120.617,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "101 Huiwen Rd, Xitun District, Taichung 407",
+    "file": "cities/taichung/activities/taichung-national-theatre.md"
+  },
+  {
+    "name": "新社莊園 (Xinshey Manor / Villa)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "100-300",
+    "lat": 24.1975,
+    "lng": 120.849,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Xinshe District, Taichung City 426",
+    "file": "cities/taichung/activities/xinshey-manor.md"
+  },
+  {
+    "name": "Zhongshe Tourist Flower Market (中社觀光花市)",
+    "city": "taichung",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0-150",
+    "lat": 24.2271,
+    "lng": 120.8286,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Zhongshe, Houli District / Xinshe area, Taichung City",
+    "file": "cities/taichung/activities/zhongshe-flower-market.md"
+  },
+  {
+    "name": "Anping Old Street",
+    "city": "tainan",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "150",
+    "lat": 22.9944,
+    "lng": 120.1609,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "Anping Rd, Anping District, Tainan 708",
+    "file": "cities/tainan/activities/anping-old-street.md"
+  },
+  {
+    "name": "Anping Tree House",
+    "city": "tainan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "50",
+    "lat": 22.996,
+    "lng": 120.1591,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "No. 108, Gubao St, Anping District, Tainan 708",
+    "file": "cities/tainan/activities/anping-tree-house.md"
+  },
+  {
+    "name": "Chihkan Tower (赤崁樓)",
+    "city": "tainan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "70",
+    "lat": 23.0001,
+    "lng": 120.203,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "No. 212, Section 2, Minzu Rd, West Central District, Tainan 700",
+    "file": "cities/tainan/activities/chihkan-tower.md"
+  },
+  {
+    "name": "Coffin Bread (棺材板)",
+    "city": "tainan",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "120",
+    "lat": 22.9965,
+    "lng": 120.2028,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "Near Chihkan Tower, West Central District, Tainan 700",
+    "file": "cities/tainan/activities/coffin-bread.md"
+  },
+  {
+    "name": "Confucius Temple (孔廟)",
+    "city": "tainan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.997,
+    "lng": 120.202,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "No. 2, Nanmen Rd, West Central District, Tainan 700",
+    "file": "cities/tainan/activities/confucius-temple.md"
+  },
+  {
+    "name": "Dan Zai Noodles at Du Hsiao Yueh (度小月)",
+    "city": "tainan",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "150",
+    "lat": 22.9933,
+    "lng": 120.2037,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-01]"
+    ],
+    "address": "No. 16, Zhongzheng Rd, West Central District, Tainan 700",
+    "file": "cities/tainan/activities/dan-zai-noodles.md"
+  },
+  {
+    "name": "Fort Zeelandia (安平古堡)",
+    "city": "tainan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "50",
+    "lat": 22.9944,
+    "lng": 120.1609,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "No. 82, Guosheng Rd, Anping District, Tainan 708",
+    "file": "cities/tainan/activities/fort-zeelandia.md"
+  },
+  {
+    "name": "Garden Night Market (花園夜市)",
+    "city": "tainan",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 23.0183,
+    "lng": 120.2256,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "No. 1, Section 1, Haian Rd, North District, Tainan 704",
+    "file": "cities/tainan/activities/garden-night-market.md"
+  },
+  {
+    "name": "Milkfish Congee (虱目魚粥)",
+    "city": "tainan",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "120",
+    "lat": 22.9999,
+    "lng": 120.2269,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-03]"
+    ],
+    "address": "Anping or West Central District, Tainan 700",
+    "file": "cities/tainan/activities/milkfish-congee.md"
+  },
+  {
+    "name": "Shrimp Roll (蝦捲)",
+    "city": "tainan",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "120",
+    "lat": 22.9944,
+    "lng": 120.162,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Anping Old Street, Anping District, Tainan 708",
+    "file": "cities/tainan/activities/shrimp-roll.md"
+  },
+  {
+    "name": "Temple Crawl",
+    "city": "tainan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.9999,
+    "lng": 120.2269,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/may-02]"
+    ],
+    "address": "West Central District, Tainan (start near Confucius Temple)",
+    "file": "cities/tainan/activities/temple-crawl.md"
+  },
+  {
+    "name": "Ay-Chung Flour-Rice Noodle (阿宗麵線)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "60",
+    "lat": 25.0424,
+    "lng": 121.5082,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "No. 8-1, Section 2, Emei St, Wanhua District, Taipei 108",
+    "file": "cities/taipei/activities/ay-chung-noodle.md"
+  },
+  {
+    "name": "Beitou Hot Springs (北投溫泉)",
+    "city": "taipei",
+    "tags": [
+      "activity",
+      "hotspring"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "80",
+    "lat": 25.1313,
+    "lng": 121.506,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "No. 2, Lane 2, Zhongshan Rd, Beitou District, Taipei 112",
+    "file": "cities/taipei/activities/beitou-hot-springs.md"
+  },
+  {
+    "name": "CKS Memorial Hall (中正紀念堂)",
+    "city": "taipei",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 25.0349,
+    "lng": 121.5211,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
+    "address": "No. 21, Zhongshan S. Rd, Zhongzheng District, Taipei 100",
+    "file": "cities/taipei/activities/cksmemorial.md"
+  },
+  {
+    "name": "Din Tai Fung — Original (鼎泰豐)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "700",
+    "lat": 25.0336,
+    "lng": 121.5491,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
+    "address": "No. 194, Section 2, Xinyi Rd, Da'an District, Taipei 106",
+    "file": "cities/taipei/activities/din-tai-fung.md"
+  },
+  {
+    "name": "Elephant Mountain (象山)",
+    "city": "taipei",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 25.0273,
+    "lng": 121.5769,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "No. 150, Section 5, Xinyi Rd, Xinyi District, Taipei",
+    "file": "cities/taipei/activities/elephant-mountain.md"
+  },
+  {
+    "name": "Fu Hang Dou Jiang (阜杭豆漿)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "80",
+    "lat": 25.045,
+    "lng": 121.5176,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-27]"
+    ],
+    "address": "2F, No. 108, Section 1, Zhongxiao E. Rd, Zhongzheng District, Taipei",
+    "file": "cities/taipei/activities/fu-hang-breakfast.md"
+  },
+  {
+    "name": "Guanghua Digital Plaza (光華數位新天地)",
+    "city": "taipei",
+    "tags": [
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 25.0439,
+    "lng": 121.5308,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "No. 8, Section 3, Civic Blvd, Zhongzheng District, Taipei 100",
+    "file": "cities/taipei/activities/guanghua-digital.md"
+  },
+  {
+    "name": "Longshan Temple (龍山寺)",
+    "city": "taipei",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 25.0368,
+    "lng": 121.4999,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
+    "address": "No. 211, Guangzhou St, Wanhua District, Taipei 108",
+    "file": "cities/taipei/activities/longshan-temple.md"
+  },
+  {
+    "name": "Maokong Gondola (貓空纜車)",
+    "city": "taipei",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "120",
+    "lat": 24.9998,
+    "lng": 121.5803,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "No. 8, Section 2, Xinsheng S. Rd, Wenshan District, Taipei 116",
+    "file": "cities/taipei/activities/maokong-gondola.md"
+  },
+  {
+    "name": "Maokong (貓空) Tea Village",
+    "city": "taipei",
+    "tags": [
+      "activity",
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "200",
+    "lat": 24.9769,
+    "lng": 121.5826,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "Maokong Station area, Wenshan District, Taipei",
+    "file": "cities/taipei/activities/maokong-tea.md"
+  },
+  {
+    "name": "National Palace Museum (國立故宮博物院)",
+    "city": "taipei",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "350",
+    "lat": 25.1023,
+    "lng": 121.5484,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "No. 221, Section 2, Zhi Shan Rd, Shilin District, Taipei 111",
+    "file": "cities/taipei/activities/national-palace-museum.md"
+  },
+  {
+    "name": "Ningxia Night Market (寧夏夜市)",
+    "city": "taipei",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "150",
+    "lat": 25.0527,
+    "lng": 121.5174,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "Ningxia Rd, Datong District, Taipei 103",
+    "file": "cities/taipei/activities/ningxia-night-market.md"
+  },
+  {
+    "name": "Popcorn Chicken King Ximen (雞排大王)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "60",
+    "lat": 25.0424,
+    "lng": 121.5085,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "Ximending area, Wanhua District, Taipei 108",
+    "file": "cities/taipei/activities/popcorn-chicken-king.md"
+  },
+  {
+    "name": "Raohe Street Night Market (饒河夜市)",
+    "city": "taipei",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 25.0508,
+    "lng": 121.5774,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-25]"
+    ],
+    "address": "Raohe St, Songshan District, Taipei 105",
+    "file": "cities/taipei/activities/raohe-night-market.md"
+  },
+  {
+    "name": "Shilin Night Market (士林夜市)",
+    "city": "taipei",
+    "tags": [
+      "eat",
+      "nightmarket"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 25.0877,
+    "lng": 121.524,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "No. 101, Jihe Rd, Shilin District, Taipei 111",
+    "file": "cities/taipei/activities/shilin-night-market.md"
+  },
+  {
+    "name": "Taipei 101 Observation Deck",
+    "city": "taipei",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "600",
+    "lat": 25.0338,
+    "lng": 121.5645,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "No. 45, Shifu Rd, Xinyi District, Taipei 110",
+    "file": "cities/taipei/activities/taipei-101-observation.md"
+  },
+  {
+    "name": "Taipei 101 & Xinyi District",
+    "city": "taipei",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 25.0338,
+    "lng": 121.5645,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "No. 45, Shifu Rd, Xinyi District, Taipei 110",
+    "file": "cities/taipei/activities/taipei-101.md"
+  },
+  {
+    "name": "Taipei Main Station Underground Mall (台北地下街)",
+    "city": "taipei",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 25.0478,
+    "lng": 121.517,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-19]"
+    ],
+    "address": "Taipei Main Station, Zhongzheng District, Taipei 100",
+    "file": "cities/taipei/activities/taipei-underground-mall.md"
+  },
+  {
+    "name": "Tamsui Old Street (淡水老街)",
+    "city": "taipei",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "150",
+    "lat": 25.1695,
+    "lng": 121.4415,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
+    "address": "Zhongzheng Rd, Tamsui District, New Taipei City 251",
+    "file": "cities/taipei/activities/tamsui-old-street.md"
+  },
+  {
+    "name": "Ximending (西門町)",
+    "city": "taipei",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "200",
+    "lat": 25.0424,
+    "lng": 121.5082,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-18]"
+    ],
+    "address": "Wuchang St, Wanhua District, Taipei 108",
+    "file": "cities/taipei/activities/ximending.md"
+  },
+  {
+    "name": "一甲子餐飲 (Old-School Taipei Breakfast)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "100",
+    "lat": 25.0458,
+    "lng": 121.5083,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-19]"
+    ],
+    "address": "No. 14, Lane 60, Section 1, Zhonghua Rd, Zhongzheng District, Taipei 100",
+    "file": "cities/taipei/activities/yijia-breakfast.md"
+  },
+  {
+    "name": "Yongkang Beef Noodle (永康牛肉麵)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "250",
+    "lat": 25.0294,
+    "lng": 121.5292,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
+    "address": "No. 17, Lane 31, Section 2, Jinshan S. Rd, Da'an District, Taipei",
+    "file": "cities/taipei/activities/yongkang-beef-noodle.md"
+  },
+  {
+    "name": "Yongkang Street Food Crawl (永康街)",
+    "city": "taipei",
+    "tags": [
+      "eat"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#ef4444",
+    "cost_ntd": "200",
+    "lat": 25.0297,
+    "lng": 121.5289,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-26]"
+    ],
+    "address": "Yongkang St, Da'an District, Taipei 106",
+    "file": "cities/taipei/activities/yongkang-street-crawl.md"
+  },
+  {
+    "name": "Chishang Lunchbox (池上便當)",
+    "city": "taitung",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "100",
+    "lat": 23.096,
+    "lng": 121.2161,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-22]"
+    ],
+    "address": "Chishang Station, Chishang Township, Taitung County 958",
+    "file": "cities/taitung/activities/chishang-lunchbox.md"
+  },
+  {
+    "name": "Green Island Day Trip (綠島)",
+    "city": "taitung",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#10b981",
+    "cost_ntd": "1500",
+    "lat": 22.6667,
+    "lng": 121.4833,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Lyudao Township, Taitung County (ferry from Fugang Pier)",
+    "file": "cities/taitung/activities/green-island.md"
+  },
+  {
+    "name": "Taitung Forest Park (台東森林公園)",
+    "city": "taitung",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 22.747,
+    "lng": 121.1646,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-21]"
+    ],
+    "address": "Lane 115, Section 1, Zhiqing Rd, Taitung City 950",
+    "file": "cities/taitung/activities/taitung-forest-park.md"
+  },
+  {
+    "name": "Tiehua Music Village (鐵花村)",
+    "city": "taitung",
+    "tags": [
+      "sightseeing",
+      "activity",
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "100",
+    "lat": 22.7534,
+    "lng": 121.1502,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-21]"
+    ],
+    "address": "No. 369, Tiexian Rd, Taitung City 950",
+    "file": "cities/taitung/activities/tiehua-music-village.md"
+  },
+  {
+    "name": "Zhiben Hot Springs (知本溫泉)",
+    "city": "taitung",
+    "tags": [
+      "activity",
+      "hotspring"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "200",
+    "lat": 22.6971,
+    "lng": 121.0021,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-21]"
+    ],
+    "address": "Zhiben Rd, Beinan Township, Taitung County 954",
+    "file": "cities/taitung/activities/zhiben-hot-springs.md"
+  },
+  {
+    "name": "Antong Hot Springs (安通溫泉)",
+    "city": "yuli",
+    "tags": [
+      "activity",
+      "hotspring"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#10b981",
+    "cost_ntd": "200",
+    "lat": 23.31,
+    "lng": 121.34,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Antong Rd, Fuli Township, Hualien County 983",
+    "file": "cities/yuli/activities/antong-hot-springs.md"
+  },
+  {
+    "name": "Chishang Scenic Bike Path (伯朗大道)",
+    "city": "yuli",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 23.096,
+    "lng": 121.2161,
+    "status": "done",
+    "done": true,
+    "scheduled": [
+      "[itinerary/apr-22]"
+    ],
+    "address": "Chishang Township, Taitung County 958",
+    "file": "cities/yuli/activities/chishang-scenic-path.md"
+  },
+  {
+    "name": "Yuli Beef Noodles (玉里麵)",
+    "city": "yuli",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "120",
+    "lat": 23.3397,
+    "lng": 121.3067,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-22]"
+    ],
+    "address": "Zhongshan Rd, Yuli Township, Hualien County 981",
+    "file": "cities/yuli/activities/yuli-beef-noodles.md"
+  },
+  {
+    "name": "Yuli Lamb Hotpot",
+    "city": "yuli",
+    "tags": [
+      "eat"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#ef4444",
+    "cost_ntd": "300",
+    "lat": 23.3397,
+    "lng": 121.3067,
+    "status": "skip",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-22]"
+    ],
+    "address": "Zhongshan Rd, Yuli Township, Hualien County 981",
+    "file": "cities/yuli/activities/yuli-lamb-hotpot.md"
+  }
+]

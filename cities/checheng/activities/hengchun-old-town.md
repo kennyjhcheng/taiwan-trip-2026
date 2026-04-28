@@ -1,0 +1,23 @@
+---
+name: Hengchun Old Town (恆春古城)
+city: checheng
+tags: [sightseeing]
+priority: worth-it
+cost_ntd: "0"
+location: [22.0022, 120.7446]
+status: skip
+scheduled: "[Apr 20](../../../itinerary/apr-20.md)"
+address: "Hengchun Township, Pingtung County 946"
+done: false
+---
+
+# Hengchun Old Town (恆春古城)
+
+> #sightseeing · **✨ Worth It** · 💰 NT$0 · ❌ Skipped
+
+Intact Qing-dynasty walled city — one of the few remaining in Taiwan. Brief stop on the bike route south.
+
+---
+
+**City:** [Checheng](../index.md)
+**Scheduled:** [Apr 20](../../../itinerary/apr-20.md)
