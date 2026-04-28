@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "itinerary/apr-27.md",
+                "file": "itinerary/apr-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "apr-27"
+              "title": "apr-28"
             }
           }
         ]
@@ -183,10 +183,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "4d24867400ba599d",
+  "active": "edd7168fe990b1ce",
   "lastOpenFiles": [
-    "itinerary/apr-28.md",
+    "cities/sun-moon-lake/activities/nine-frog-stack.md",
+    "cities/checheng/activities/checheng-old-street.md",
+    "cities/sun-moon-lake/activities/shuiyuan-suspension-bridge.md",
+    "cities/sun-moon-lake/activities/worlds-best-cycling-path.md",
+    "cities/sun-moon-lake/activities/han-bi-trail.md",
+    "cities/sun-moon-lake/activities/maolan-mountain-trail.md",
+    "cities/sun-moon-lake/activities/xuanzang-temple.md",
+    "cities/sun-moon-lake/activities/xiangshan-visitor-center.md",
+    "cities/sun-moon-lake/activities/shuiwatou-trail.md",
+    "cities/alishan/activities/taiping-suspension-bridge.md",
+    "cities/alishan/activities/yuyupas-cultural-park.md",
+    "cities/alishan/activities/1314-lookout.md",
+    "cities/alishan/activities/green-tunnel.md",
+    "cities/alishan/activities/fenqihu-old-street.md",
+    "cities/alishan/activities/three-generations-trees.md",
+    "cities/alishan/activities/sacred-tree-station.md",
+    "cities/alishan/activities/forest-recreation-area.md",
     "itinerary/apr-27.md",
+    "itinerary/apr-28.md",
     "itinerary/apr-26.md",
     "itinerary/apr-25.md",
     "cities/taipei/index.md",
@@ -194,8 +211,6 @@
     "cities/jiufen/activities/age-inn-beef-noodle.md",
     "cities/taipei/activities/ay-chung-noodle.md",
     "cities/jiufen/index.md",
-    "scripts/convert_wikilinks.py",
-    "cities/alishan/index.md",
-    "index.md"
+    "scripts/convert_wikilinks.py"
   ]
 }

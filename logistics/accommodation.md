@@ -16,9 +16,9 @@ category: accommodation
 | Apr 25 | Taipei | Guting Airbnb Hostel | ✅ STAYED | — | — |
 | Apr 26 | Taichung | 寧萃 Ningcui Hotel (private room — dorm full) | ✅ STAYED | — | NT$800 |
 | Apr 27 | Taichung | Backpacker 41 Hostel | ✅ BOOKED | 95294-577100771 | TBD |
-| Apr 28–29 | Sun Moon Lake | TBD | ⚠️ BOOK ASAP | — | — |
-| Apr 30 | Alishan | TBD | ⚠️ BOOK ASAP | — | — |
-| May 1–2 | Tainan | TBD | ☐ Book soon | — | — |
+| Apr 28–29 | Sun Moon Lake | 行鹿 Deer Traveler Hostel (Airbnb) | ✅ BOOKED | HMDM9JP9Z3 | $26.00 USD |
+| Apr 29 | Chiayi | TBD | ☐ Book soon | — | — |
+| Apr 30 – May 2 | Tainan | TBD | ☐ Book soon | — | — |
 | May 3 | Taipei | TBD | ☐ Book soon | — | — |
 
 ---
@@ -163,31 +163,60 @@ Same area as MU House (Zhongzheng/Zhongshan). Consider splurging for group farew
 
 ## Sun Moon Lake — Apr 28–29 {#sun-moon-lake}
 
-| # | Name | Area | Est. Price/Night | Notes |
-|---|------|------|-----------------|-------|
-| 💰 | **Youth Activity Center** | Near Shuishe | NT$1,800–2,800 (~$56–88) | Lakefront rooms; bike rentals on-site |
-| 💰💰 | **Ita Thao Lakeside B&B** | South shore | NT$2,200–3,500 (~$69–109) | Quieter, more atmospheric; Thao village |
-| 💰💰💰 | **Fleur de Chine Hotel** | Shuishe | NT$5,500–9,000 (~$172–281) | Infinity pool facing the lake |
+✅ **BOOKED — 行鹿 Deer Traveler Hostel**
+
+| Field | Detail |
+|---|---|
+| **Host** | 行鹿 Deer Traveler |
+| **Room** | 1 bed in 7-bed mixed dorm (7床混合宿舍房) |
+| **Address** | 2F–4F, No. 108, Zhongshan Rd, Shuishe Village, Nantou County 555 |
+| **Google Maps** | [23.86585208, 120.9122603](https://www.google.com/maps/search/?api=1&query=23.86585208%2C120.9122603) |
+| **Check-in** | Tue, Apr 28 · **3:00 PM – 7:00 PM** ⚠️ No-show after 7 PM = room cancelled, no refund |
+| **Check-out** | Wed, Apr 29 · 11:00 AM |
+| **Confirmation** | HMDM9JP9Z3 |
+| **Receipt** | RC2WANCFJ8 |
+| **Price** | $26.00 USD · Non-refundable |
+| **Host phone** | +886 906-378-809 |
+| **WiFi** | CHT20241 · Password: 0906378809 |
+| **LINE@** | @htn5359o |
+
+**Getting there:** 1-min walk from Shuishe Visitor Center / bus stop · Above **PaPaZou Bicycle Shop** · Opposite Xinglong Towel Shop
+
+**Check-in process:**
+1. Change into indoor shoes at shoe locker on 1F
+2. Call housekeeper at 0906378809 to open the door
+3. Check in at lounge on 2F
+4. No elevator — rooms on 2F–4F
+
+**⚠️ Early luggage drop (before 3 PM):** Must notify host **one day in advance** — message tonight (Apr 27)
+
+**House rules:**
+- Shower before 10:00 PM
+- Quiet after 10:00 PM
+- No alcohol, smoking, or betel nut indoors
+- Dorm provides: shampoo, shower gel, small towels, hair dryer, indoor slippers — bring own toothbrush/toothpaste
 
 **Days:** [[itinerary/apr-28]] · [[itinerary/apr-29]]
 
 ---
 
-## Alishan — Apr 30 {#alishan}
+## Chiayi — Apr 29 {#chiayi}
 
-⚠️ **BOOK 3+ WEEKS IN ADVANCE — fills up fast, especially for sunrise train mornings.**
+One night only — arriving from Alishan ~6:30 PM, departing to Tainan next morning.
 
 | # | Name | Area | Est. Price/Night | Notes |
 |---|------|------|-----------------|-------|
-| 💰 | **Minsu Guesthouses (民宿)** | Village | NT$1,500–2,500 (~$47–78) | Family-run B&Bs; hosts help book sunrise train |
-| 💰💰 | **Alishan Chateau (阿里山閣)** | Village center | NT$2,800–4,500 (~$88–141) | Close to train station |
-| 💰💰💰 | **Alishan House (阿里山賓館)** | Village center | NT$3,500–6,000 (~$109–188) | Historic Japanese-era hotel |
+| 💰 | **Backhome Hostel Chiayi** | City center | NT$400–800 (~$13–25) | Popular budget hostel, near Chiayi Station |
+| 💰 | **Brickyard Hotel Chiayi** | City center | NT$600–1,000 (~$19–31) | Clean, well-located for the HSR shuttle next morning |
+| 💰 | **Chiayi Yi Hostel** | City center | NT$500–900 (~$16–28) | Social hostel near night market area |
 
-**Day:** [[itinerary/apr-30]]
+**Day:** [[itinerary/apr-29]]
 
 ---
 
-## Tainan — May 1–2 {#tainan}
+## Tainan — Apr 30 – May 2 {#tainan}
+
+3 nights (arriving Apr 30 midday, departing May 3 to Taipei).
 
 | # | Name | Area | Est. Price/Night | Notes |
 |---|------|------|-----------------|-------|
@@ -196,7 +225,7 @@ Same area as MU House (Zhongzheng/Zhongshan). Consider splurging for group farew
 | 💰💰 | **FX Hotel Tainan** | Near Station | NT$1,800–2,800 (~$56–88) | Modern chain; 5 min to HSR shuttle |
 | 💰💰💰 | **Silks Place Tainan** | West Central | NT$3,500–5,500 (~$109–172) | 4-star; excellent Tainan-style breakfast buffet |
 
-**Days:** [[itinerary/may-01]] · [[itinerary/may-02]]
+**Days:** [[itinerary/apr-30]] · [[itinerary/may-01]] · [[itinerary/may-02]]
 
 ---
 

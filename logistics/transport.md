@@ -20,7 +20,7 @@ category: transport
 | Route | Date | Duration | Price | Status |
 |-------|------|----------|-------|--------|
 | Taipei → Taichung | Apr 28 | ~40 min | NT$700 | ☐ Book |
-| Chiayi → Tainan | May 1 | ~15 min | NT$140 | ☐ Book |
+| Chiayi → Tainan | Apr 30 | ~15 min | NT$140 | ☐ Book |
 | Tainan → Taipei | May 3 | ~1h 45min | NT$1,350 | ☐ Book |
 
 ---
@@ -43,6 +43,7 @@ category: transport
 | **Booking #** | BO-2591878149 |
 | **Payment** | NT$292 · Credit Card · 2026-04-27 12:20 |
 | **Voucher** | https://voucher.fontour.com/p/M24eLd-O6979252790 |
+| **Booking site** | [ylbus-shop.fontour.com](https://ylbus-shop.fontour.com/) — limited seating shuttle |
 
 ⚠️ **Boarding rules:**
 - Arrive at least **15 minutes early** (by 7:45 AM) — latecomers forfeit seat, no refund
@@ -54,11 +55,6 @@ category: transport
 - Price: NT$193 (~$6)
 - Duration: ~1.5h
 - Book at bus terminal or on arrival in Taichung
-
-### Chiayi → Alishan — Apr 30 afternoon
-- Bus: ~2h, NT$200
-- Alishan Forest Railway: ~2.5h, NT$400 — scenic, often sold out — book ahead
-- From Chiayi Station or bus terminal
 
 ---
 

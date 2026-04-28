@@ -1,20 +1,20 @@
 ---
 city: alishan
-dates: "Apr 30 (arrive) · May 1 (4am sunrise → depart to Tainan)"
+dates: "Apr 29 (day trip only — no overnight)"
 week: "Week 2"
-nights: "1 night (pre-sunrise)"
+nights: "0 nights"
 location: [23.5136, 120.8035]
 ---
 
 # 🌲 Alishan (阿里山)
 
-> **When:** Apr 30 (arrive) · May 1 (4am sunrise → depart to Tainan)
-> **Nights:** 1 night (pre-sunrise)
+> **When:** Apr 29 (day trip only — no overnight)
+> **Nights:** 0
 > **Stay:** [[logistics/accommodation#alishan]]
 
 2,200m mountain. Ancient red cypress forest and a sunrise above a sea of clouds. ⚠️ Book accommodation 3+ weeks out.
 
-**Days:** [[itinerary/apr-30]] · [[itinerary/may-01]]
+**Days:** [[itinerary/apr-29]]
 
 ---
 

@@ -5,8 +5,8 @@ tags: [activity, sightseeing]
 priority: must
 cost_ntd: "100"
 location: [23.5097, 120.7975]
-status: pending
-scheduled: "[[itinerary/may-01]]"
+status: skip
+scheduled: ""
 address: "Zhushan Station, Alishan Township, Chiayi County 605"
 done: false
 ---

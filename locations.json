@@ -1,5 +1,23 @@
 [
   {
+    "name": "1314 Observation Deck",
+    "city": "alishan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.502,
+    "lng": 120.562,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Haishu Mountain, near County Highway 166 km 37.8, Chiayi County",
+    "file": "cities/alishan/activities/1314-lookout.md"
+  },
+  {
     "name": "Alishan Forest Railway",
     "city": "alishan",
     "tags": [
@@ -32,10 +50,50 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/may-01]"
+      "[itinerary/apr-29]"
     ],
     "address": "Alishan Village, Alishan Township, Chiayi County 605",
     "file": "cities/alishan/activities/alishan-oolong.md"
+  },
+  {
+    "name": "Fenqihu Old Street (奮起湖老街)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "eat"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.4946,
+    "lng": 120.7218,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Fenqihu Village, Zhuqi Township, Chiayi County 606",
+    "file": "cities/alishan/activities/fenqihu-old-street.md"
+  },
+  {
+    "name": "Alishan National Forest Recreation Area",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "300",
+    "lat": 23.5136,
+    "lng": 120.8035,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "No. 55, Zhongshan Village, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/forest-recreation-area.md"
   },
   {
     "name": "Giant Tree Trail (巨木群棧道)",
@@ -53,10 +111,29 @@
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/may-01]"
+      "[itinerary/apr-29]"
     ],
     "address": "Alishan National Scenic Area, Alishan Township, Chiayi County 605",
     "file": "cities/alishan/activities/giant-tree-trail.md"
+  },
+  {
+    "name": "Green Tunnel (綠色隧道)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "cycling"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.464,
+    "lng": 120.691,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Ruili, Zhuqi Township, Chiayi County (Alishan National Scenic Area)",
+    "file": "cities/alishan/activities/green-tunnel.md"
   },
   {
     "name": "Mountain Vegetable Set Meal",
@@ -77,24 +154,103 @@
     "file": "cities/alishan/activities/mountain-vegetable-meal.md"
   },
   {
+    "name": "Sacred Tree Station (神木車站)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.5197,
+    "lng": 120.8027,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Shenmu Station, Alishan National Forest Recreation Area, Alishan Township, Chiayi County",
+    "file": "cities/alishan/activities/sacred-tree-station.md"
+  },
+  {
     "name": "Sister Ponds (姊妹潭)",
     "city": "alishan",
     "tags": [
       "sightseeing"
     ],
-    "priority": "worth-it",
-    "weight": 2,
+    "priority": "must",
+    "weight": 3,
     "color": "#3b82f6",
     "cost_ntd": "0",
-    "lat": 23.516,
-    "lng": 120.802,
+    "lat": 23.5165,
+    "lng": 120.8055,
     "status": "pending",
     "done": false,
     "scheduled": [
-      "[itinerary/apr-30]"
+      "[itinerary/apr-29]"
     ],
-    "address": "Alishan National Scenic Area, Alishan Township, Chiayi County 605",
+    "address": "Sister Ponds Trail, Alishan National Forest Recreation Area, Alishan Township, Chiayi County",
     "file": "cities/alishan/activities/sister-ponds.md"
+  },
+  {
+    "name": "Taiping Suspension Bridge (太平吊橋)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "80-100",
+    "lat": 23.567,
+    "lng": 120.583,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Taiping Village, Meishan Township, Chiayi County 604",
+    "file": "cities/alishan/activities/taiping-suspension-bridge.md"
+  },
+  {
+    "name": "Three Generations Trees (三代木)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.52,
+    "lng": 120.8022,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-29]"
+    ],
+    "address": "Near Sacred Tree Station, Alishan National Forest Recreation Area, Alishan Township, Chiayi County",
+    "file": "cities/alishan/activities/three-generations-trees.md"
+  },
+  {
+    "name": "YUYUPAS Cultural Park (鄒族文化部落)",
+    "city": "alishan",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "350-500",
+    "lat": 23.498,
+    "lng": 120.77,
+    "status": "pending",
+    "done": false,
+    "scheduled": "",
+    "address": "Shizhuo, Alishan Township, Chiayi County 605",
+    "file": "cities/alishan/activities/yuyupas-cultural-park.md"
   },
   {
     "name": "Zhushan Sunrise Train (祝山觀日車)",
@@ -109,13 +265,29 @@
     "cost_ntd": "100",
     "lat": 23.5097,
     "lng": 120.7975,
-    "status": "pending",
+    "status": "skip",
     "done": false,
-    "scheduled": [
-      "[itinerary/may-01]"
-    ],
+    "scheduled": "",
     "address": "Zhushan Station, Alishan Township, Chiayi County 605",
     "file": "cities/alishan/activities/zhushan-sunrise-train.md"
+  },
+  {
+    "name": "Checheng Old Street (民權巷)",
+    "city": "checheng",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8679,
+    "lng": 120.8594,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "民權巷, Shuili Township, Nantou County 553",
+    "file": "cities/checheng/activities/checheng-old-street.md"
   },
   {
     "name": "Fresh Seafood at Coastal Stalls",
@@ -785,6 +957,27 @@
     "file": "cities/sun-moon-lake/activities/cien-pagoda.md"
   },
   {
+    "name": "Han Bi Trail (涵碧步道)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 23.8712,
+    "lng": 120.9103,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Near Lalu Island, Shuishe, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/han-bi-trail.md"
+  },
+  {
     "name": "33km Lake Cycling Loop",
     "city": "sun-moon-lake",
     "tags": [
@@ -806,6 +999,47 @@
     "file": "cities/sun-moon-lake/activities/lake-cycling-loop.md"
   },
   {
+    "name": "Maolan Mountain Tea Plantation Trail (貓囒山步道)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "activity",
+      "sightseeing"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#10b981",
+    "cost_ntd": "0",
+    "lat": 23.9,
+    "lng": 120.915,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Maolan Mountain, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/maolan-mountain-trail.md"
+  },
+  {
+    "name": "Nine Frog Stack (九蛙疊像)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8755,
+    "lng": 120.9155,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Near Shuishe, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/nine-frog-stack.md"
+  },
+  {
     "name": "President Fish (總統魚)",
     "city": "sun-moon-lake",
     "tags": [
@@ -824,6 +1058,46 @@
     ],
     "address": "Ita Thao or Shuishe Village, Yuchi Township, Nantou County",
     "file": "cities/sun-moon-lake/activities/president-fish.md"
+  },
+  {
+    "name": "Shuiwatou Trail & Stacked Frogs (水蛙頭步道)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8732,
+    "lng": 120.9269,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Shuiwatou, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/shuiwatou-trail.md"
+  },
+  {
+    "name": "Shuiyuan Suspension Bridge (水源吊橋)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing",
+      "activity"
+    ],
+    "priority": "if-time",
+    "weight": 1,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.865,
+    "lng": 120.92,
+    "status": "skip",
+    "done": false,
+    "scheduled": "",
+    "address": "Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/shuiyuan-suspension-bridge.md"
   },
   {
     "name": "Sun Moon Lake Red Tea (日月潭紅茶)",
@@ -905,6 +1179,67 @@
     ],
     "address": "Ita Thao Village, Yuchi Township, Nantou County 555",
     "file": "cities/sun-moon-lake/activities/wild-boar-sausage.md"
+  },
+  {
+    "name": "World's Best Cycling Path (Shuishe → Xiangshan)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "cycling",
+      "activity"
+    ],
+    "priority": "must",
+    "weight": 3,
+    "color": "#f59e0b",
+    "cost_ntd": "0",
+    "lat": 23.8625,
+    "lng": 120.917,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "Shuishe Pier to Xiangshan Visitor Center, Yuchi Township, Nantou County",
+    "file": "cities/sun-moon-lake/activities/worlds-best-cycling-path.md"
+  },
+  {
+    "name": "Xiangshan Visitor Center (向山遊客中心)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8516,
+    "lng": 120.9003,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "No. 1, Zhongshan Rd, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/xiangshan-visitor-center.md"
+  },
+  {
+    "name": "Xuanzang Temple (玄奘寺)",
+    "city": "sun-moon-lake",
+    "tags": [
+      "sightseeing"
+    ],
+    "priority": "worth-it",
+    "weight": 2,
+    "color": "#3b82f6",
+    "cost_ntd": "0",
+    "lat": 23.8555,
+    "lng": 120.934,
+    "status": "pending",
+    "done": false,
+    "scheduled": [
+      "[itinerary/apr-28]"
+    ],
+    "address": "No. 1, Longfeng Rd, Yuchi Township, Nantou County 555",
+    "file": "cities/sun-moon-lake/activities/xuanzang-temple.md"
   },
   {
     "name": "Animation Lane (彩繪巷)",
