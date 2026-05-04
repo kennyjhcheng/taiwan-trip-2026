@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [22.6898, 120.2997]
-status: pending
+status: done
 scheduled: ""
 address: "Shengmin Rd, Zuoying District, Kaohsiung 813"
-done: false
+done: true
 ---
 
 # Zuoying Lotus Pond (蓮池潭)

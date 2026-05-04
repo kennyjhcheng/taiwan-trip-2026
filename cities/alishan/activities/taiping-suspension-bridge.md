@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: if-time
 cost_ntd: "80-100"
 location: [23.5670, 120.5830]
-status: pending
+status: skip
 scheduled: ""
 address: "Taiping Village, Meishan Township, Chiayi County 604"
 done: false

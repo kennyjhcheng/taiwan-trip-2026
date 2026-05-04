@@ -5,10 +5,10 @@ tags: [sightseeing, activity]
 priority: worth-it
 cost_ntd: "0"
 location: [23.8732, 120.9269]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "Shuiwatou, Yuchi Township, Nantou County"
-done: false
+done: true
 ---
 
 # Shuiwatou Trail & Stacked Frogs (水蛙頭步道)

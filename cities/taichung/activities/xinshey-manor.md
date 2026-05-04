@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: if-time
 cost_ntd: "100-300"
 location: [24.1975, 120.8490]
-status: pending
+status: skip
 scheduled: ""
 address: "Xinshe District, Taichung City 426"
 done: false

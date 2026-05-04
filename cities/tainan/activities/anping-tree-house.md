@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "50"
 location: [22.996, 120.1591]
-status: pending
+status: done
 scheduled: "[[itinerary/may-02]]"
 address: "No. 108, Gubao St, Anping District, Tainan 708"
-done: false
+done: true
 ---
 
 # Anping Tree House

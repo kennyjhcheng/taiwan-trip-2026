@@ -1,20 +1,20 @@
 ---
 city: tainan
-dates: "May 1 (arrive evening) · May 2 (full food day) · May 3 (morning departure)"
+dates: "Apr 29 (arrive evening) · Apr 30 + May 1 (full days) · May 1 (depart afternoon)"
 week: "Week 2"
-nights: "2 nights"
+nights: "3 nights (LIGHT Hostel)"
 location: [22.9999, 120.2269]
 ---
 
 # 🏛️ Tainan
 
-> **When:** May 1 (arrive evening) · May 2 (full food day) · May 3 (morning departure)
-> **Nights:** 2 nights
+> **When:** Apr 29 (arrive evening) · Apr 30–May 1 (full days) · May 1 (depart afternoon to Kaohsiung)
+> **Nights:** 3 nights — LIGHT Hostel
 > **Stay:** [[logistics/accommodation#tainan]]
 
-Taiwan's oldest city and culinary capital. 300+ temples, 17th-century Dutch forts, and dishes you won't find in Taipei.
+Taiwan's oldest city and culinary capital. 300+ temples, 17th-century Dutch forts, and dishes you won't find in Taipei. Slow down here — the point is wandering, eating, and stumbling into temples.
 
-**Days:** [[itinerary/may-01]] · [[itinerary/may-02]] · [[itinerary/may-03]]
+**Days:** [[itinerary/apr-29]] · [[itinerary/apr-30]] · [[itinerary/may-01]]
 
 ---
 

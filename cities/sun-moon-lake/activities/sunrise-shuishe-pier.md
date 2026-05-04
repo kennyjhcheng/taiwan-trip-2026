@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: must
 cost_ntd: "0"
 location: [23.8802, 120.917]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-29]]"
 address: "Shuishe Village, Yuchi Township, Nantou County 555"
 done: false

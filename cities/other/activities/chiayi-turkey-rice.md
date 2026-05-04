@@ -5,7 +5,7 @@ tags: [eat]
 priority: must
 cost_ntd: "80"
 location: [23.4801, 120.4515]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-30]]"
 address: "噴水雞肉飯 or stalls on 文化路, near Chiayi Station"
 done: false

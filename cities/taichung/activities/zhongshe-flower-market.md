@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: if-time
 cost_ntd: "0-150"
 location: [24.2271, 120.8286]
-status: pending
+status: skip
 scheduled: ""
 address: "Zhongshe, Houli District / Xinshe area, Taichung City"
 done: false

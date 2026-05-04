@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: if-time
 cost_ntd: "350-500"
 location: [23.4980, 120.7700]
-status: pending
+status: skip
 scheduled: ""
 address: "Shizhuo, Alishan Township, Chiayi County 605"
 done: false

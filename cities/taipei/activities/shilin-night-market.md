@@ -5,7 +5,7 @@ tags: [eat, nightmarket]
 priority: must
 cost_ntd: "200"
 location: [25.0877, 121.524]
-status: pending
+status: skip
 scheduled: ""
 address: "No. 101, Jihe Rd, Shilin District, Taipei 111"
 done: false

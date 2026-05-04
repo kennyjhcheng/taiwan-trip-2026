@@ -12,7 +12,7 @@ location: [23.5, 121.0]
 > **Nights:** No overnight stays
 > **Stay:** N/A (day trip)
 
-Taichung (Apr 28 transit), Chiayi (Apr 30 transit), Keelung and Wulai (optional from Taipei), Chishang (Apr 22 on-route).
+Chiayi (Apr 29 transit — bus hub for Alishan), Chishang (Apr 22 on-route — Bora Bora scenic path). Miyahara now tracked under [[cities/taichung/index|Taichung]]. Keelung and Wulai were not visited.
 
 **Days:** —
 

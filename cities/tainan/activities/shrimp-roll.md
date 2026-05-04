@@ -5,7 +5,7 @@ tags: [eat]
 priority: worth-it
 cost_ntd: "120"
 location: [22.9944, 120.162]
-status: pending
+status: skip
 scheduled: ""
 address: "Anping Old Street, Anping District, Tainan 708"
 done: false

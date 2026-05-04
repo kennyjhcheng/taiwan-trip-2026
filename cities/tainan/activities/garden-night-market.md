@@ -5,10 +5,10 @@ tags: [eat, nightmarket]
 priority: must
 cost_ntd: "200"
 location: [23.0183, 120.2256]
-status: pending
+status: done
 scheduled: "[[itinerary/may-02]]"
 address: "No. 1, Section 1, Haian Rd, North District, Tainan 704"
-done: false
+done: true
 ---
 
 # Garden Night Market (花園夜市)

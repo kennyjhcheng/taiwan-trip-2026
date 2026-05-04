@@ -12,7 +12,7 @@ location: [22.0055, 120.7101]
 > **Nights:** 1 night
 > **Stay:** [[logistics/accommodation#checheng]]
 
-Small fishing town. Limited accommodation — book ASAP. You'll pass Eluanbi (southernmost point) on the way.
+Small fishing town at Taiwan's southern tip. Stayed at 林會館 Lin House. Met fellow cyclists and backpackers here. Most Kenting/Hengchun sights were skipped in favor of resting and pushing south fast — with 74mi the next day, early sleep was the priority.
 
 **Days:** [[itinerary/apr-20]]
 

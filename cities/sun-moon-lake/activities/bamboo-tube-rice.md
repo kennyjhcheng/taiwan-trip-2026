@@ -5,10 +5,10 @@ tags: [eat]
 priority: must
 cost_ntd: "150"
 location: [23.8449, 120.9085]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "Ita Thao Village, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # Bamboo Tube Rice (竹筒飯)

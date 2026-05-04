@@ -5,7 +5,7 @@ tags: [eat]
 priority: worth-it
 cost_ntd: "200"
 location: [25.0297, 121.5289]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-26]]"
 address: "Yongkang St, Da'an District, Taipei 106"
 done: false

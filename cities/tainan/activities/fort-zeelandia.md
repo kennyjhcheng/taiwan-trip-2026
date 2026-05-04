@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: must
 cost_ntd: "50"
 location: [22.9944, 120.1609]
-status: pending
+status: done
 scheduled: "[[itinerary/may-02]]"
 address: "No. 82, Guosheng Rd, Anping District, Tainan 708"
-done: false
+done: true
 ---
 
 # Fort Zeelandia (安平古堡)

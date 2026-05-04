@@ -5,10 +5,10 @@ tags: [sightseeing, eat]
 priority: worth-it
 cost_ntd: "150"
 location: [22.9944, 120.1609]
-status: pending
+status: done
 scheduled: "[[itinerary/may-02]]"
 address: "Anping Rd, Anping District, Tainan 708"
-done: false
+done: true
 ---
 
 # Anping Old Street

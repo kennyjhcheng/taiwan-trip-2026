@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: if-time
 cost_ntd: "350"
 location: [25.1023, 121.5484]
-status: pending
+status: skip
 scheduled: ""
 address: "No. 221, Section 2, Zhi Shan Rd, Shilin District, Taipei 111"
 done: false

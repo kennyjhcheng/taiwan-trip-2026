@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: if-time
 cost_ntd: "0-200"
 location: [24.3810, 120.7433]
-status: pending
+status: skip
 scheduled: ""
 address: "No. 119, Shengxing, Sanyi Township, Miaoli County 367"
 done: false

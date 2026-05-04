@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: must
 cost_ntd: "0"
 location: [23.9006, 120.9286]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "No. 63, Zhongshan Rd, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # Wenwu Temple (文武廟)

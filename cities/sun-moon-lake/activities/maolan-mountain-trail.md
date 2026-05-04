@@ -5,7 +5,7 @@ tags: [activity, sightseeing]
 priority: must
 cost_ntd: "0"
 location: [23.9000, 120.9150]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-28]]"
 address: "Maolan Mountain, Yuchi Township, Nantou County"
 done: false

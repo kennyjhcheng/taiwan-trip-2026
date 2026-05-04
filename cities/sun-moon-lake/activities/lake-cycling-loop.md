@@ -5,10 +5,10 @@ tags: [activity, cycling]
 priority: must
 cost_ntd: "500"
 location: [23.8625, 120.917]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "Shuishe Pier, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # 33km Lake Cycling Loop

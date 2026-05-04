@@ -5,7 +5,7 @@ tags: [sightseeing, cycling]
 priority: if-time
 cost_ntd: "0"
 location: [23.4640, 120.6910]
-status: pending
+status: skip
 scheduled: ""
 address: "Ruili, Zhuqi Township, Chiayi County (Alishan National Scenic Area)"
 done: false

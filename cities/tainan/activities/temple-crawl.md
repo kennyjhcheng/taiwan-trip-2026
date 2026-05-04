@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: if-time
 cost_ntd: "0"
 location: [22.9999, 120.2269]
-status: pending
+status: skip
 scheduled: "[[itinerary/may-02]]"
 address: "West Central District, Tainan (start near Confucius Temple)"
 done: false

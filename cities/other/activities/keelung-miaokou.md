@@ -5,7 +5,7 @@ tags: [eat, nightmarket]
 priority: worth-it
 cost_ntd: "150"
 location: [25.1276, 121.7406]
-status: pending
+status: skip
 scheduled: ""
 address: "Rensan Rd, Ren'ai District, Keelung City 202"
 done: false

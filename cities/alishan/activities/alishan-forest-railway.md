@@ -5,7 +5,7 @@ tags: [activity]
 priority: worth-it
 cost_ntd: "400"
 location: [23.4799, 120.4303]
-status: pending
+status: skip
 scheduled: ""
 address: "Chiayi Station → Alishan Station, Chiayi County"
 done: false

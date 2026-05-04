@@ -5,7 +5,7 @@ tags: [eat]
 priority: must
 cost_ntd: "500"
 location: [23.5136, 120.8035]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-29]]"
 address: "Alishan Village, Alishan Township, Chiayi County 605"
 done: false

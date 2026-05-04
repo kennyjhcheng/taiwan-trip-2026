@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [23.8555, 120.9340]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "No. 1, Longfeng Rd, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # Xuanzang Temple (玄奘寺)

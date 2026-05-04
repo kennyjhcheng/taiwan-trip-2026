@@ -5,7 +5,7 @@ tags: [sightseeing, eat, activity]
 priority: worth-it
 cost_ntd: "30"
 location: [22.6133, 120.268]
-status: pending
+status: skip
 scheduled: ""
 address: "Cijin District, Kaohsiung (ferry from Gushan Ferry Terminal)"
 done: false

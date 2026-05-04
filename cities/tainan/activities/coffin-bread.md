@@ -5,7 +5,7 @@ tags: [eat]
 priority: must
 cost_ntd: "120"
 location: [22.9965, 120.2028]
-status: pending
+status: skip
 scheduled: "[[itinerary/may-02]]"
 address: "Near Chihkan Tower, West Central District, Tainan 700"
 done: false

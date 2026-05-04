@@ -5,7 +5,7 @@ tags: [activity, sightseeing]
 priority: if-time
 cost_ntd: "0"
 location: [23.8712, 120.9103]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-28]]"
 address: "Near Lalu Island, Shuishe, Yuchi Township, Nantou County"
 done: false

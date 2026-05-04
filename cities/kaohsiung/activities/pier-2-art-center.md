@@ -5,10 +5,10 @@ tags: [sightseeing, activity]
 priority: must
 cost_ntd: "0"
 location: [22.6247, 120.2853]
-status: skip
+status: done
 scheduled: "[[itinerary/apr-19]]"
 address: "No. 1, Dayong Rd, Yancheng District, Kaohsiung 803"
-done: false
+done: true
 ---
 
 # Pier-2 Art Center (駁二藝術特區)

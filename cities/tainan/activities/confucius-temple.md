@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: must
 cost_ntd: "0"
 location: [22.997, 120.202]
-status: pending
+status: done
 scheduled: "[[itinerary/may-02]]"
 address: "No. 2, Nanmen Rd, West Central District, Tainan 700"
-done: false
+done: true
 ---
 
 # Confucius Temple (孔廟)

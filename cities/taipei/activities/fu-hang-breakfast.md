@@ -5,7 +5,7 @@ tags: [eat]
 priority: worth-it
 cost_ntd: "80"
 location: [25.045, 121.5176]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-27]]"
 address: "2F, No. 108, Section 1, Zhongxiao E. Rd, Zhongzheng District, Taipei"
 done: false

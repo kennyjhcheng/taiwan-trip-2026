@@ -12,7 +12,7 @@ location: [23.3397, 121.3067]
 > **Nights:** 1 night
 > **Stay:** [[logistics/accommodation#yuli]]
 
-Small town famous for beef noodles and lamb hotpot. Book accommodation ASAP — very limited options.
+Small town in the Huadong Rift Valley, famous for beef noodles and lamb hotpot. Stayed at an Airbnb on Datong Rd. Ended up eating stinky tofu and local noodles instead of the planned spots — both the beef noodle and lamb hotpot places were skipped. The Chishang Scenic Bike Path (伯朗大道) detour was a highlight of the entire ride.
 
 **Days:** [[itinerary/apr-22]]
 

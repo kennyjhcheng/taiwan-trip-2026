@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: worth-it
 cost_ntd: "0"
 location: [24.8691, 121.5515]
-status: pending
+status: skip
 scheduled: ""
 address: "Wulai Township, New Taipei City 233"
 done: false

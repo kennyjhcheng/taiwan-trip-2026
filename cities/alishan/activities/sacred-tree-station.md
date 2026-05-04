@@ -5,7 +5,7 @@ tags: [sightseeing, activity]
 priority: must
 cost_ntd: "0"
 location: [23.5197, 120.8027]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-29]]"
 address: "Shenmu Station, Alishan National Forest Recreation Area, Alishan Township, Chiayi County"
 done: false

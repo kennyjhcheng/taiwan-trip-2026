@@ -29,7 +29,7 @@
     "cost_ntd": "400",
     "lat": 23.4799,
     "lng": 120.4303,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Chiayi Station → Alishan Station, Chiayi County",
@@ -47,7 +47,7 @@
     "cost_ntd": "500",
     "lat": 23.5136,
     "lng": 120.8035,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-29]"
@@ -68,7 +68,7 @@
     "cost_ntd": "0",
     "lat": 23.4946,
     "lng": 120.7218,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Fenqihu Village, Zhuqi Township, Chiayi County 606",
@@ -87,8 +87,8 @@
     "cost_ntd": "300",
     "lat": 23.5136,
     "lng": 120.8035,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-29]"
     ],
@@ -108,7 +108,7 @@
     "cost_ntd": "0",
     "lat": 23.5136,
     "lng": 120.8035,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-29]"
@@ -129,7 +129,7 @@
     "cost_ntd": "0",
     "lat": 23.464,
     "lng": 120.691,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Ruili, Zhuqi Township, Chiayi County (Alishan National Scenic Area)",
@@ -147,7 +147,7 @@
     "cost_ntd": "300",
     "lat": 23.5136,
     "lng": 120.8035,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Alishan Village, Alishan Township, Chiayi County 605",
@@ -166,7 +166,7 @@
     "cost_ntd": "0",
     "lat": 23.5197,
     "lng": 120.8027,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-29]"
@@ -186,8 +186,8 @@
     "cost_ntd": "0",
     "lat": 23.5165,
     "lng": 120.8055,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-29]"
     ],
@@ -207,7 +207,7 @@
     "cost_ntd": "80-100",
     "lat": 23.567,
     "lng": 120.583,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Taiping Village, Meishan Township, Chiayi County 604",
@@ -225,7 +225,7 @@
     "cost_ntd": "0",
     "lat": 23.52,
     "lng": 120.8022,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-29]"
@@ -246,7 +246,7 @@
     "cost_ntd": "350-500",
     "lat": 23.498,
     "lng": 120.77,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Shizhuo, Alishan Township, Chiayi County 605",
@@ -730,7 +730,7 @@
     "cost_ntd": "30",
     "lat": 22.6133,
     "lng": 120.268,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Cijin District, Kaohsiung (ferry from Gushan Ferry Terminal)",
@@ -789,8 +789,8 @@
     "cost_ntd": "0",
     "lat": 22.6898,
     "lng": 120.2997,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": "",
     "address": "Shengmin Rd, Zuoying District, Kaohsiung 813",
     "file": "cities/kaohsiung/activities/lotus-pond.md"
@@ -828,8 +828,8 @@
     "cost_ntd": "0",
     "lat": 22.6247,
     "lng": 120.2853,
-    "status": "skip",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-19]"
     ],
@@ -848,7 +848,7 @@
     "cost_ntd": "80",
     "lat": 23.4801,
     "lng": 120.4515,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-30]"
@@ -869,7 +869,7 @@
     "cost_ntd": "150",
     "lat": 25.1276,
     "lng": 121.7406,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Rensan Rd, Ren'ai District, Keelung City 202",
@@ -909,7 +909,7 @@
     "cost_ntd": "0",
     "lat": 24.8691,
     "lng": 121.5515,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Wulai Township, New Taipei City 233",
@@ -927,8 +927,8 @@
     "cost_ntd": "150",
     "lat": 23.8449,
     "lng": 120.9085,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -948,8 +948,8 @@
     "cost_ntd": "0",
     "lat": 23.8479,
     "lng": 120.9384,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -969,7 +969,7 @@
     "cost_ntd": "0",
     "lat": 23.8712,
     "lng": 120.9103,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-28]"
@@ -990,8 +990,8 @@
     "cost_ntd": "500",
     "lat": 23.8625,
     "lng": 120.917,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1011,7 +1011,7 @@
     "cost_ntd": "0",
     "lat": 23.9,
     "lng": 120.915,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-28]"
@@ -1031,8 +1031,8 @@
     "cost_ntd": "0",
     "lat": 23.8755,
     "lng": 120.9155,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1051,8 +1051,8 @@
     "cost_ntd": "350",
     "lat": 23.8449,
     "lng": 120.9085,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1072,8 +1072,8 @@
     "cost_ntd": "0",
     "lat": 23.8732,
     "lng": 120.9269,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1111,8 +1111,8 @@
     "cost_ntd": "300",
     "lat": 23.8802,
     "lng": 120.917,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1132,7 +1132,7 @@
     "cost_ntd": "0",
     "lat": 23.8802,
     "lng": 120.917,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-29]"
@@ -1152,8 +1152,8 @@
     "cost_ntd": "0",
     "lat": 23.9006,
     "lng": 120.9286,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1172,8 +1172,8 @@
     "cost_ntd": "200",
     "lat": 23.8449,
     "lng": 120.9085,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1193,8 +1193,8 @@
     "cost_ntd": "0",
     "lat": 23.8625,
     "lng": 120.917,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1213,8 +1213,8 @@
     "cost_ntd": "0",
     "lat": 23.8516,
     "lng": 120.9003,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1233,8 +1233,8 @@
     "cost_ntd": "0",
     "lat": 23.8555,
     "lng": 120.934,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-28]"
     ],
@@ -1487,7 +1487,7 @@
     "cost_ntd": "0-200",
     "lat": 24.381,
     "lng": 120.7433,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "No. 119, Shengxing, Sanyi Township, Miaoli County 367",
@@ -1524,7 +1524,7 @@
     "cost_ntd": "100-300",
     "lat": 24.1975,
     "lng": 120.849,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Xinshe District, Taichung City 426",
@@ -1542,7 +1542,7 @@
     "cost_ntd": "0-150",
     "lat": 24.2271,
     "lng": 120.8286,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Zhongshe, Houli District / Xinshe area, Taichung City",
@@ -1561,8 +1561,8 @@
     "cost_ntd": "150",
     "lat": 22.9944,
     "lng": 120.1609,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/may-02]"
     ],
@@ -1581,8 +1581,8 @@
     "cost_ntd": "50",
     "lat": 22.996,
     "lng": 120.1591,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/may-02]"
     ],
@@ -1601,7 +1601,7 @@
     "cost_ntd": "70",
     "lat": 23.0001,
     "lng": 120.203,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/may-02]"
@@ -1621,7 +1621,7 @@
     "cost_ntd": "120",
     "lat": 22.9965,
     "lng": 120.2028,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/may-02]"
@@ -1641,8 +1641,8 @@
     "cost_ntd": "0",
     "lat": 22.997,
     "lng": 120.202,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/may-02]"
     ],
@@ -1661,7 +1661,7 @@
     "cost_ntd": "150",
     "lat": 22.9933,
     "lng": 120.2037,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/may-01]"
@@ -1681,8 +1681,8 @@
     "cost_ntd": "50",
     "lat": 22.9944,
     "lng": 120.1609,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/may-02]"
     ],
@@ -1702,8 +1702,8 @@
     "cost_ntd": "200",
     "lat": 23.0183,
     "lng": 120.2256,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/may-02]"
     ],
@@ -1722,7 +1722,7 @@
     "cost_ntd": "120",
     "lat": 22.9999,
     "lng": 120.2269,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/may-03]"
@@ -1742,7 +1742,7 @@
     "cost_ntd": "120",
     "lat": 22.9944,
     "lng": 120.162,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "Anping Old Street, Anping District, Tainan 708",
@@ -1761,7 +1761,7 @@
     "cost_ntd": "0",
     "lat": 22.9999,
     "lng": 120.2269,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/may-02]"
@@ -1822,8 +1822,8 @@
     "cost_ntd": "0",
     "lat": 25.0349,
     "lng": 121.5211,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-26]"
     ],
@@ -1842,8 +1842,8 @@
     "cost_ntd": "700",
     "lat": 25.0336,
     "lng": 121.5491,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-26]"
     ],
@@ -1883,7 +1883,7 @@
     "cost_ntd": "80",
     "lat": 25.045,
     "lng": 121.5176,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-27]"
@@ -1924,8 +1924,8 @@
     "cost_ntd": "0",
     "lat": 25.0368,
     "lng": 121.4999,
-    "status": "pending",
-    "done": false,
+    "status": "done",
+    "done": true,
     "scheduled": [
       "[itinerary/apr-26]"
     ],
@@ -1986,7 +1986,7 @@
     "cost_ntd": "350",
     "lat": 25.1023,
     "lng": 121.5484,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "No. 221, Section 2, Zhi Shan Rd, Shilin District, Taipei 111",
@@ -2067,7 +2067,7 @@
     "cost_ntd": "200",
     "lat": 25.0877,
     "lng": 121.524,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "No. 101, Jihe Rd, Shilin District, Taipei 111",
@@ -2085,7 +2085,7 @@
     "cost_ntd": "600",
     "lat": 25.0338,
     "lng": 121.5645,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": "",
     "address": "No. 45, Shifu Rd, Xinyi District, Taipei 110",
@@ -2206,7 +2206,7 @@
     "cost_ntd": "250",
     "lat": 25.0294,
     "lng": 121.5292,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-26]"
@@ -2226,7 +2226,7 @@
     "cost_ntd": "200",
     "lat": 25.0297,
     "lng": 121.5289,
-    "status": "pending",
+    "status": "skip",
     "done": false,
     "scheduled": [
       "[itinerary/apr-26]"

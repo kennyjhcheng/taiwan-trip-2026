@@ -5,10 +5,10 @@ tags: [eat]
 priority: must
 cost_ntd: "700"
 location: [25.0336, 121.5491]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-26]]"
 address: "No. 194, Section 2, Xinyi Rd, Da'an District, Taipei 106"
-done: false
+done: true
 ---
 
 # Din Tai Fung — Original (鼎泰豐)

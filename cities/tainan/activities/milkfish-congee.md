@@ -5,7 +5,7 @@ tags: [eat]
 priority: must
 cost_ntd: "120"
 location: [22.9999, 120.2269]
-status: pending
+status: skip
 scheduled: "[[itinerary/may-03]]"
 address: "Anping or West Central District, Tainan 700"
 done: false

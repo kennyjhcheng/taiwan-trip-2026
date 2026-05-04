@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: must
 cost_ntd: "0"
 location: [23.5165, 120.8055]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-29]]"
 address: "Sister Ponds Trail, Alishan National Forest Recreation Area, Alishan Township, Chiayi County"
-done: false
+done: true
 ---
 
 # Sister Ponds (姊妹潭) 🌊

@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [23.8755, 120.9155]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "Near Shuishe, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # Nine Frog Stack (九蛙疊像)

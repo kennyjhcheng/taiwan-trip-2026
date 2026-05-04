@@ -5,10 +5,10 @@ tags: [cycling, activity]
 priority: must
 cost_ntd: "0"
 location: [23.8625, 120.917]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "Shuishe Pier to Xiangshan Visitor Center, Yuchi Township, Nantou County"
-done: false
+done: true
 ---
 
 # World's Best Cycling Path (Shuishe ↔ Xiangshan)

@@ -5,10 +5,10 @@ tags: [sightseeing, activity]
 priority: worth-it
 cost_ntd: "0"
 location: [23.8479, 120.9384]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "Datong Village, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # Ci'en Pagoda (慈恩塔)

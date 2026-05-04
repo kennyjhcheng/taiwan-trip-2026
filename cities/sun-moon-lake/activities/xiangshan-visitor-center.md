@@ -5,10 +5,10 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "0"
 location: [23.8516, 120.9003]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-28]]"
 address: "No. 1, Zhongshan Rd, Yuchi Township, Nantou County 555"
-done: false
+done: true
 ---
 
 # Xiangshan Visitor Center (向山遊客中心)

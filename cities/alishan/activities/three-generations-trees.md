@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: must
 cost_ntd: "0"
 location: [23.5200, 120.8022]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-29]]"
 address: "Near Sacred Tree Station, Alishan National Forest Recreation Area, Alishan Township, Chiayi County"
 done: false

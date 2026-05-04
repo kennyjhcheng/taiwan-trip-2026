@@ -3,76 +3,74 @@ type: logistics
 category: packing
 ---
 
-# 🎒 Packing List
+# 🎒 Packing — What to Bring for a Taiwan Bike Trip
 
-> **Legend:** ✅ have it | 🔴 buy NOW (Seattle) | 🟡 buy before leaving | 🟢 buy in Taiwan | 📦 buy & return (get in Taipei Apr 18)
+> Reference guide based on what was actually needed for 18 days in Taiwan (Apr–May), including 4 days of cycling Kaohsiung → Hualien (~239 miles total).
+
+---
 
 ## 🚴 Cycling Gear
 
-- [x] Bike — ✅ rental confirmed (TCR AD Pro 0 UT Di2) → [[logistics/bike-rental]]
-- [x] Helmet — ✅ part of rental
-- [ ] Bib shorts (×2) — ✅ have 1 · 🔴 buy 1 more — needs breaking in before the trip
-- [x] 🔴 Cycling jerseys (×2) — moisture-wicking, rear pockets
-- [ ] 🔴 Chamois cream — US brands better (Assos, DZ Nuts, Squirrel's Nut Butter); hard to find in Taiwan
-- [x] 🔴 Halo Headband (sweat diverter)
-- [ ] 🟡 Cycling gloves (padded)
-- [x] 🟡 Cycling socks (×2–3 pairs)
-- [ ] 🟢 Sunscreen SPF 50+ — everywhere in Taiwan; buy there
-- [ ] 🟢 Water bottles ×2 — confirm with Giant Adventure; else buy at Kaohsiung sports store
+| Item | Notes |
+|------|-------|
+| Bike | Rented from Giant Adventure (TCR AD Pro 0 UT Di2, size ML) — helmet included → [[logistics/bike-rental]] |
+| Bib shorts (×2) | Essential. At least 2 pairs — one to wash, one to wear each day |
+| Cycling jerseys (×2) | Moisture-wicking with rear pockets for snacks/phone |
+| Chamois cream | Bring from the US — harder to find in Taiwan. Worth it for multi-day rides |
+| Halo Headband | Great for keeping sweat out of your eyes on long climbs |
+| Cycling gloves (padded) | Appreciated on long days |
+| Cycling socks (×2–3) | Quick-dry preferred |
+| Sunscreen SPF 50+ | Available everywhere in Taiwan — fine to buy there |
+| Water bottles ×2 | Giant Adventure provides some accessories; confirm at pickup |
 
 ## 🛠️ Bike Tools
 
-> 💡 Confirm at pickup Apr 19 — rental may include pump, lights, basic tools.
+> Giant Adventure provided basic tools. Still worth having your own:
 
-- [ ] 🟢 Saddle bag or frame bag
-- [ ] 🟢 Spare inner tubes ×2, patch kit, tire levers
-- [ ] 🟢 Mini pump or CO2 inflator
-- [ ] 🟢 Multi-tool, chain lube
-- [ ] 🟢 Bike lights — front + rear
-- [ ] 🟢 Small first aid kit
+| Item | Notes |
+|------|-------|
+| Spare inner tubes ×2 + patch kit | Buy at a Kaohsiung or Taichung bike shop |
+| Tire levers + mini pump | Lightweight — worth the space |
+| Multi-tool + chain lube | Basic kit covers most roadside issues |
+| Bike lights (front + rear) | Required in tunnels on the coastal highway |
+| Saddle bag or frame bag | For snacks, tools, phone on the bike |
 
 ## 👕 Clothing (Non-Cycling)
 
-- [x] Casual t-shirts ✅
-- [x] Shorts ✅
-- [x] Underwear ✅
-- [x] Light rain jacket ✅
-- [x] Sneakers / casual shoes ✅
-- [x] Swimwear ✅
-- [ ] 🟡 Compression socks — good for flights + recovery
-- [ ] Warm layer for Alishan (10–15°C at night at 2,200m) — buy in Taipei before Apr 30
+| Item | Notes |
+|------|-------|
+| Casual t-shirts (×3–4) | Taiwan is warm in April — lightweight |
+| Shorts + light pants | Shorts for days, light trousers for evening temples |
+| Underwear (×4–5) | Quick-dry recommended |
+| Light rain jacket | Essential — unexpected downpours are common (experienced one on Apr 21) |
+| Sneakers / walking shoes | For cities and temples |
+| Swimwear | Useful for hot springs stops |
+| Compression socks | Good for overnight flights and post-ride recovery |
+| Light layer for Alishan | Alishan is 2,200m — can be 10–15°C at night even in April |
 
 ## 🧴 Toiletries & Health
 
-- [x] Toothbrush ✅
-- [ ] 🔴 Electrolyte packets or tabs — bring a supply (Liquid IV, Nuun)
-- [ ] 🟡 Lip balm with SPF
+| Item | Notes |
+|------|-------|
+| Electrolyte packets | Bring a supply (Liquid IV, Nuun) — critical on ride days |
+| Lip balm with SPF | Sun + wind combo is harsh on long descents |
+| Basic first aid | Blister care, ibuprofen, antidiarrheal |
 
 ## 📱 Tech & Documents
 
-- [x] Passport (valid 6+ months past May 2026) ✅
-- [x] Phone + cable ✅
-- [x] Credit card (no foreign transaction fees) ✅
-- [ ] 🔴 Upgrade Google Fi to Premium plan — before leaving Seattle
-- [ ] 🔴 Download offline maps — Taiwan mountain areas have spotty signal
-- [ ] 🟡 Save/print all booking confirmations — offline copy in Photos or Notes
+| Item | Notes |
+|------|-------|
+| Passport | Taiwan is visa-free for US citizens; make sure it's valid 6+ months past departure |
+| Phone + cables | Taiwan uses Type A/B plugs — no adapter needed for US devices |
+| Credit card (no foreign fees) | Chase Sapphire, Charles Schwab, etc. — widely accepted in cities |
+| Google Fi or local SIM | Fi worked well throughout; alternatively buy a 30-day SIM at the airport |
+| Offline maps downloaded | Mountain areas (Alishan, Taroko) have spotty signal |
+| Booking confirmations saved offline | Screenshots in Photos or printed PDFs |
 
-> 💡 No power adapter needed — Taiwan uses Type A/B plugs (same as US)
+## 💡 Tips from Experience
 
-## 📦 Buy & Return — Guanghua Digital Plaza (Apr 18)
-
-*Buy Apr 18 · sell/return before May 4*
-
-- [ ] 📦 Large portable battery bank
-- [ ] 📦 Wireless earphones
-- [ ] 📦 Action camera (GoPro-style)
-- [ ] 📦 Phone handlebar mount / stand
-- [ ] 📦 Fit-over sunglasses (wraparound — wind + UV protection)
-
-## ⚠️ Kaohsiung Airbnb — Bring These
-
-Host 小玉's eco-policy — not provided:
-- [ ] Bath towels
-- [ ] Toothbrush + toothpaste
-
-→ [[logistics/accommodation#kaohsiung]]
+- **Convenience stores are your best friend.** 7-Eleven and FamilyMart are everywhere, open 24h, and have hot food, ATMs, and even bike tools in cycling towns.
+- **EasyCard (悠遊卡)** — Buy one at the airport. Works on MRT, buses, and many food stalls.
+- **Cash for smaller towns.** Checheng, Yuli — many places are cash-only. Withdraw NT$3,000–5,000 before leaving each city.
+- **Laundry.** Most hostels have coin laundry (NT$40–60/cycle). Plan for a wash every 2–3 days on the bike route.
+- **Black Cat luggage forwarding** — Available at any 7-Eleven. Send bags ahead to your next destination so you don't have to carry them on the bike. We stored bags at Taipei Main Station instead.

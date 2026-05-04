@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: if-time
 cost_ntd: "600"
 location: [25.0338, 121.5645]
-status: pending
+status: skip
 scheduled: ""
 address: "No. 45, Shifu Rd, Xinyi District, Taipei 110"
 done: false

@@ -5,7 +5,7 @@ tags: [sightseeing, eat]
 priority: if-time
 cost_ntd: "0"
 location: [23.4946, 120.7218]
-status: pending
+status: skip
 scheduled: ""
 address: "Fenqihu Village, Zhuqi Township, Chiayi County 606"
 done: false

@@ -5,10 +5,10 @@ tags: [sightseeing, activity]
 priority: must
 cost_ntd: "300"
 location: [23.5136, 120.8035]
-status: pending
+status: done
 scheduled: "[[itinerary/apr-29]]"
 address: "No. 55, Zhongshan Village, Alishan Township, Chiayi County 605"
-done: false
+done: true
 ---
 
 # Alishan National Forest Recreation Area 🌲

@@ -5,7 +5,7 @@ tags: [sightseeing]
 priority: worth-it
 cost_ntd: "70"
 location: [23.0001, 120.203]
-status: pending
+status: skip
 scheduled: "[[itinerary/may-02]]"
 address: "No. 212, Section 2, Minzu Rd, West Central District, Tainan 700"
 done: false

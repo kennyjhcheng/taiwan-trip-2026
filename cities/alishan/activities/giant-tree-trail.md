@@ -5,7 +5,7 @@ tags: [activity, sightseeing]
 priority: must
 cost_ntd: "0"
 location: [23.5136, 120.8035]
-status: pending
+status: skip
 scheduled: "[[itinerary/apr-29]]"
 address: "Alishan National Scenic Area, Alishan Township, Chiayi County 605"
 done: false

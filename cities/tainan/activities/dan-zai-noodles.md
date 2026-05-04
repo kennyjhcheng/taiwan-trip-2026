@@ -5,7 +5,7 @@ tags: [eat]
 priority: must
 cost_ntd: "150"
 location: [22.9933, 120.2037]
-status: pending
+status: skip
 scheduled: "[[itinerary/may-01]]"
 address: "No. 16, Zhongzheng Rd, West Central District, Tainan 700"
 done: false
