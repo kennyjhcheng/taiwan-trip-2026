@@ -1,36 +1,45 @@
 ---
 date: May 2
 day_of_week: Sat
-theme: "🏛️ Tainan Full Food Day"
-city: tainan
+theme: "🚲 Kaohsiung — Harbor + Lotus Pond + Fo Guang Shan"
+city: kaohsiung
 week: 2
 ---
 
-# May 2 (Sat) — 🏛️ Tainan Full Food Day
+# May 2 (Sat) — 🚲 Kaohsiung — Harbor + Lotus Pond + Fo Guang Shan
 
-**City:** [[cities/tainan/index]] | ← [[itinerary/may-01]] | [[itinerary/may-03]] →
+**City:** [[cities/kaohsiung/index]] | ← [[itinerary/may-01]] | [[itinerary/may-03]] →
 
 ---
 
+## Morning — Harbor Bike Ride (solo)
 
-## Breakfast
-- [[cities/tainan/activities/milkfish-congee]] or another Tainan morning institution
+- ✅ ➕ Biked along Kaohsiung harbor waterfront
+- ✅ ➕ **Kaohsiung Music Center** — striking seaside concert hall
+- ✅ ➕ **Great Harbor Bridge** (大港橋) — rotating pedestrian bridge
+- ✅ ➕ **[[cities/kaohsiung/activities/pier-2-art-center]]** — bought souvenirs
 
-## Morning — Anping District
-- **[[cities/tainan/activities/fort-zeelandia]]** — 17th-century Dutch colonial fort
-- **[[cities/tainan/activities/anping-old-street]]** — shrimp rolls, tofu pudding (豆花), waterfront
-- **[[cities/tainan/activities/anping-tree-house]]** — century-old banyan-wrapped warehouse
+## Midday — Reunite with Yuji
 
-## Lunch
-- **[[cities/tainan/activities/coffin-bread]]** — near Chihkan Tower. Tainan invented this.
+- ✅ ➕ **Gang Yuan Beef Noodle Restaurant** (港園牛肉麵館) — lunch with Yuji
+- ✅ ➕ **Po Po Ice** (婆婆冰) — shaved ice dessert
 
-## Afternoon — Temples + History
-- **[[cities/tainan/activities/confucius-temple]]** — Taiwan's first, built 1665
-- **[[cities/tainan/activities/chihkan-tower]]** — Dutch/Ming administrative center
-- **[[cities/tainan/activities/temple-crawl]]** — wander freely; 300+ temples
+## Afternoon — Fo Guang Shan Day Trip
 
-## Evening — Garden Night Market 🎉
-- **[[cities/tainan/activities/garden-night-market]]** — open Sat ✅ — shrimp rolls, sausage-wrapped rice, peanut soup
+- ✅ ➕ Transit out to **Fo Guang Shan** (佛光山) — large Buddhist monastery complex
+- ✅ ➕ Saw the **Great Buddha** statue — one of the tallest in Taiwan
 
-**Stay:** [[logistics/accommodation#tainan]]
+## Evening — Lotus Pond
+
+- ✅ Transit back to Kaohsiung city
+- ✅ ➕ Biked around **[[cities/kaohsiung/activities/lotus-pond]]**:
+  - ✅ **Dragon and Tiger Pagodas** (龍虎塔)
+  - ✅ **Spring and Autumn Pavilions** (春秋御座)
+  - ✅ **Zuoying Yuandi Temple** (左營元帝廟)
+
+## Dinner
+
+- ✅ ➕ Local beef noodles + braised foods near the hostel
+
+**Stay:** Pathways Hostel, Kaohsiung
 

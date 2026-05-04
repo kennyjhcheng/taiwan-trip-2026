@@ -1,35 +1,46 @@
 ---
 date: May 3
 day_of_week: Sun
-theme: "🚅 Tainan → Taipei — Final Night"
+theme: "🚅 Kaohsiung → Taipei — Final Day"
 city: taipei
 week: 2
 ---
 
-# May 3 (Sun) — 🚅 Tainan → Taipei — Final Night
+# May 3 (Sun) — 🚅 Kaohsiung → Taipei — Final Day
 
 **City:** [[cities/taipei/index]] | ← [[itinerary/may-02]] | [[itinerary/may-04]] →
 
 ---
 
+## Morning — HSR to Taipei
 
-## Morning — Last Tainan Bites
-- **[[cities/tainan/activities/milkfish-congee]]** — final morning institution
-- [[cities/tainan/activities/shrimp-roll]] run if time allows
-- Shennong Old Street coffee — slow last morning
+- ✅ HSR: **Kaohsiung → Taipei**
+- ✅ ➕ Luggage drop at **Grand Hyatt Taipei** — free storage service (no stay needed)
 
-## Afternoon — HSR to Taipei
-- HSR Tainan → Taipei (~1h 45min, NT$1,350) → [[logistics/transport#hsr]]
-- Drop bags at Taipei hotel near Taipei Main → [[logistics/accommodation#taipei-may3]]
+## Daytime — Last Taipei Errands + Eats
 
-## Evening — Final Taipei Blowout 🎊
-- ~~[[cities/taipei/activities/raohe-night-market]]~~ ✅ already done Apr 25
-- **[[cities/taipei/activities/shilin-night-market]]** — largest night market in Taipei if not yet done
-- Or: **[[cities/taipei/activities/national-palace-museum]]** area dinner + evening stroll if museum visited today
-- Final bubble tea — Chun Shui Tang (春水堂), inventors of the drink
-- Optional: Xinyi district rooftop bar near Taipei 101 for a send-off view 🌃
+- ✅ ➕ **Laboratory of Fragrance and Perfume** — picked up custom perfume made for girlfriend
+- ✅ ➕ Lunch at **Tsukemen Gonokami Seisakusho Taipei** — Japanese-style dipping noodles
+- ✅ ➕ **Chia Te Bakery** (佳德糕餅) — pineapple cakes for home
+- ✅ ➕ **Sunny Hills Taipei Minsheng Park Store** (微熱山丘) — sampled + bought more pineapple cakes
+- ✅ ➕ **Carrefour** — had staff help box up all souvenirs into a single checked bag for the flight
 
-**Stay:** [[logistics/accommodation#taipei-may3]]
+## Evening — Xinyi District Send-Off
 
-> **Tomorrow:** Early departure — [[itinerary/may-04]] — leave hotel 6:30 AM
+- ✅ **[[cities/taipei/activities/taipei-101]]** — final stroll around Xinyi
+- ✅ **[[cities/taipei/activities/din-tai-fung]]** — farewell dumplings
+- ✅ Bubble tea
+
+## Night — Airport
+
+- ✅ ➕ Headed to **TPE airport** to spend the night before the morning flight
+
+### Skipped
+- ❌ Milkfish congee / shrimp rolls (Tainan already done)
+- ❌ Shilin Night Market
+- ❌ National Palace Museum
+
+**Stay:** TPE Airport (overnight before departure)
+
+> **Tomorrow:** [[itinerary/may-04]] — Delta DL 68 departs 9:35 AM
 

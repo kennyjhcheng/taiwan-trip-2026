@@ -1,63 +1,62 @@
 ---
 date: Apr 30
 day_of_week: Thu
-theme: "🏛️ Chiayi → Tainan"
+theme: "🏛️ Tainan — First Full Day"
 city: tainan
 week: 2
 ---
 
-# Apr 30 (Thu) — 🏛️ Chiayi → Tainan
+# Apr 30 (Thu) — 🏛️ Tainan — First Full Day
 
 **City:** [[cities/tainan/index]] | ← [[itinerary/apr-29]] | [[itinerary/may-01]] →
 
 ---
 
-## Morning — Chiayi
-
-### Breakfast
-- Chiayi is famous for its morning culture — grab breakfast near your hostel
-
-### ~9:00 AM — Turkey Rice (火雞肉飯)
-- **[[cities/other/activities/chiayi-turkey-rice]]** — NT$50–80 · if you didn't eat it last night, do it now
-- This is the dish Chiayi is known for — shredded turkey over rice with pickled radish, for breakfast
-
-### Optional: Chiayi City Stroll
-- **Chenghuang Temple (城隍廟)** — ornate Qing-dynasty city god temple, lively and atmospheric
-- **Chiayi Park & Hinoki Village (檜意森活村)** — restored Japanese-era cypress wood warehouses, free to walk
+> Tainan is Taiwan's oldest city and food capital. Slow down here — the point is wandering, eating, and stumbling into temples.
 
 ---
 
-## ~11:00 AM — HSR Chiayi → Tainan
+## Morning — Breakfast Crawl (3 stops)
 
-- **HSR Chiayi → Tainan** · ~15 min · NT$140 · [[logistics/transport#hsr]]
-- ⚠️ Book in advance at [thsrc.com.tw](https://www.thsrc.com.tw) or any 7-Eleven ibon kiosk
-- Note: Chiayi HSR Station is outside the city center — take a taxi or local bus from downtown to the HSR station (~20 min)
+- ✅ ➕ **醇涎坊古早味鍋燒意麵** — traditional Tainan noodles
+- ✅ ➕ **Bao An Road Rice Cake** — classic local rice cake
+- ✅ ➕ **Yuan Zai Hui (圓仔會)** — shaved ice dessert
 
----
+## Daytime — Historic District
 
-## Midday — Arrive Tainan
+- ✅ **[[cities/tainan/activities/hayashi-department-store]]** (林百貨) — shopping + photos in the 1930s Japanese department store
+- ✅ **Tainan Confucius Temple** (孔廟) — Taiwan's oldest Confucian temple
+- ✅ ➕ **National Museum of Taiwan Literature** — beautiful Japanese-era building
+- ✅ ➕ **Tainan Lòng Story** (隆記) — local heritage/story space
+- ✅ ➕ **Quan Mei Theatre** (全美戲院) — iconic old cinema, hand-painted movie posters
+- ✅ ➕ **Tainan Grand Mazu Temple** (大天后宮) — major Mazu goddess temple
 
-- Check in → [[logistics/accommodation#tainan]]
-- Tainan's West Central District is the heart of the old city — most things are walkable
+### Back at Hostel
+- ✅ Laundry break at LIGHT Hostel
 
-## Afternoon — First Taste of Tainan
+## Evening — Shennong Street + Garden Night Market
 
-- **[[cities/tainan/activities/chihkan-towers]]** (赤崁樓) — 17th-century Dutch fort, the symbolic center of Tainan
-- Wander the old streets around Shennong Street and Yongfu Road
+- ✅ **Shennong Street** (神農街) — evening stroll through the old lantern-lit street
+- ✅ **[[cities/tainan/activities/garden-night-market]]** (花園夜市) — open Thu ✅
+  - ✅ Candied sweet potato, taro, and potato
+  - ✅ German-style pork trotters
+  - ✅ Sea snails
+  - ✅ Chicken feet
+  - ✅ Stinky tofu
+  - ✅ Taiwanese sausage + sticky rice sausage
+  - ✅ Soufflé pancake
+  - ✅ Papaya smoothie
+  - ✅ Cream puffs
 
-## Evening
+## Late Night
 
-- **[[cities/tainan/activities/dan-zai-noodles]]** — Du Hsiao Yueh · since 1895 · NT$60
-- [[cities/tainan/activities/garden-night-market]] if it's open (Thu/Sat/Sun — confirm schedule)
+- ✅ ➕ Drinks at 7/11
+- ✅ ➕ **Heylo Bar** — nearby bar
+- ✅ ➕ **Free9** — local club: karaoke, billiards, drinks
 
-**Stay:** [[logistics/accommodation#tainan]]
+### Skipped
+- ❌ Anping Old Street / Anping Fort
+- ❌ Coffin bread / milkfish congee
+- ❌ Chihkan Towers
 
----
-
-## Logistics
-
-| | |
-|--|--|
-| **Stay** | [[logistics/accommodation#tainan]] |
-| **HSR** | Chiayi → Tainan · ~15 min · NT$140 · ☐ Book |
-| **Tomorrow** | [[itinerary/may-01]] — Full day Tainan |
+**Stay:** LIGHT Hostel, Tainan

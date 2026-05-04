@@ -14,18 +14,15 @@ week: 2
 
 
 ## 6:30 AM — Airport Express
-- MRT Airport Express: Taipei Main → TPE Terminal (~35 min, NT$160)
-- Arrive TPE by **7:30 AM** — gives 2h buffer for Delta Basic check-in (no pre-selected seat)
+- ✅ Already at TPE (slept at airport overnight)
 
 ## 9:35 AM — Delta DL 68 Departs
-- TPE → SEA — 11h 25min nonstop
-- Arrive Seattle Mon May 4, 6:00 AM *(same day, crosses date line)*
+- ✅ TPE → SEA — 11h 25min nonstop · smooth flight
+- ✅ Arrive Seattle Mon May 4, 6:00 AM *(crosses date line)*
 
 **Flight details:** [[logistics/flights#return]]
 
-> Last beef noodle soup at the airport if hungry. You earned it. 🍜
-
 ---
 
-*18 days. Kaohsiung to Hualien by bike. Taroko Gorge. Jiufen. Sun Moon Lake at sunrise. Alishan above the clouds. Tainan's whole food canon. Done.*
+*18 days. Kaohsiung to Hualien by bike. Taroko Gorge. Jiufen. Sun Moon Lake sunrise (planned) and Alishan above the clouds. Tainan's whole food canon. Lotus Pond, Fo Guang Shan, a destroyer ship, a perfume lab, and two Australians met at a hostel. Done.*
 

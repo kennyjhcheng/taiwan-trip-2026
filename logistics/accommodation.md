@@ -17,8 +17,7 @@ category: accommodation
 | Apr 26 | Taichung | 寧萃 Ningcui Hotel (private room — dorm full) | ✅ STAYED | — | NT$800 |
 | Apr 27 | Taichung | Backpacker 41 Hostel | ✅ BOOKED | 95294-577100771 | TBD |
 | Apr 28–29 | Sun Moon Lake | 行鹿 Deer Traveler Hostel (Airbnb) | ✅ BOOKED | HMDM9JP9Z3 | $26.00 USD |
-| Apr 29 | Chiayi | TBD | ☐ Book soon | — | — |
-| Apr 30 – May 2 | Tainan | TBD | ☐ Book soon | — | — |
+| Apr 29 – May 2 | Tainan | TBD | ☐ Book soon | — | — |
 | May 3 | Taipei | TBD | ☐ Book soon | — | — |
 
 ---
@@ -200,23 +199,12 @@ Same area as MU House (Zhongzheng/Zhongshan). Consider splurging for group farew
 
 ---
 
-## Chiayi — Apr 29 {#chiayi}
-
-One night only — arriving from Alishan ~6:30 PM, departing to Tainan next morning.
-
-| # | Name | Area | Est. Price/Night | Notes |
-|---|------|------|-----------------|-------|
-| 💰 | **Backhome Hostel Chiayi** | City center | NT$400–800 (~$13–25) | Popular budget hostel, near Chiayi Station |
-| 💰 | **Brickyard Hotel Chiayi** | City center | NT$600–1,000 (~$19–31) | Clean, well-located for the HSR shuttle next morning |
-| 💰 | **Chiayi Yi Hostel** | City center | NT$500–900 (~$16–28) | Social hostel near night market area |
-
-**Day:** [[itinerary/apr-29]]
 
 ---
 
-## Tainan — Apr 30 – May 2 {#tainan}
+## Tainan — Apr 29 – May 2 {#tainan}
 
-3 nights (arriving Apr 30 midday, departing May 3 to Taipei).
+4 nights (arriving Apr 29 evening ~8 PM, departing May 3 morning to Taipei).
 
 | # | Name | Area | Est. Price/Night | Notes |
 |---|------|------|-----------------|-------|
@@ -225,7 +213,7 @@ One night only — arriving from Alishan ~6:30 PM, departing to Tainan next morn
 | 💰💰 | **FX Hotel Tainan** | Near Station | NT$1,800–2,800 (~$56–88) | Modern chain; 5 min to HSR shuttle |
 | 💰💰💰 | **Silks Place Tainan** | West Central | NT$3,500–5,500 (~$109–172) | 4-star; excellent Tainan-style breakfast buffet |
 
-**Days:** [[itinerary/apr-30]] · [[itinerary/may-01]] · [[itinerary/may-02]]
+**Days:** [[itinerary/apr-29]] · [[itinerary/apr-30]] · [[itinerary/may-01]] · [[itinerary/may-02]]
 
 ---
 

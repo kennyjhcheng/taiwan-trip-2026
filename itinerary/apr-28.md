@@ -14,22 +14,21 @@ week: 2
 
 ## ⚠️ Do the Night Before (Apr 27 Evening)
 
-- [ ] Pack everything tonight — moving fast in the morning
-- [ ] **Message 行鹿 Deer Traveler** to arrange early luggage drop before 3 PM — required 1 day in advance · LINE@ @htn5359o or Airbnb message
+- ✅ Pack everything tonight — moving fast in the morning
+- ✅ **Message 行鹿 Deer Traveler** to arrange early luggage drop before 3 PM — required 1 day in advance · LINE@ @htn5359o or Airbnb message
 
 ---
 
 ## Morning — Travel
 
 ### 6:30 AM — Wake Up & Grab Breakfast
-- Quick 7-Eleven breakfast near the hostel (onigiri + coffee, ~NT$60–80)
-- Everything already packed from the night before
+- ✅ Quick 7-Eleven breakfast near the hostel (onigiri + coffee, ~NT$60–80)
 
 ### 7:00 AM — Check Out of Backpacker 41
+- ✅ Checked out
 
 ### 7:21 AM — Board Bus 6670B
-- 🚶 Short walk to **Taichung Station, Minzu Rd intersection** · [Google Maps](https://maps.app.goo.gl/ggKijsk8Mcv7Nnkq5)
-- 🚌 **Nantou Bus 6670B: Taichung → Sun Moon Lake (日月潭)**
+- ✅ 🚌 **Nantou Bus 6670B: Taichung → Sun Moon Lake (日月潭)**
 - Departs **07:21** · Arrives Sun Moon Lake **09:08** · Price: NT$193
 
 ---
@@ -37,34 +36,29 @@ week: 2
 ## Arrive Sun Moon Lake — 9:08 AM
 
 ### 9:10 AM — Drop Luggage at 行鹿 Deer Traveler
-- Above PaPaZou Bicycle Shop · No. 108 Zhongshan Rd · 1 min walk from bus stop
-- Call 0906378809 to be let in · drop bags at 2F lounge · formal check-in at 3 PM
+- ✅ Above PaPaZou Bicycle Shop · No. 108 Zhongshan Rd · 1 min walk from bus stop
 - [[logistics/accommodation#sun-moon-lake]]
 
 ### 9:20 AM — 🍵 SML Red Tea
-- **[[cities/sun-moon-lake/activities/sml-red-tea]]** — grab a cup at a Shuishe shop + buy loose-leaf to take home (NT$300)
+- ✅ **[[cities/sun-moon-lake/activities/sml-red-tea]]** — grabbed a cup at a Shuishe shop + bought loose-leaf to take home
 
 ### 9:35 AM — 📱 Pick Up E-Bike (Klook)
-- Collect e-bike near Shuishe Pier · book day-of on Klook · ~NT$500
-- ☝️ PaPaZou Bicycle Shop (directly below the hostel) may also rent e-bikes — worth asking first
+- ✅ Collected e-bike near Shuishe Pier
 
 ---
 
 ## 🚴 Cycling Loop (Clockwise from Shuishe)
 
-**[[cities/sun-moon-lake/activities/lake-cycling-loop]]** · 33km · e-bike · [📍 Full route on Google Maps](https://maps.app.goo.gl/ehgsGUVffWJhf6cV7)
+✅ **[[cities/sun-moon-lake/activities/lake-cycling-loop]]** · 33km · e-bike
 
 ### 10:00 AM — Wenwu Temple
-- **[[cities/sun-moon-lake/activities/wenwu-temple]]** 🔥 · NT$0 · ~30 min
-- Dramatic twin-lion temple built into the hillside, sweeping lake views
+- ✅ **[[cities/sun-moon-lake/activities/wenwu-temple]]** 🔥 · NT$0 · ~30 min
 
 ### 10:40 AM — Shuiwatou Trail
-- **[[cities/sun-moon-lake/activities/shuiwatou-trail]]** · NT$0 · ~20–30 min
-- Short trail to the lakeside viewpoint with stacked stone frog sculptures
+- ✅ **[[cities/sun-moon-lake/activities/shuiwatou-trail]]** · NT$0 · ~20–30 min
 
 ### 11:10 AM — Nine Frog Stack
-- **[[cities/sun-moon-lake/activities/nine-frog-stack]]** · NT$0 · ~15 min
-- Famous lakeside sculpture of 9 stacked stone frogs at the water's edge — lake level determines how many are visible
+- ✅ **[[cities/sun-moon-lake/activities/nine-frog-stack]]** · NT$0 · ~15 min
 
 ### 11:30 AM — Ride to Ita Thao
 
@@ -72,42 +66,38 @@ week: 2
 
 ## 12:00 PM — Ita Thao Food Market (伊達邵美食廣場)
 
-Street vendors at the market:
-- **[[cities/sun-moon-lake/activities/bamboo-tube-rice]]** — sticky rice steamed in bamboo · NT$150
-- **[[cities/sun-moon-lake/activities/wild-boar-sausage]]** — grilled boar sausage + millet wine · NT$200
-- **[[cities/sun-moon-lake/activities/president-fish]]** — grilled carp · NT$300–400
+- ✅ **[[cities/sun-moon-lake/activities/bamboo-tube-rice]]** — sticky rice steamed in bamboo · NT$150
+- ✅ **[[cities/sun-moon-lake/activities/wild-boar-sausage]]** — grilled boar sausage + millet wine · NT$200
+- ✅ **[[cities/sun-moon-lake/activities/president-fish]]** — grilled carp · NT$300–400
 
 ---
 
 ## 1:00 PM — Continue Loop: Xuanzang Temple + Ci'en Pagoda
 
-- **[[cities/sun-moon-lake/activities/xuanzang-temple]]** · NT$0 · ~20 min · Buddhist temple housing a relic of the monk Xuanzang (the real-life inspiration for Journey to the West)
-- **[[cities/sun-moon-lake/activities/cien-pagoda]]** · NT$0 · ~45 min · lock bike at trailhead, hike up for the best full-lake panorama
-- Both are on the east shore — do back to back
+- ✅ **[[cities/sun-moon-lake/activities/xuanzang-temple]]** · NT$0 · ~20 min
+- ✅ **[[cities/sun-moon-lake/activities/cien-pagoda]]** · NT$0 · ~45 min · hiked up for full-lake panorama
 
 ---
 
 ## 2:15 PM — Xiangshan Visitor Center
 
-- **[[cities/sun-moon-lake/activities/xiangshan-visitor-center]]** · NT$0 · ~15 min
-- Striking contemporary building that appears to float on the lake · architecturally worth a stop
+- ✅ **[[cities/sun-moon-lake/activities/xiangshan-visitor-center]]** · NT$0 · ~15 min
 
 ---
 
 ## 2:30 PM — 🚴 World's Best Path Back to Shuishe
 
-- **[[cities/sun-moon-lake/activities/worlds-best-cycling-path]]** · ~30 min
+- ✅ **[[cities/sun-moon-lake/activities/worlds-best-cycling-path]]** · ~30 min
 - CNN-named route along the southwest shore · flat, smooth, lakeside the entire way
 
 ### 3:00 PM — Return E-Bike at Shuishe
+- ✅ Returned e-bike
 
 ---
 
 ## 3:30 PM — 🛥️ Ferry — All Stops + Lalu Island
 
-- Board at **Shuishe Pier** · NT$200–300 all-day pass
-- Route: **Shuishe → Ita Thao → Xuanguang Temple → back to Shuishe**
-- 🏝️ Lalu Island sits in the center of the lake — visible from the ferry throughout
+- ❌ **Skipped** — ferry ends at 5 PM and all stops already covered on the bike loop
 
 ---
 
@@ -119,15 +109,14 @@ Street vendors at the market:
 ---
 
 ## 5:30 PM — Formal Check-In at 行鹿
-- Must check in by **7:00 PM** — room forfeited with no refund after that
-- Smart lock entry · indoor shoes at 1F · check in at 2F lounge
-- Shower before 10 PM · quiet after 10 PM · WiFi: CHT20241 / 0906378809
+- ✅ Checked in · met **Jessy** (from Perth, Australia) and **Yuji** (from Melbourne, Australia) at the hostel
+- ➕ Both were heading to Alishan the next day but hadn't booked the bus — warned them about limited seating; they lucked out and found the last 2 tickets
 
 ---
 
 ## 6:30 PM — Dinner near Shuishe
 
-- Lakeside restaurant or stalls in Shuishe Village · early night
+- ✅ ➕ Dinner at a local restaurant across the street from 行鹿 — beers with Jessy and Yuji to end the night
 - Alarm set for **5:30 AM** — sunrise at Shuishe Pier tomorrow before the 8:00 AM bus
 
 ---

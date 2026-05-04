@@ -16,27 +16,33 @@ week: 2
 
 ---
 
-## Morning
+## Morning — Anping District Food Crawl
 
-- Slow start · local breakfast near your accommodation
-- **[[cities/tainan/activities/anping-old-street]]** (安平老街) — Dutch-era fort district, 17th century · free to wander
-- **Anping Fort (安平古堡)** — NT$70
+- ✅ **[[cities/tainan/activities/anping-old-street]]** (安平老街) — oyster pancakes + fried shrimp rolls from street vendors
+- ✅ ➕ **A-Cai Beef Soup** (阿財牛肉湯) — local beef soup spot
+- ✅ ➕ **Ice 8 Bao** (Anping Road) — Anping dessert stop
 
-## Midday
+## Daytime — Anping Sights + YouBike
 
-- **[[cities/tainan/activities/coffin-bread]]** (棺材板) or **[[cities/tainan/activities/milkfish-congee]]** — iconic Tainan lunches
-- Shennong Street for coffee and old shophouses
+- ✅ **Anping Fort** (安平古堡) — NT$70 · Dutch colonial fort
+- ✅ **[[cities/tainan/activities/anping-tree-house]]** — century-old banyan-wrapped warehouse
+- ✅ ➕ **YouBike ride** → **Navy Destroyer Deyang Ship Park** (德陽艦園區) — decommissioned destroyer docked on the river, free to explore
 
-## Afternoon
+### Skipped
+- ❌ Coffin bread / milkfish congee
+- ❌ Hayashi / Confucius Temple / temple-hopping (done Apr 30)
+- ❌ Shennong Street (done Apr 30)
+- ❌ Night market / shaved ice
 
-- **[[cities/tainan/activities/hayashi-department-store]]** (林百貨) — 1930s Japanese department store, beautifully restored
-- **Tainan Confucius Temple** (孔廟) — Taiwan's oldest, serene courtyard
-- More temple-hopping: Sacrificial Rites Martial Temple (祀典武廟), Koxinga Shrine (延平郡王祠)
+## Evening — Departure + Kaohsiung Night
 
-## Evening
+- ✅ ➕ Rail: **Tainan → Kaohsiung** — Yuji came along; Jessy split off to Taipei
+- ✅ ➕ Checked into **Pathways Hostel**, Kaohsiung
+- ✅ ➕ **Ruifeng Night Market** (瑞豐夜市):
+  - Wen Mochi
+  - Angel Fried Chicken
+  - Korean hot chicken noodle fried cold noodles
+- ✅ ➕ Bubble tea to end the night
 
-- **[[cities/tainan/activities/flower-night-market]]** or **[[cities/tainan/activities/garden-night-market]]** — check which is open Friday
-- **Tainan shaved ice** — Qiaowei Mango Ice or any local shop
-
-**Stay:** [[logistics/accommodation#tainan]]
+**Stay:** Pathways Hostel, Kaohsiung
 

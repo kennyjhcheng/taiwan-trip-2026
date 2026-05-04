@@ -15,9 +15,8 @@ week: 1
 
 ## ✈️ Departure
 
-- **12:55 AM** — Depart SEA on Asiana OZ 271 → Seoul (ICN)
-- Layover at Incheon: 3h 20m — Board OZ 711 (A380) to Taipei
-- Try to sleep on the plane
+- ✅ **12:55 AM** — Depart SEA on Asiana OZ 271 → Seoul (ICN)
+- ✅ Layover at Incheon: 3h 20m — Board OZ 711 (A380) to Taipei
 
 **Flight details:** [[logistics/flights#outbound]]
 **Next:** Arrive Taipei tomorrow morning → [[itinerary/apr-18]]

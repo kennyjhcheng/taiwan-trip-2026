@@ -20,7 +20,7 @@ category: transport
 | Route | Date | Duration | Price | Status |
 |-------|------|----------|-------|--------|
 | Taipei → Taichung | Apr 28 | ~40 min | NT$700 | ☐ Book |
-| Chiayi → Tainan | Apr 30 | ~15 min | NT$140 | ☐ Book |
+| Chiayi → Tainan | Apr 29 | ~15 min | NT$140 | ☐ Book |
 | Tainan → Taipei | May 3 | ~1h 45min | NT$1,350 | ☐ Book |
 
 ---
