@@ -20,10 +20,10 @@ exchange_rate: "~32 NTD = $1 USD"
 | Bike rental (Kenny) | ~$225.00 | NT$7,200 · Giant Adventure · [[logistics/bike-rental]] |
 | Taipei Apr 18 — MU House | $255.30 | [[logistics/accommodation#taipei]] |
 | Kaohsiung Apr 19 — Airbnb | ~$40.00 | Conf. HMX9EKYYMQ |
-| HSR Taipei → Zuoying (Kenny's share) | ~$47.00 | NT$1,490 (NT$5,960 ÷ 4) |
+| HSR Taipei → Zuoying (Kenny's share) | $47.44 | Final shared-cost amount |
 | SML → Alishan bus | ~$9.00 | NT$292 · booked in advance |
 | Sun Moon Lake hostel | $26.00 | 行鹿 Deer Traveler · conf. HMDM9JP9Z3 |
-| **Fixed Total** | **~$1,338.13** | |
+| **Fixed Total** | **~$1,338.57** | |
 
 ---
 
@@ -100,8 +100,16 @@ exchange_rate: "~32 NTD = $1 USD"
 | Item | NTD | USD | Notes |
 |------|-----|-----|-------|
 | Borrowed from friend | 10,000 | ~$312.50 | ⚠️ Not yet repaid |
-| Hotel nights covered by others | — | TBD | Exact amount unknown |
-| **Subtotal** | | **~$312.50+** | |
+| Hotel Taipei | — | $84.59 | Final shared/covered item |
+| Kaohsiung BnB | — | $60.74 | Final shared/covered item |
+| Checheng BnB | — | $31.67 | Final shared/covered item |
+| Taitung BnB | — | $42.14 | Final shared/covered item |
+| Yuli BnB | — | $41.77 | Final shared/covered item |
+| Hualien BnB | — | $72.79 | Final shared/covered item |
+| Gao Lao | — | $34.58 | Final food/shared-cost item |
+| **Subtotal** | | **~$680.78** | |
+
+> Final shared-cost list totaled **$415.71** in the source screenshot including the Kaohsiung train ticket already counted under fixed expenses above. Visible line items sum to $415.72 due to a $0.01 rounding difference.
 
 ---
 
@@ -109,14 +117,13 @@ exchange_rate: "~32 NTD = $1 USD"
 
 | Category | Amount |
 |----------|--------|
-| Fixed / pre-paid | ~$1,338.13 |
+| Fixed / pre-paid | ~$1,338.57 |
 | CC in-trip charges | $281.00 |
 | Borrowed from friend (owed) | ~$312.50 |
-| Hotel nights covered by others | TBD |
-| **Total (excl. TBD)** | **~$1,931.63** |
+| Final shared/covered items | $368.28 |
+| **Total** | **~$2,300.35** |
 
-> **vs. original estimate of $2,500–$2,730** — tracking ~$570–800 under budget (before TBD hotel costs and unposted charges).
-> ⚠️ A few May 3 charges (last day in Taipei) may not have posted yet.
+> **vs. original estimate of $2,500–$2,730** — tracking ~$200–430 under budget.
 
 ---
 
