@@ -99,7 +99,7 @@ exchange_rate: "~32 NTD = $1 USD"
 
 | Item | NTD | USD | Notes |
 |------|-----|-----|-------|
-| Borrowed from friend | 500 | ~$15.63 | ⚠️ Not yet repaid |
+| Borrowed from friend | 5,000 | ~$156.25 | ⚠️ Not yet repaid |
 | Hotel Taipei | — | $84.59 | Final shared/covered item |
 | Kaohsiung BnB | — | $60.74 | Final shared/covered item |
 | Checheng BnB | — | $31.67 | Final shared/covered item |
@@ -107,7 +107,7 @@ exchange_rate: "~32 NTD = $1 USD"
 | Yuli BnB | — | $41.77 | Final shared/covered item |
 | Hualien BnB | — | $72.79 | Final shared/covered item |
 | Gao Lao | — | $34.58 | Final food/shared-cost item |
-| **Subtotal** | | **~$383.91** | |
+| **Subtotal** | | **~$524.53** | |
 
 > Final shared-cost list totaled **$415.71** in the source screenshot including the Kaohsiung train ticket already counted under fixed expenses above. Visible line items sum to $415.72 due to a $0.01 rounding difference.
 
@@ -119,11 +119,11 @@ exchange_rate: "~32 NTD = $1 USD"
 |----------|--------|
 | Fixed / pre-paid | ~$1,338.57 |
 | CC in-trip charges | $281.00 |
-| Borrowed from friend (owed) | ~$15.63 |
+| Borrowed from friend (owed) | ~$156.25 |
 | Final shared/covered items | $368.28 |
-| **Total** | **~$2,003.48** |
+| **Total** | **~$2,144.10** |
 
-> **vs. original estimate of $2,500–$2,730** — tracking ~$500–727 under budget.
+> **vs. original estimate of $2,500–$2,730** — tracking ~$356–586 under budget.
 
 ---
 
