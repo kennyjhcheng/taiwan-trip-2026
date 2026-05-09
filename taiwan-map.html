@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taiwan Trip 2026 — Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #1a1a2e; color: #eee; }
+    #header { padding: 12px 16px; background: #16213e; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    #header h1 { font-size: 16px; font-weight: 700; color: #e2e8f0; }
+    #controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .filter-btn { font-size: 11px; padding: 4px 10px; border-radius: 99px; border: 1px solid #334155; background: #1e293b; color: #cbd5e1; cursor: pointer; transition: all 0.15s; }
+    .filter-btn:hover, .filter-btn.active { background: #3b82f6; border-color: #3b82f6; color: white; }
+    .filter-btn[data-tag="eat"].active { background: #ef4444; border-color: #ef4444; }
+    .filter-btn[data-tag="nightmarket"].active { background: #f97316; border-color: #f97316; }
+    .filter-btn[data-tag="sightseeing"].active { background: #3b82f6; border-color: #3b82f6; }
+    .filter-btn[data-tag="activity"].active { background: #10b981; border-color: #10b981; }
+    .filter-btn[data-tag="hotspring"].active { background: #8b5cf6; border-color: #8b5cf6; }
+    .filter-btn[data-tag="cycling"].active { background: #f59e0b; border-color: #f59e0b; }
+    #stats { font-size: 11px; color: #64748b; margin-left: auto; white-space: nowrap; }
+    #map { height: calc(100vh - 52px); }
+    .leaflet-popup-content-wrapper { border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+    .popup { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-width: 200px; }
+    .popup-name { font-size: 14px; font-weight: 700; margin-bottom: 4px; color: #1e293b; }
+    .popup-city { font-size: 11px; color: #64748b; margin-bottom: 6px; text-transform: capitalize; }
+    .popup-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 6px; }
+    .popup-tag { font-size: 10px; padding: 2px 6px; border-radius: 99px; background: #f1f5f9; color: #475569; }
+    .popup-row { font-size: 11px; color: #374151; margin-bottom: 3px; }
+    .popup-row b { color: #1e293b; }
+    .popup-status { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: 99px; margin-top: 5px; }
+    .status-done { background: #dcfce7; color: #15803d; }
+    .status-pending { background: #fef9c3; color: #854d0e; }
+    .status-skip { background: #f1f5f9; color: #94a3b8; }
+    .popup-link { display: block; margin-top: 8px; font-size: 11px; text-align: center; padding: 5px; background: #3b82f6; color: white; border-radius: 6px; text-decoration: none; }
+    .popup-link:hover { background: #2563eb; }
+    /* Legend */
+    .legend { background: rgba(22,33,62,0.92); border-radius: 10px; padding: 10px 12px; font-size: 11px; }
+    .legend-row { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  </style>
+</head>
+<body>
+<div id="header">
+  <h1>🇹🇼 Taiwan 2026 Map</h1>
+  <div id="controls">
+    <button class="filter-btn active" data-tag="all">All</button>
+    <button class="filter-btn" data-tag="eat">🍜 Eat</button>
+    <button class="filter-btn" data-tag="nightmarket">🏮 Night Market</button>
+    <button class="filter-btn" data-tag="sightseeing">👁️ Sightseeing</button>
+    <button class="filter-btn" data-tag="activity">🎯 Activity</button>
+    <button class="filter-btn" data-tag="hotspring">♨️ Hot Spring</button>
+    <button class="filter-btn" data-tag="cycling">🚴 Cycling</button>
+    <button class="filter-btn" data-tag="must">🔥 Must</button>
+    <button class="filter-btn" data-tag="done">✅ Done</button>
+  </div>
+  <span id="stats">Loading...</span>
+</div>
+<div id="map"></div>
+
+<script>
+const map = L.map('map').setView([23.5, 121.0], 8);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© OpenStreetMap contributors, © CARTO',
+  maxZoom: 19
+}).addTo(map);
+
+// Legend
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = () => {
+  const d = L.DomUtil.create('div', 'legend');
+  d.innerHTML = `
+    <div style="font-weight:700;margin-bottom:6px;color:#e2e8f0">Pin Colors</div>
+    <div class="legend-row"><div class="legend-dot" style="background:#ef4444"></div><span style="color:#cbd5e1">Eat</span></div>
+    <div class="legend-row"><div class="legend-dot" style="background:#f97316"></div><span style="color:#cbd5e1">Night Market</span></div>
+    <div class="legend-row"><div class="legend-dot" style="background:#3b82f6"></div><span style="color:#cbd5e1">Sightseeing</span></div>
+    <div class="legend-row"><div class="legend-dot" style="background:#10b981"></div><span style="color:#cbd5e1">Activity</span></div>
+    <div class="legend-row"><div class="legend-dot" style="background:#8b5cf6"></div><span style="color:#cbd5e1">Hot Spring</span></div>
+    <div class="legend-row"><div class="legend-dot" style="background:#f59e0b"></div><span style="color:#cbd5e1">Cycling</span></div>
+    <div style="margin-top:6px;color:#64748b;font-size:10px">Pin size = priority</div>
+  `;
+  return d;
+};
+legend.addTo(map);
+
+let allMarkers = [];
+let activeFilter = 'all';
+
+function makeIcon(color, weight, done) {
+  const r = weight === 3 ? 10 : weight === 2 ? 8 : 6;
+  const opacity = done ? 0.5 : 1;
+  const border = done ? '#22c55e' : '#fff';
+  return L.divIcon({
+    className: '',
+    html: `<div style="width:${r*2}px;height:${r*2}px;border-radius:50%;background:${color};border:2px solid ${border};opacity:${opacity};box-shadow:0 1px 4px rgba(0,0,0,0.4)"></div>`,
+    iconSize: [r*2, r*2],
+    iconAnchor: [r, r],
+    popupAnchor: [0, -r-2]
+  });
+}
+
+function buildPopup(loc) {
+  const tags = (loc.tags || []).map(t => `<span class="popup-tag">#${t}</span>`).join('');
+  const statusClass = `status-${loc.status || 'pending'}`;
+  const statusLabel = loc.done ? '✅ Done' : loc.status === 'skip' ? '⏭️ Skip' : '⬜ Pending';
+  const pri = { must: '🔥 Must', 'worth-it': '✨ Worth It', 'if-time': '💭 If Time' }[loc.priority] || loc.priority;
+  const cost = loc.cost_ntd ? `<div class="popup-row">💰 <b>NT$${loc.cost_ntd}</b></div>` : '';
+  const sched = loc.scheduled ? `<div class="popup-row">📅 <b>${loc.scheduled.replace(/\[\[|\]\]/g,'')}</b></div>` : '';
+
+  return `<div class="popup">
+    <div class="popup-name">${loc.name}</div>
+    <div class="popup-city">${loc.city.replace(/-/g,' ')}</div>
+    <div class="popup-tags">${tags}</div>
+    ${cost}
+    <div class="popup-row">⭐ <b>${pri}</b></div>
+    ${sched}
+    <span class="popup-status ${statusClass}">${statusLabel}</span>
+  </div>`;
+}
+
+fetch('locations.json')
+  .then(r => r.json())
+  .then(data => {
+    data.forEach(loc => {
+      if (!loc.lat || !loc.lng) return;
+      const marker = L.marker([loc.lat, loc.lng], {
+        icon: makeIcon(loc.color, loc.weight, loc.done)
+      }).bindPopup(buildPopup(loc), { maxWidth: 260 });
+      marker._locData = loc;
+      marker.addTo(map);
+      allMarkers.push(marker);
+    });
+    updateStats();
+  })
+  .catch(err => {
+    console.error('Failed to load locations.json:', err);
+    document.getElementById('stats').textContent = 'Error loading locations.json';
+  });
+
+function updateStats() {
+  const visible = allMarkers.filter(m => map.hasLayer(m)).length;
+  document.getElementById('stats').textContent = `${visible} / ${allMarkers.length} locations`;
+}
+
+function applyFilter(tag) {
+  activeFilter = tag;
+  allMarkers.forEach(m => {
+    const loc = m._locData;
+    let show = false;
+    if (tag === 'all') show = true;
+    else if (tag === 'must') show = loc.priority === 'must';
+    else if (tag === 'done') show = loc.done === true;
+    else show = (loc.tags || []).includes(tag);
+    
+    if (show) { if (!map.hasLayer(m)) m.addTo(map); }
+    else { if (map.hasLayer(m)) map.removeLayer(m); }
+  });
+  updateStats();
+}
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilter(btn.dataset.tag);
+  });
+});
+</script>
+</body>
+</html>
